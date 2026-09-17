@@ -24,7 +24,7 @@ jobs:
       - name: 从 Worker 拉两个版本
         run: |
           set -euo pipefail
-          PULL="${{ secrets.WORKER_PULL_URL }}"
+          PULL="${{ vars.WORKER_PULL_URL }}"
           test -n "$PULL" || { echo "WORKER_PULL_URL 未配置"; exit 1; }
           curl -sL --max-time 120 -o opera-masque.yaml "$PULL"
           curl -sL --max-time 120 -o opera-masque-direct.yaml "$PULL?direct=1"
