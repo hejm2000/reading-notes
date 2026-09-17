@@ -1,0 +1,48 @@
+# GitHub 中继：定期从 CFNext Worker 拉订阅，提交到本仓库（reading-notes）
+# 用途：国内机器直连 raw.githubusercontent.com 就能拉 CFNext 订阅，
+#       绕开 workers.dev 的 DNS 污染；raw 地址永不过期（UUID 路径即鉴权）。
+#
+# 输出文件：
+#   cfnext.yaml  Clash 格式订阅（CFNext /sub，UA=Clash）
+name: cfnext relay
+
+on:
+  schedule:
+    - cron: '*/4 * * * *'  # 每 4 小时
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  relay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: 从 CFNext Worker 拉 Clash 订阅
+        run: |
+          set -euo pipefail
+          SUB="https://cfnext.opera-masque.workers.dev/990f7b89-3ebc-4254-a64e-6714e3f12ff0/sub"
+          curl -sL --max-time 120 -H "User-Agent: Clash" -o cfnext.yaml "$SUB"
+          test -s cfnext.yaml
+          # 校验是合法 yaml 且含节点
+          head -3 cfnext.yaml
+          grep -c "name:" cfnext.yaml || true
+          wc -c cfnext.yaml
+
+      - name: 提交到 main
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cfnext.yaml
+          if git diff --quiet --cached -- cfnext.yaml; then
+            echo "no change, skip"
+          else
+            git commit -m "chore: relay cfnext sub $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push origin HEAD:main
+            echo "relayed cfnext.yaml to reading-notes"
+          fi
