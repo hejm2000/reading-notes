@@ -1,2 +1,1 @@
-# reading-notes
-阅读笔记
+# reading notes

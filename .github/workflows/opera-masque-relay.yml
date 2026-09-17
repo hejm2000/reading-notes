@@ -1,0 +1,47 @@
+# GitHub 中继：定期从 CF Worker 拉配置，提交到本仓库（reading-notes）
+# 用途：国内机器直连 raw.githubusercontent.com 就能拉订阅，
+#       绕开 workers.dev 的 DNS 污染；订阅 URL 永不过期（token 在 Actions secret 里）。
+#
+# 两个文件：
+#   opera-masque.yaml        聚合版（combo 节点，alpha mihomo 用）
+#   opera-masque-direct.yaml 直连版（WARP 直连，稳定版 mihomo 用）
+name: opera-masque relay
+
+on:
+  schedule:
+    - cron: '*/4 * * * *'  # 每 4 小时
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  relay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: 从 Worker 拉两个版本
+        run: |
+          set -euo pipefail
+          PULL="${{ secrets.WORKER_PULL_URL }}"
+          test -n "$PULL" || { echo "WORKER_PULL_URL 未配置"; exit 1; }
+          curl -sL --max-time 120 -o opera-masque.yaml "$PULL"
+          curl -sL --max-time 120 -o opera-masque-direct.yaml "$PULL?direct=1"
+          test -s opera-masque.yaml
+          test -s opera-masque-direct.yaml
+          wc -c opera-masque.yaml opera-masque-direct.yaml
+
+      - name: 提交到 main
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add opera-masque.yaml opera-masque-direct.yaml
+          if git diff --quiet --cached -- opera-masque.yaml opera-masque-direct.yaml; then
+            echo "no change, skip"
+          else
+            git commit -m "chore: relay opera-masque config $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push origin HEAD:main
+            echo "relayed to reading-notes"
+          fi
