@@ -1,0 +1,820 @@
+proxies:
+  - name: "HUB-D-33"
+    type: ss
+    server: 130.61.82.183
+    port: 59924
+    cipher: 2022-blake3-chacha20-poly1305
+    password: rsZGSjFXUyi6kX8P6glg15+TdK0zdtKVBjkHYeZdJ58=
+    udp: true
+  - name: "HUB-D-10"
+    type: ss
+    server: 130.61.146.82
+    port: 59924
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 1W4RvEFjyad78wExwpCcWKQ0AqXDGPqCFRxuxsmFLmk=
+    udp: true
+  - name: "HUB-D-11"
+    type: ss
+    server: 130.61.235.30
+    port: 59924
+    cipher: 2022-blake3-chacha20-poly1305
+    password: m/CrE+EuNElAAVP1IrhSyQYq0EUT+XiDckrdlPOdMFA=
+    udp: true
+  - name: "HUB-E-14"
+    type: ss
+    server: 130.61.148.34
+    port: 59924
+    cipher: 2022-blake3-chacha20-poly1305
+    password: NiPxf0H2Yidm6y+KQxFBL9h6N0fIGwFOiUQPGC+3l+w=
+  - name: "HUB-D-5"
+    type: anytls
+    server: 6ivh.pnuqcnp.cn
+    port: 443
+    password: 9sK2mP8xQ7vL3nZ6
+    skip-cert-verify: true
+    sni: images.ctfassets.net
+    udp: true
+  - name: "HUB-D-14"
+    type: ss
+    server: 144.24.226.249
+    port: 61312
+    cipher: 2022-blake3-chacha20-poly1305
+    password: axZ54YHizH8C2/85gqPV+VCC6r0h+nWWGemeypymi2I=
+    udp: true
+  - name: "HUB-D-4"
+    type: trojan
+    server: 43.173.90.202
+    port: 443
+    password: sg-trojan-2026
+    skip-cert-verify: true
+    sni: sg-proxy.local
+    udp: true
+    network: tcp
+  - name: "HUB-D-3"
+    type: ss
+    server: 3.141.200.225
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+    udp: true
+  - name: "HUB-D-12"
+    type: ss
+    server: 129.151.65.24
+    port: 61312
+    cipher: 2022-blake3-chacha20-poly1305
+    password: YtbZ5p/WBjlRfs2aQ1vr44sGpkdKyx5Xbdd+DKP7ke0=
+    udp: true
+  - name: "HUB-A-39"
+    type: ss
+    server: ss.031.node-for-bigairport.win
+    port: 29005
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.031.node-for-bigairport.win:29005#%5B1x%5D%20%5BD%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E6%97%A5%E6%9C%AC%201
+  - name: "HUB-A-31"
+    type: ss
+    server: ss.023.node-for-bigairport.win
+    port: 30104
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.023.node-for-bigairport.win:30104#%5B1x%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E6%97%A5%E6%9C%AC%2003
+  - name: "HUB-A-41"
+    type: ss
+    server: ss.033.node-for-bigairport.win
+    port: 29005
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.033.node-for-bigairport.win:29005#%5B1x%5D%20%5BD%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E6%97%A5%E6%9C%AC%203
+  - name: "HUB-A-38"
+    type: ss
+    server: ss.030.node-for-bigairport.win
+    port: 30104
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.030.node-for-bigairport.win:30104#%5B1x%5D%20%5BC%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E6%96%B0%E5%8A%A0%E5%9D%A1%2010
+  - name: "HUB-A-11"
+    type: ss
+    server: ss.003.node-for-bigairport.win
+    port: 20003
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.003.node-for-bigairport.win:20003#%E6%88%91%E4%BB%AC%E6%AD%A3%E8%BF%9B%E8%A1%8C%E7%BB%B4%E4%BF%AE
+  - name: "HUB-A-17"
+    type: ss
+    server: ss.009.node-for-bigairport.win
+    port: 20003
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.009.node-for-bigairport.win:20003#%E6%9A%82%E6%97%B6%E4%BC%98%E5%85%88%E4%BD%BF%E7%94%A8%E4%B8%B4%E6%97%B6%E8%8A%82%E7%82%B9%204
+  - name: "HUB-A-12"
+    type: ss
+    server: ss.004.node-for-bigairport.win
+    port: 21002
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.004.node-for-bigairport.win:21002#%E6%9B%B4%E6%96%B0%E5%B7%B2%E5%AE%8C%E6%88%90%EF%BC%8C%E8%8A%82%E7%82%B9%E9%99%86%E7%BB%AD%E4%B8%8A%E7%BA%BF
+  - name: "HUB-A-37"
+    type: ss
+    server: ss.029.node-for-bigairport.win
+    port: 30104
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.029.node-for-bigairport.win:30104#%5B1x%5D%20%5BC%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E6%96%B0%E5%8A%A0%E5%9D%A1%209
+  - name: "HUB-A-40"
+    type: ss
+    server: ss.032.node-for-bigairport.win
+    port: 29005
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.032.node-for-bigairport.win:29005#%5B1x%5D%20%5BD%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E6%97%A5%E6%9C%AC%202
+  - name: "HUB-A-34"
+    type: ss
+    server: ss.026.node-for-bigairport.win
+    port: 20004
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.026.node-for-bigairport.win:20004#%5B1x%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E6%97%A5%E6%9C%AC%2006
+  - name: "HUB-A-13"
+    type: ss
+    server: ss.005.node-for-bigairport.win
+    port: 21002
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.005.node-for-bigairport.win:21002#%E5%B1%8A%E6%97%B6%E9%9C%80%E8%A6%81%E7%99%BB%E9%99%86%E7%BD%91%E9%A1%B5
+  - name: "HUB-A-30"
+    type: ss
+    server: ss.022.node-for-bigairport.win
+    port: 30104
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.022.node-for-bigairport.win:30104#%5B1x%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E6%97%A5%E6%9C%AC%2002
+  - name: "HUB-A-43"
+    type: ss
+    server: ss.035.node-for-bigairport.win
+    port: 29005
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.035.node-for-bigairport.win:29005#%5B1x%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E6%97%A5%E6%9C%AC%2015
+  - name: "HUB-A-32"
+    type: ss
+    server: ss.024.node-for-bigairport.win
+    port: 20004
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.024.node-for-bigairport.win:20004#%5B1x%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E6%97%A5%E6%9C%AC%2004
+  - name: "HUB-A-33"
+    type: ss
+    server: ss.025.node-for-bigairport.win
+    port: 30104
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.025.node-for-bigairport.win:30104#%5B1x%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E6%97%A5%E6%9C%AC%2005
+  - name: "HUB-A-14"
+    type: ss
+    server: ss.006.node-for-bigairport.win
+    port: 20003
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.006.node-for-bigairport.win:20003#%E5%A4%8D%E5%88%B6%E6%96%B0%E7%9A%84%E8%AE%A2%E9%98%85%E5%9C%B0%E5%9D%80
+  - name: "HUB-A-47"
+    type: ss
+    server: ss.039.node-for-bigairport.win
+    port: 29005
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.039.node-for-bigairport.win:29005#%5B1x%5D%20%5BD%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E6%96%B0%E5%8A%A0%E5%9D%A1%209
+  - name: "HUB-A-35"
+    type: ss
+    server: ss.027.node-for-bigairport.win
+    port: 30104
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.027.node-for-bigairport.win:30104#%5B1x%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E6%97%A5%E6%9C%AC%2007
+  - name: "HUB-C-18"
+    type: vless
+    server: 2.59.134.226
+    port: 443
+    uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
+    servername: rich-falcon.cdn.cachefleet.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: qq
+    reality-opts:
+      public-key: 1sSmdw90uTiGuitDvp_q8zcXTcHXKQS3IVjA7T1UNiY
+    skip-cert-verify: true
+    udp: true
+  - name: "HUB-A-42"
+    type: ss
+    server: ss.034.node-for-bigairport.win
+    port: 20005
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.034.node-for-bigairport.win:20005#%5B1x%5D%20%5BD%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E6%97%A5%E6%9C%AC%204
+  - name: "HUB-A-45"
+    type: ss
+    server: ss.037.node-for-bigairport.win
+    port: 29005
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.037.node-for-bigairport.win:29005#%5B1x%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E6%96%B0%E5%8A%A0%E5%9D%A1%2002
+  - name: "HUB-A-16"
+    type: ss
+    server: ss.008.node-for-bigairport.win
+    port: 20003
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.008.node-for-bigairport.win:20003#%E6%9A%82%E6%97%B6%E4%BC%98%E5%85%88%E4%BD%BF%E7%94%A8%E4%B8%B4%E6%97%B6%E8%8A%82%E7%82%B9%203
+  - name: "HUB-A-46"
+    type: ss
+    server: ss.038.node-for-bigairport.win
+    port: 20005
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.038.node-for-bigairport.win:20005#%5B1x%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E6%96%B0%E5%8A%A0%E5%9D%A1%2003
+  - name: "HUB-A-48"
+    type: ss
+    server: ss.040.node-for-bigairport.win
+    port: 29005
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.040.node-for-bigairport.win:29005#%5B1x%5D%20%5BD%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E6%96%B0%E5%8A%A0%E5%9D%A1%2010
+  - name: "HUB-A-28"
+    type: ss
+    server: ss.020.node-for-bigairport.win
+    port: 20002
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.020.node-for-bigairport.win:20002#%5B1x%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E9%A6%99%E6%B8%AF%2020
+  - name: "HUB-C-12"
+    type: vmess
+    server: dog-hk.kunlun01dns.com
+    port: 21019
+    uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+    alterId: 0
+  - name: "HUB-A-44"
+    type: ss
+    server: ss.036.node-for-bigairport.win
+    port: 29005
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.036.node-for-bigairport.win:29005#%5B1x%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E6%96%B0%E5%8A%A0%E5%9D%A1%2001
+  - name: "HUB-E-12"
+    type: http
+    server: 138.199.35.204
+    port: 9002
+    tls: true
+    skip-cert-verify: true
+  - name: "HUB-E-7"
+    type: http
+    server: 138.199.35.207
+    port: 9002
+    tls: true
+    skip-cert-verify: true
+  - name: "HUB-E-10"
+    type: http
+    server: 138.199.35.218
+    port: 9002
+    tls: true
+    skip-cert-verify: true
+  - name: "HUB-D-13"
+    type: hysteria2
+    server: 178.18.147.66
+    port: 29900
+    auth: github.com/Alvin9999-newpac/fanqiang
+    password: github.com/Alvin9999-newpac/fanqiang
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    udp: true
+  - name: "HUB-D-16"
+    type: http
+    server: purposebydesig.club
+    port: 443
+    skip-cert-verify: false
+    tls: true
+    udp: true
+    sni: purposebydesig.club
+  - name: "HUB-D-28"
+    type: http
+    server: 212.102.63.1
+    port: 443
+    password: None
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: "HUB-D-22"
+    type: http
+    server: crosscards.site
+    port: 443
+    sni: crosscards.site
+    tls: true
+    udp: true
+  - name: "HUB-D-6"
+    type: http
+    server: 37.120.213.210
+    port: 9443
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: "HUB-D-7"
+    type: http
+    server: 149.36.50.1
+    port: 443
+    password: None
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: "HUB-E-22"
+    type: socks5
+    server: 123.58.219.171
+    port: 10808
+  - name: "HUB-E-1"
+    type: http
+    server: 84.17.47.148
+    port: 9002
+    username: 'null'
+    password: None
+    tls: true
+    skip-cert-verify: true
+  - name: "HUB-E-23"
+    type: http
+    server: fan.240104.xyz
+    port: 443
+    tls: true
+  - name: "HUB-D-26"
+    type: vless
+    server: 150.251.141.28
+    port: 443
+    client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    network: tcp
+    reality-opts:
+      public-key: iKiBA7VUMrGy7J3puIr6rbsEj7FMtRazqQywedgGeCA
+    skip-cert-verify: true
+    tfo: false
+    tls: true
+    uuid: 129799e0-a9b1-4ae8-80bd-fa92db813f85
+    udp: true
+    servername: nolan.shhflow.xyz
+  - name: "HUB-D-34"
+    type: http
+    server: jgwynphotoarts.pro
+    port: 443
+    skip-cert-verify: false
+    tls: true
+    udp: true
+    sni: jgwynphotoarts.pro
+  - name: "HUB-E-5"
+    type: http
+    server: 193.176.84.17
+    port: 9002
+    username: 'null'
+    password: 'null'
+    tls: true
+    sni: 193.176.84.17
+    skip-cert-verify: true
+  - name: "HUB-E-15"
+    type: http
+    server: 138.199.35.205
+    port: 9002
+    username: 'null'
+    password: 'null'
+    tls: true
+    sni: 138.199.35.205
+    skip-cert-verify: true
+  - name: "HUB-A-21"
+    type: ss
+    server: ss.013.node-for-bigairport.win
+    port: 10202
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.013.node-for-bigairport.win:10202#%5B1x%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E9%A6%99%E6%B8%AF%2013
+  - name: "HUB-A-20"
+    type: ss
+    server: ss.012.node-for-bigairport.win
+    port: 10202
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.012.node-for-bigairport.win:10202#%5B1x%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E9%A6%99%E6%B8%AF%2012
+  - name: "HUB-A-24"
+    type: ss
+    server: ss.016.node-for-bigairport.win
+    port: 10202
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.016.node-for-bigairport.win:10202#%5B1x%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E9%A6%99%E6%B8%AF%2016
+  - name: "HUB-A-22"
+    type: ss
+    server: ss.014.node-for-bigairport.win
+    port: 10202
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.014.node-for-bigairport.win:10202#%5B1x%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E9%A6%99%E6%B8%AF%2014
+  - name: "HUB-A-19"
+    type: ss
+    server: ss.011.node-for-bigairport.win
+    port: 10202
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.011.node-for-bigairport.win:10202#%5B1x%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E9%A6%99%E6%B8%AF%2011
+  - name: "HUB-A-23"
+    type: ss
+    server: ss.015.node-for-bigairport.win
+    port: 10202
+    cipher: aes-256-gcm
+    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
+    # raw: ss://YWVzLTI1Ni1nY206OTQyNjc0MTUtMDM0Ny00NGUyLTkyZmYtYTk4ZGJiYjRlZjRk@ss.015.node-for-bigairport.win:10202#%5B1x%5D%20%5B%E7%9B%B4%E8%BF%9E%5D%20%5BSS%5D%20%E9%A6%99%E6%B8%AF%2015
+  - name: "HUB-E-26"
+    type: http
+    server: 154.26.139.24
+    port: 443
+    tls: true
+    skip-cert-verify: true
+  - name: "HUB-D-29"
+    type: http
+    server: 212.102.63.31
+    port: 443
+    password: None
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: "HUB-D-27"
+    type: http
+    server: 149.36.50.157
+    port: 443
+    password: None
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: "HUB-E-3"
+    type: http
+    server: 185.44.107.166
+    port: 443
+    tls: true
+    skip-cert-verify: true
+  - name: "HUB-E-25"
+    type: socks5
+    server: 121.169.46.116
+    port: 1090
+    username: T2c9PTo=
+  - name: "HUB-OM-23"
+    type: masque
+    server: 162.159.199.2
+    port: 500
+    private-key: MDECAQEEIMLWffEaK23kwtdJJRwUwI6gYrmcG6+05Ur4U8EcmPt3oAoGCCqGSM49AwEH
+    public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+    ip: 172.16.0.2
+    ipv6: 2606:4700:110:8c1d:ca5:2e67:41c9:4c7
+    mtu: 1280
+    udp: true
+    remote-dns-resolve: true
+    dns: [1.1.1.1, 2606:4700:4700::1111]
+  - name: "HUB-OM-25"
+    type: masque
+    server: 162.159.199.2
+    port: 4500
+    private-key: MDECAQEEIMLWffEaK23kwtdJJRwUwI6gYrmcG6+05Ur4U8EcmPt3oAoGCCqGSM49AwEH
+    public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+    ip: 172.16.0.2
+    ipv6: 2606:4700:110:8c1d:ca5:2e67:41c9:4c7
+    mtu: 1280
+    udp: true
+    remote-dns-resolve: true
+    dns: [1.1.1.1, 2606:4700:4700::1111]
+  - name: "HUB-OM-28"
+    type: masque
+    server: 162.159.199.2
+    port: 8095
+    private-key: MDECAQEEIMLWffEaK23kwtdJJRwUwI6gYrmcG6+05Ur4U8EcmPt3oAoGCCqGSM49AwEH
+    public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+    ip: 172.16.0.2
+    ipv6: 2606:4700:110:8c1d:ca5:2e67:41c9:4c7
+    mtu: 1280
+    udp: true
+    remote-dns-resolve: true
+    dns: [1.1.1.1, 2606:4700:4700::1111]
+  - name: "HUB-OM-27"
+    type: masque
+    server: 162.159.199.2
+    port: 8443
+    private-key: MDECAQEEIMLWffEaK23kwtdJJRwUwI6gYrmcG6+05Ur4U8EcmPt3oAoGCCqGSM49AwEH
+    public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+    ip: 172.16.0.2
+    ipv6: 2606:4700:110:8c1d:ca5:2e67:41c9:4c7
+    mtu: 1280
+    udp: true
+    remote-dns-resolve: true
+    dns: [1.1.1.1, 2606:4700:4700::1111]
+  - name: "HUB-OM-24"
+    type: masque
+    server: 162.159.199.2
+    port: 1701
+    private-key: MDECAQEEIMLWffEaK23kwtdJJRwUwI6gYrmcG6+05Ur4U8EcmPt3oAoGCCqGSM49AwEH
+    public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+    ip: 172.16.0.2
+    ipv6: 2606:4700:110:8c1d:ca5:2e67:41c9:4c7
+    mtu: 1280
+    udp: true
+    remote-dns-resolve: true
+    dns: [1.1.1.1, 2606:4700:4700::1111]
+  - name: "HUB-E-13"
+    type: http
+    server: 84.17.47.150
+    port: 9002
+    tls: true
+    skip-cert-verify: true
+  - name: "HUB-D-31"
+    type: http
+    server: 149.88.21.129
+    port: 443
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: "HUB-OM-10"
+    type: masque
+    server: 162.159.198.2
+    port: 1701
+    private-key: MDECAQEEIMLWffEaK23kwtdJJRwUwI6gYrmcG6+05Ur4U8EcmPt3oAoGCCqGSM49AwEH
+    public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+    ip: 172.16.0.2
+    ipv6: 2606:4700:110:8c1d:ca5:2e67:41c9:4c7
+    mtu: 1280
+    udp: true
+    remote-dns-resolve: true
+    dns: [1.1.1.1, 2606:4700:4700::1111]
+  - name: "HUB-OM-11"
+    type: masque
+    server: 162.159.198.2
+    port: 4500
+    private-key: MDECAQEEIMLWffEaK23kwtdJJRwUwI6gYrmcG6+05Ur4U8EcmPt3oAoGCCqGSM49AwEH
+    public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+    ip: 172.16.0.2
+    ipv6: 2606:4700:110:8c1d:ca5:2e67:41c9:4c7
+    mtu: 1280
+    udp: true
+    remote-dns-resolve: true
+    dns: [1.1.1.1, 2606:4700:4700::1111]
+  - name: "HUB-OM-9"
+    type: masque
+    server: 162.159.198.2
+    port: 500
+    private-key: MDECAQEEIMLWffEaK23kwtdJJRwUwI6gYrmcG6+05Ur4U8EcmPt3oAoGCCqGSM49AwEH
+    public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+    ip: 172.16.0.2
+    ipv6: 2606:4700:110:8c1d:ca5:2e67:41c9:4c7
+    mtu: 1280
+    udp: true
+    remote-dns-resolve: true
+    dns: [1.1.1.1, 2606:4700:4700::1111]
+  - name: "HUB-OM-12"
+    type: masque
+    server: 162.159.198.2
+    port: 4443
+    private-key: MDECAQEEIMLWffEaK23kwtdJJRwUwI6gYrmcG6+05Ur4U8EcmPt3oAoGCCqGSM49AwEH
+    public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+    ip: 172.16.0.2
+    ipv6: 2606:4700:110:8c1d:ca5:2e67:41c9:4c7
+    mtu: 1280
+    udp: true
+    remote-dns-resolve: true
+    dns: [1.1.1.1, 2606:4700:4700::1111]
+  - name: "HUB-C-19"
+    type: vmess
+    server: 112.132.215.108
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+    alterId: 0
+  - name: "HUB-OM-14"
+    type: masque
+    server: 162.159.198.2
+    port: 8095
+    private-key: MDECAQEEIMLWffEaK23kwtdJJRwUwI6gYrmcG6+05Ur4U8EcmPt3oAoGCCqGSM49AwEH
+    public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+    ip: 172.16.0.2
+    ipv6: 2606:4700:110:8c1d:ca5:2e67:41c9:4c7
+    mtu: 1280
+    udp: true
+    remote-dns-resolve: true
+    dns: [1.1.1.1, 2606:4700:4700::1111]
+  - name: "HUB-OM-13"
+    type: masque
+    server: 162.159.198.2
+    port: 8443
+    private-key: MDECAQEEIMLWffEaK23kwtdJJRwUwI6gYrmcG6+05Ur4U8EcmPt3oAoGCCqGSM49AwEH
+    public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+    ip: 172.16.0.2
+    ipv6: 2606:4700:110:8c1d:ca5:2e67:41c9:4c7
+    mtu: 1280
+    udp: true
+    remote-dns-resolve: true
+    dns: [1.1.1.1, 2606:4700:4700::1111]
+  - name: "HUB-OM-22"
+    type: masque
+    server: 162.159.199.2
+    port: 443
+    private-key: MDECAQEEIMLWffEaK23kwtdJJRwUwI6gYrmcG6+05Ur4U8EcmPt3oAoGCCqGSM49AwEH
+    public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+    ip: 172.16.0.2
+    ipv6: 2606:4700:110:8c1d:ca5:2e67:41c9:4c7
+    mtu: 1280
+    udp: true
+    remote-dns-resolve: true
+    dns: [1.1.1.1, 2606:4700:4700::1111]
+  - name: "HUB-OM-26"
+    type: masque
+    server: 162.159.199.2
+    port: 4443
+    private-key: MDECAQEEIMLWffEaK23kwtdJJRwUwI6gYrmcG6+05Ur4U8EcmPt3oAoGCCqGSM49AwEH
+    public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+    ip: 172.16.0.2
+    ipv6: 2606:4700:110:8c1d:ca5:2e67:41c9:4c7
+    mtu: 1280
+    udp: true
+    remote-dns-resolve: true
+    dns: [1.1.1.1, 2606:4700:4700::1111]
+  - name: "HUB-OM-8"
+    type: masque
+    server: 162.159.198.2
+    port: 443
+    private-key: MDECAQEEIMLWffEaK23kwtdJJRwUwI6gYrmcG6+05Ur4U8EcmPt3oAoGCCqGSM49AwEH
+    public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+    ip: 172.16.0.2
+    ipv6: 2606:4700:110:8c1d:ca5:2e67:41c9:4c7
+    mtu: 1280
+    udp: true
+    remote-dns-resolve: true
+    dns: [1.1.1.1, 2606:4700:4700::1111]
+  - name: "HUB-E-6"
+    type: http
+    server: 193.176.84.38
+    port: 9002
+    tls: true
+    skip-cert-verify: true
+  - name: "HUB-E-11"
+    type: http
+    server: fan.587475.xyz
+    port: 443
+    tls: true
+    sni: fan.587475.xyz
+    skip-cert-verify: true
+  - name: "HUB-C-11"
+    type: vmess
+    server: 124.151.45.60
+    port: 38320
+    uuid: d643d6ea-2e48-4ad5-b96e-d11b889cc6a6
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+    alterId: 0
+  - name: "HUB-E-2"
+    type: http
+    server: fan.571589.xyz
+    port: 443
+    tls: true
+    sni: fan.571589.xyz
+  - name: "HUB-C-7"
+    type: vless
+    server: 36.212.23.23
+    port: 52683
+    uuid: 399b6b23-cc40-4831-a494-61948e2df133
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: "HUB-C-8"
+    type: vless
+    server: jp.sofast.live
+    port: 52683
+    uuid: 399b6b23-cc40-4831-a494-61948e2df133
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: "HUB-C-15"
+    type: vless
+    server: lyra.yokkastars.com
+    port: 40443
+    uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
+    servername: deepl.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
+      short-id: ee33
+    skip-cert-verify: true
+    udp: true
+  - name: "HUB-C-14"
+    type: vless
+    server: 72.56.41.33
+    port: 40443
+    uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
+    servername: deepl.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
+      short-id: ee33
+    skip-cert-verify: true
+    udp: true
+proxy-groups:
+  - name: HUB
+    type: select
+    proxies:
+      - "HUB-D-33"
+      - "HUB-D-10"
+      - "HUB-D-11"
+      - "HUB-E-14"
+      - "HUB-D-5"
+      - "HUB-D-14"
+      - "HUB-D-4"
+      - "HUB-D-3"
+      - "HUB-D-12"
+      - "HUB-A-39"
+      - "HUB-A-31"
+      - "HUB-A-41"
+      - "HUB-A-38"
+      - "HUB-A-11"
+      - "HUB-A-17"
+      - "HUB-A-12"
+      - "HUB-A-37"
+      - "HUB-A-40"
+      - "HUB-A-34"
+      - "HUB-A-13"
+      - "HUB-A-30"
+      - "HUB-A-43"
+      - "HUB-A-32"
+      - "HUB-A-33"
+      - "HUB-A-14"
+      - "HUB-A-47"
+      - "HUB-A-35"
+      - "HUB-C-18"
+      - "HUB-A-42"
+      - "HUB-A-45"
+      - "HUB-A-16"
+      - "HUB-A-46"
+      - "HUB-A-48"
+      - "HUB-A-28"
+      - "HUB-C-12"
+      - "HUB-A-44"
+      - "HUB-E-12"
+      - "HUB-E-7"
+      - "HUB-E-10"
+      - "HUB-D-13"
+      - "HUB-D-16"
+      - "HUB-D-28"
+      - "HUB-D-22"
+      - "HUB-D-6"
+      - "HUB-D-7"
+      - "HUB-E-22"
+      - "HUB-E-1"
+      - "HUB-E-23"
+      - "HUB-D-26"
+      - "HUB-D-34"
+      - "HUB-E-5"
+      - "HUB-E-15"
+      - "HUB-A-21"
+      - "HUB-A-20"
+      - "HUB-A-24"
+      - "HUB-A-22"
+      - "HUB-A-19"
+      - "HUB-A-23"
+      - "HUB-E-26"
+      - "HUB-D-29"
+      - "HUB-D-27"
+      - "HUB-E-3"
+      - "HUB-E-25"
+      - "HUB-OM-23"
+      - "HUB-OM-25"
+      - "HUB-OM-28"
+      - "HUB-OM-27"
+      - "HUB-OM-24"
+      - "HUB-E-13"
+      - "HUB-D-31"
+      - "HUB-OM-10"
+      - "HUB-OM-11"
+      - "HUB-OM-9"
+      - "HUB-OM-12"
+      - "HUB-C-19"
+      - "HUB-OM-14"
+      - "HUB-OM-13"
+      - "HUB-OM-22"
+      - "HUB-OM-26"
+      - "HUB-OM-8"
+      - "HUB-E-6"
+      - "HUB-E-11"
+      - "HUB-C-11"
+      - "HUB-E-2"
+      - "HUB-C-7"
+      - "HUB-C-8"
+      - "HUB-C-15"
+      - "HUB-C-14"
+rules:
+  - MATCH,HUB
