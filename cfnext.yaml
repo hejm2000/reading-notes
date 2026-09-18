@@ -355,7 +355,7 @@ proxies:
         Host: cfnext.opera-masque.workers.dev
   - name: 优选IP-23
     type: vless
-    server: 172.67.187.145
+    server: 104.21.7.133
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -371,7 +371,7 @@ proxies:
         Host: cfnext.opera-masque.workers.dev
   - name: 优选IP-24
     type: vless
-    server: 172.64.145.158
+    server: 104.18.43.174
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -403,7 +403,7 @@ proxies:
         Host: cfnext.opera-masque.workers.dev
   - name: 优选IP-26
     type: vless
-    server: 172.67.221.62
+    server: 104.21.24.249
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -467,7 +467,7 @@ proxies:
         Host: cfnext.opera-masque.workers.dev
   - name: 优选IP-30
     type: vless
-    server: 104.17.101.139
+    server: 104.17.185.207
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -499,7 +499,7 @@ proxies:
         Host: cfnext.opera-masque.workers.dev
   - name: 优选IP-32
     type: vless
-    server: 172.67.189.246
+    server: 104.21.89.164
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -515,7 +515,7 @@ proxies:
         Host: cfnext.opera-masque.workers.dev
   - name: 优选IP-33
     type: vless
-    server: 162.159.130.234
+    server: 162.159.135.234
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -531,7 +531,7 @@ proxies:
         Host: cfnext.opera-masque.workers.dev
   - name: 优选IP-34
     type: vless
-    server: 104.16.250.22
+    server: 104.21.224.5
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -563,7 +563,7 @@ proxies:
         Host: cfnext.opera-masque.workers.dev
   - name: 优选IP-36
     type: vless
-    server: 104.21.7.133
+    server: 172.67.187.145
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -579,7 +579,7 @@ proxies:
         Host: cfnext.opera-masque.workers.dev
   - name: 优选IP-37
     type: vless
-    server: 104.18.42.98
+    server: 172.64.144.82
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -595,7 +595,7 @@ proxies:
         Host: cfnext.opera-masque.workers.dev
   - name: 优选IP-38
     type: vless
-    server: 104.21.24.249
+    server: 172.67.221.62
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -659,7 +659,7 @@ proxies:
         Host: cfnext.opera-masque.workers.dev
   - name: 优选IP-42
     type: vless
-    server: 104.17.185.207
+    server: 104.17.101.139
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -691,7 +691,7 @@ proxies:
         Host: cfnext.opera-masque.workers.dev
   - name: 优选IP-44
     type: vless
-    server: 104.21.89.164
+    server: 172.67.189.246
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -707,7 +707,7 @@ proxies:
         Host: cfnext.opera-masque.workers.dev
   - name: 优选IP-45
     type: vless
-    server: 162.159.135.234
+    server: 162.159.130.234
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -723,7 +723,7 @@ proxies:
         Host: cfnext.opera-masque.workers.dev
   - name: 优选IP-46
     type: vless
-    server: 104.17.25.173
+    server: 104.18.185.26
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -739,7 +739,7 @@ proxies:
         Host: cfnext.opera-masque.workers.dev
   - name: 优选IP-47
     type: vless
-    server: 104.18.185.26
+    server: 104.17.25.173
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -755,7 +755,7 @@ proxies:
         Host: cfnext.opera-masque.workers.dev
   - name: 优选IP-48
     type: vless
-    server: 104.21.224.5
+    server: 104.16.250.22
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
