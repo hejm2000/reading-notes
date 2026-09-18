@@ -4,7 +4,7 @@
 #
 # 输出文件：
 #   sub-hub.yaml        Clash Meta 格式（mihomo/ClashX Meta/streisand 等直接导入，含 proxy-groups + rules）
-#   sub-hub-share.b64   base64 包裹 share 行（V2RayN/量子等直接导入 URL）
+#   sub-hub-v2rayn.txt  明文 share 行（vless:// 等，V2RayN/Clash for Android 直接导入）
 #   sub-hub-rank.md     测速排行（Markdown）
 name: sub-hub relay
 
@@ -31,25 +31,28 @@ jobs:
           # mihomo/Clash 格式（原始 YAML）
           curl -sL --max-time 120 -o sub-hub.yaml "$BASE/sub?raw=1"
           test -s sub-hub.yaml
-          # V2RayN share 行（base64）
-          curl -sL --max-time 60 -o sub-hub-share.b64 "$BASE/share"
-          test -s sub-hub-share.b64
+          # V2RayN share 行（/share 返回 base64，解码后存明文 txt 供 V2RayN/Clash 直接导入）
+          curl -sL --max-time 60 -o /tmp/share.b64 "$BASE/share"
+          test -s /tmp/share.b64
+          base64 -d /tmp/share.b64 > sub-hub-v2rayn.txt
+          test -s sub-hub-v2rayn.txt
           # 测速排行
           curl -sL --max-time 60 -o sub-hub-rank.md "$BASE/rank"
           test -s sub-hub-rank.md
           # 校验
           grep -c "name: HUB-" sub-hub.yaml || true
           grep -q "proxy-groups:" sub-hub.yaml
-          base64 -d sub-hub-share.b64 | grep -cE '^(vless|ss|trojan|vmess|hysteria2|tuic)://' || true
-          wc -c sub-hub.yaml sub-hub-share.b64 sub-hub-rank.md
+          grep -cE '^(vless|ss|trojan|vmess|hysteria2|tuic)://' sub-hub-v2rayn.txt || true
+          wc -c sub-hub.yaml sub-hub-v2rayn.txt sub-hub-rank.md
 
       - name: 提交到 main
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add sub-hub.yaml sub-hub-share.b64 sub-hub-rank.md
-          if git diff --quiet --cached -- sub-hub.yaml sub-hub-share.b64 sub-hub-rank.md; then
+          git add sub-hub.yaml sub-hub-v2rayn.txt sub-hub-rank.md
+          git rm -q --ignore-unmatch sub-hub-share.b64 2>/dev/null || true
+          if git diff --quiet --cached -- sub-hub.yaml sub-hub-v2rayn.txt sub-hub-rank.md; then
             echo "no change, skip"
           else
             git commit -m "chore: relay sub-hub $(date -u +%Y-%m-%dT%H:%M:%SZ)"
