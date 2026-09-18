@@ -1,0 +1,58 @@
+# GitHub 中转：定期从 sub-hub Worker 拉聚合订阅，提交到本仓库（reading-notes）
+# 用途：国内机器直连 raw.githubusercontent.com 拉聚合订阅（mihomo / V2RayN），
+#       绕开 workers.dev 的 DNS 污染。
+#
+# 输出文件：
+#   sub-hub.yaml        Clash Meta 格式（mihomo/ClashX Meta/streisand 等直接导入，含 proxy-groups + rules）
+#   sub-hub-share.b64   base64 包裹 share 行（V2RayN/量子等直接导入 URL）
+#   sub-hub-rank.md     测速排行（Markdown）
+name: sub-hub relay
+
+on:
+  schedule:
+    - cron: '10,40 * * * *'  # 每小时 :10/:40（错开 cfnext-relay 的整点/半点，确保 CFN raw 已刷新）
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  relay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: 从 sub-hub Worker 拉三个端点
+        run: |
+          set -euo pipefail
+          BASE="https://sub-hub.opera-masque.workers.dev"
+          # mihomo/Clash 格式（原始 YAML）
+          curl -sL --max-time 120 -o sub-hub.yaml "$BASE/sub?raw=1"
+          test -s sub-hub.yaml
+          # V2RayN share 行（base64）
+          curl -sL --max-time 60 -o sub-hub-share.b64 "$BASE/share"
+          test -s sub-hub-share.b64
+          # 测速排行
+          curl -sL --max-time 60 -o sub-hub-rank.md "$BASE/rank"
+          test -s sub-hub-rank.md
+          # 校验
+          grep -c "name: HUB-" sub-hub.yaml || true
+          grep -q "proxy-groups:" sub-hub.yaml
+          base64 -d sub-hub-share.b64 | grep -cE '^(vless|ss|trojan|vmess|hysteria2|tuic)://' || true
+          wc -c sub-hub.yaml sub-hub-share.b64 sub-hub-rank.md
+
+      - name: 提交到 main
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sub-hub.yaml sub-hub-share.b64 sub-hub-rank.md
+          if git diff --quiet --cached -- sub-hub.yaml sub-hub-share.b64 sub-hub-rank.md; then
+            echo "no change, skip"
+          else
+            git commit -m "chore: relay sub-hub $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push origin HEAD:main
+            echo "relayed sub-hub files to reading-notes"
+          fi
