@@ -350,43 +350,43 @@ proxies:
   - name: "HUB-B-17"
     type: hysteria2
     server: jp6.dexlos.com
-    port: 21112
+    port: 21147
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: jp6.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp6.dexlos.com:21112/?sni=jp6.dexlos.com#JP6-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp6.dexlos.com:21147/?sni=jp6.dexlos.com#JP6-HY2
   - name: "HUB-B-18"
     type: hysteria2
     server: jp7.dexlos.com
-    port: 21270
+    port: 21282
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: jp7.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp7.dexlos.com:21270/?sni=jp7.dexlos.com#JP7-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp7.dexlos.com:21282/?sni=jp7.dexlos.com#JP7-HY2
   - name: "HUB-B-19"
     type: hysteria2
     server: jp8.dexlos.com
-    port: 21563
+    port: 21509
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: jp8.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp8.dexlos.com:21563/?sni=jp8.dexlos.com#JP8-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp8.dexlos.com:21509/?sni=jp8.dexlos.com#JP8-HY2
   - name: "HUB-B-20"
     type: hysteria2
     server: jp9.dexlos.com
-    port: 21757
+    port: 21698
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: jp9.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp9.dexlos.com:21757/?sni=jp9.dexlos.com#JP9-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp9.dexlos.com:21698/?sni=jp9.dexlos.com#JP9-HY2
   - name: "HUB-B-21"
     type: hysteria2
     server: jp10.dexlos.com
-    port: 21885
+    port: 21874
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: jp10.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp10.dexlos.com:21885/?sni=jp10.dexlos.com#JP10-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp10.dexlos.com:21874/?sni=jp10.dexlos.com#JP10-HY2
   - name: "HUB-B-22"
     type: vless
     server: kr1-r.link-t7.com
@@ -490,27 +490,27 @@ proxies:
   - name: "HUB-B-32"
     type: hysteria2
     server: sg1.dexlos.com
-    port: 20150
+    port: 20170
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: sg1.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@sg1.dexlos.com:20150/?sni=sg1.dexlos.com#SG1-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@sg1.dexlos.com:20170/?sni=sg1.dexlos.com#SG1-HY2
   - name: "HUB-B-33"
     type: hysteria2
     server: sg2.dexlos.com
-    port: 20276
+    port: 20271
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: sg2.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@sg2.dexlos.com:20276/?sni=sg2.dexlos.com#SG2-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@sg2.dexlos.com:20271/?sni=sg2.dexlos.com#SG2-HY2
   - name: "HUB-B-34"
     type: hysteria2
     server: sg3.dexlos.com
-    port: 20583
+    port: 20508
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: sg3.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@sg3.dexlos.com:20583/?sni=sg3.dexlos.com#SG3-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@sg3.dexlos.com:20508/?sni=sg3.dexlos.com#SG3-HY2
   - name: "HUB-B-35"
     type: tuic
     server: tw1.dexlos.com
@@ -674,51 +674,51 @@ proxies:
   - name: "HUB-B-53"
     type: hysteria2
     server: us1.dexlos.com
-    port: 20179
+    port: 20133
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: us1.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us1.dexlos.com:20179/?sni=us1.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US1-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us1.dexlos.com:20133/?sni=us1.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US1-HY2
   - name: "HUB-B-54"
     type: hysteria2
     server: us2.dexlos.com
-    port: 20309
+    port: 20323
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: us2.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us2.dexlos.com:20309/?sni=us2.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US2-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us2.dexlos.com:20323/?sni=us2.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US2-HY2
   - name: "HUB-B-55"
     type: hysteria2
     server: us3.dexlos.com
-    port: 20416
+    port: 20559
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: us3.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us3.dexlos.com:20416/?sni=us3.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US3-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us3.dexlos.com:20559/?sni=us3.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US3-HY2
   - name: "HUB-B-56"
     type: hysteria2
     server: us4.dexlos.com
-    port: 20606
+    port: 20706
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: us4.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us4.dexlos.com:20606/?sni=us4.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US4-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us4.dexlos.com:20706/?sni=us4.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US4-HY2
   - name: "HUB-B-57"
     type: hysteria2
     server: us5.dexlos.com
-    port: 20972
+    port: 20944
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: us5.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us5.dexlos.com:20972/?sni=us5.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US5-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us5.dexlos.com:20944/?sni=us5.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US5-HY2
   - name: "HUB-B-58"
     type: hysteria2
     server: us6.dexlos.com
-    port: 21090
+    port: 21044
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: us6.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us6.dexlos.com:21090/?sni=us6.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US6-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us6.dexlos.com:21044/?sni=us6.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US6-HY2
   - name: "HUB-C-1"
     type: vless
     server: pl.bubahero.com
@@ -2063,45 +2063,53 @@ proxies:
     ws-opts:
       path: /
   - name: "HUB-D-1"
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    network: tcp
-    port: 443
-    public-key: ImUbTZ1OKgAaiNlCf8zkeO5NnbAdKHdm2fhphvEZNxY
-    short-id: 56
-    server: 1-jp.ap.ku-ke.cc
-    tls: true
-    type: vless
-    uuid: d03c34c3-98fa-42ff-80a8-6ea1d0b24ac9
-    servername: cdn.jsdelivr.net
-  - name: "HUB-D-2"
-    client-fingerprint: chrome
-    network: xhttp
-    port: 443
-    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-    server: 104.245.240.6
-    tls: true
-    type: vless
-    uuid: 2bb8b13c-b3f0-2552-da05-d0929bfb36db
-    xhttp-opts:
-      mode: auto
-    host: download.nvidia.com
-    path: /
-    servername: download.nvidia.com
-  - name: "HUB-D-3"
     cipher: aes-256-cfb
     password: amazonskr05
     port: 443
     server: 3.141.200.225
     type: ss
-  - name: "HUB-D-4"
-    password: sg-trojan-2026
-    port: 443
-    server: 43.173.90.202
-    skip-cert-verify: true
-    sni: sg-proxy.local
-    type: trojan
+  - name: "HUB-D-2"
+    alterId: 0
+    cipher: auto
     network: tcp
+    port: 8443
+    server: 45.39.33.10
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    uuid: 4d6997cf-7856-4aab-85e5-f22169e56e65
+    xudp: true
+    packet-encoding: xudp
+  - name: "HUB-D-3"
+    client-fingerprint: chrome
+    encryption: none
+    network: ws
+    port: 443
+    server: k2.cloud--vpn.site
+    tls: true
+    type: vless
+    uuid: cc3ec459-8d76-4066-ab4b-2614608f1afb
+    ws-opts:
+      path: /
+    User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+    xudp: true
+    packet-encoding: xudp
+    servername: ssl.fastly.com
+  - name: "HUB-D-4"
+    client-fingerprint: chrome
+    encryption: none
+    network: ws
+    port: 443
+    server: gvuis865-production.up.railway.app
+    tls: true
+    type: vless
+    uuid: 7b415598-729e-6e6b-6ee4-9b77dee29878
+    ws-opts:
+      path: /ws/7b415598-729e-6e6b-6ee4-9b77dee29878
+    User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+    xudp: true
+    packet-encoding: xudp
+    servername: gvuis865-production.up.railway.app
   - name: "HUB-D-5"
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
@@ -2116,367 +2124,739 @@ proxies:
     tls: true
     type: http
   - name: "HUB-D-7"
-    password: None
     port: 443
-    server: 149.36.50.1
+    server: 37.120.156.34
     skip-cert-verify: true
     tls: true
     type: http
   - name: "HUB-D-8"
+    password: None
     port: 443
-    server: voteshirleysew.club
+    server: 130.195.250.18
+    skip-cert-verify: true
     tls: true
     type: http
-    sni: voteshirleysew.club
   - name: "HUB-D-9"
-    client-fingerprint: chrome
-    encryption: mlkem768x25519plus.native.0rtt.ej79qYWofIwiySjKHulae3PuxzpTQM8GIg9yG1QyBE0
-    network: tcp
-    port: 10265
-    server: test.netfa360.ir
-    tls: true
-    type: vless
-    uuid: 5f9e0d88-2da5-4f6c-b075-c528315e7d7f
-    servername: test.netfa360.ir
-  - name: "HUB-D-10"
-    client-fingerprint: chrome
-    enable: true
-    query-server-name: cloudflare-ech.com
-    network: ws
-    port: 8581
-    server: 23.249.18.144
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    ws-opts:
-      path: /channels/act
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-    servername: cdn8848.776676.xyz
-  - name: "HUB-D-11"
-    cipher: 2022-blake3-chacha20-poly1305
-    password: 1W4RvEFjyad78wExwpCcWKQ0AqXDGPqCFRxuxsmFLmk=
-    port: 59924
-    server: 130.61.146.82
-    type: ss
-  - name: "HUB-D-12"
-    cipher: 2022-blake3-chacha20-poly1305
-    password: m/CrE+EuNElAAVP1IrhSyQYq0EUT+XiDckrdlPOdMFA=
-    port: 59924
-    server: 130.61.235.30
-    type: ss
-  - name: "HUB-D-13"
-    cipher: 2022-blake3-chacha20-poly1305
-    password: YtbZ5p/WBjlRfs2aQ1vr44sGpkdKyx5Xbdd+DKP7ke0=
-    port: 61312
-    server: 129.151.65.24
-    type: ss
-  - name: "HUB-D-14"
-    auth: github.com/Alvin9999-newpac/fanqiang
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 29900
-    server: 178.18.147.66
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: hysteria2
-  - name: "HUB-D-15"
-    cipher: 2022-blake3-chacha20-poly1305
-    password: axZ54YHizH8C2/85gqPV+VCC6r0h+nWWGemeypymi2I=
-    port: 61312
-    server: 144.24.226.249
-    type: ss
-  - name: "HUB-D-16"
+    password: None
     port: 443
-    server: 185.235.0.2
+    server: purposebydesig.club
+    tls: true
+    type: http
+    sni: purposebydesig.club
+  - name: "HUB-D-10"
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 19000
+    server: anytls2.864106.xyz
+    skip-cert-verify: true
+    sni: anytls2.864106.xyz
+    type: anytls
+  - name: "HUB-D-11"
+    port: 443
+    server: 146.70.176.242
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-12"
+    password: None
+    port: 443
+    server: 87.249.132.97
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-13"
+    port: 443
+    server: goedkoopgeluid.icu
+    skip-cert-verify: true
+    tls: true
+    type: http
+    sni: goedkoopgeluid.icu
+  - name: "HUB-D-14"
+    password: None
+    port: 443
+    server: purecambogiasl.live
+    skip-cert-verify: true
+    tls: true
+    type: http
+    sni: purecambogiasl.live
+  - name: "HUB-D-15"
+    port: 9443
+    server: 38.95.111.226
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-16"
+    password: None
+    port: 443
+    server: 79.142.77.63
     skip-cert-verify: true
     tls: true
     type: http
   - name: "HUB-D-17"
     port: 443
-    server: purposebydesig.club
-    skip-cert-verify: false
+    server: fullmanfirm.icu
+    skip-cert-verify: true
+    sni: fullmanfirm.icu
     tls: true
     type: http
-    sni: purposebydesig.club
   - name: "HUB-D-18"
     password: None
     port: 443
-    server: 146.70.244.2
+    server: 185.216.35.66
     skip-cert-verify: true
     tls: true
     type: http
   - name: "HUB-D-19"
+    password: None
     port: 443
-    server: 37.120.233.50
+    server: 37.120.233.34
     skip-cert-verify: true
     tls: true
     type: http
   - name: "HUB-D-20"
     port: 443
-    server: 146.70.221.34
+    server: 149.102.245.65
     skip-cert-verify: true
     tls: true
     type: http
   - name: "HUB-D-21"
     password: None
     port: 443
-    server: 37.120.156.34
+    server: 82.102.17.178
     skip-cert-verify: true
     tls: true
     type: http
   - name: "HUB-D-22"
+    port: 9002
+    server: 84.17.47.150
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-23"
+    password: None
+    port: 9002
+    server: 84.17.47.125
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-25"
+    cipher: 2022-blake3-chacha20-poly1305
+    password: qcbhYjOYL+wy0N69cPyPDZMaCLix6L/5XD1HrCZlZiA=
+    port: 59924
+    server: 130.61.232.82
+    type: ss
+  - name: "HUB-D-26"
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 1W4RvEFjyad78wExwpCcWKQ0AqXDGPqCFRxuxsmFLmk=
+    port: 59924
+    server: 130.61.146.82
+    type: ss
+  - name: "HUB-D-27"
+    cipher: 2022-blake3-chacha20-poly1305
+    password: m/CrE+EuNElAAVP1IrhSyQYq0EUT+XiDckrdlPOdMFA=
+    port: 59924
+    server: 130.61.235.30
+    type: ss
+  - name: "HUB-D-28"
+    client-fingerprint: chrome
+    enable: true
+    query-server-name: cloudflare-ech.com
+    network: ws
+    port: 2053
+    server: 172.64.79.241
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      path: /game/about/test
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+    servername: cdn8848.776676.xyz
+  - name: "HUB-D-29"
+    cipher: 2022-blake3-chacha20-poly1305
+    password: YtbZ5p/WBjlRfs2aQ1vr44sGpkdKyx5Xbdd+DKP7ke0=
+    port: 61312
+    server: 129.151.65.24
+    type: ss
+  - name: "HUB-D-30"
+    cipher: 2022-blake3-chacha20-poly1305
+    password: Dx4uWbltHEUh+pri0TH9ioGP9B2/vE9G2G8rlTQtEfg=
+    port: 45819
+    server: 141.144.200.105
+    type: ss
+  - name: "HUB-D-31"
+    client-fingerprint: chrome
+    enable: true
+    query-server-name: cloudflare-ech.com
+    network: ws
+    port: 443
+    server: 104.16.255.51
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      path: /jump.php
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+    servername: cdn8848.776676.xyz
+  - name: "HUB-D-32"
+    client-fingerprint: chrome
+    enable: true
+    query-server-name: cloudflare-ech.com
+    network: ws
+    port: 2096
+    server: 104.21.228.25
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      path: /jump/go.php/albums
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+    servername: cdn8848.776676.xyz
+  - name: "HUB-D-33"
+    client-fingerprint: chrome
+    enable: true
+    query-server-name: cloudflare-ech.com
+    network: ws
+    port: 443
+    server: 172.64.79.241
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      path: /pics
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+    servername: cdn8848.776676.xyz
+  - name: "HUB-D-35"
+    password: None
+    port: 443
+    server: 146.70.244.2
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-36"
+    port: 443
+    server: 37.120.233.50
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-37"
+    port: 443
+    server: berniesbodybla.fun
+    sni: berniesbodybla.fun
+    tls: true
+    type: http
+  - name: "HUB-D-38"
+    port: 443
+    server: 146.70.221.34
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-39"
+    port: 443
+    server: 146.70.203.18
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-40"
     password: None
     port: 443
     server: 146.70.244.18
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-23"
+  - name: "HUB-D-41"
+    port: 9002
+    server: 138.199.35.213
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-42"
+    password: None
+    port: 443
+    server: efr-marktplatz.club
+    skip-cert-verify: false
+    tls: true
+    type: http
+    sni: efr-marktplatz.club
+  - name: "HUB-D-43"
+    port: 443
+    server: voteshirleysew.club
+    skip-cert-verify: true
+    tls: true
+    type: http
+    sni: voteshirleysew.club
+  - name: "HUB-D-44"
+    port: 443
+    server: webdrone.club
+    skip-cert-verify: false
+    tls: true
+    type: http
+    sni: webdrone.club
+  - name: "HUB-D-45"
+    password: None
+    port: 443
+    server: 149.36.50.129
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-46"
+    port: 443
+    server: tzoa.fun
+    skip-cert-verify: false
+    tls: true
+    type: http
+    sni: tzoa.fun
+  - name: "HUB-D-47"
     port: 443
     server: crosscards.site
     sni: crosscards.site
     tls: true
     type: http
-  - name: "HUB-D-25"
+  - name: "HUB-D-49"
+    port: 443
+    server: 109.248.147.66
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-50"
+    password: f89c89df-905c-4df3-ab07-4f1a37a81005
+    port: 443
+    server: status.fastline-labs.com
+    skip-cert-verify: false
+    sni: status.fastline-labs.com
+    type: hysteria2
+  - name: "HUB-D-51"
+    password: None
+    port: 443
+    server: zebpay.site
+    skip-cert-verify: false
+    tls: true
+    type: http
+    sni: zebpay.site
+  - name: "HUB-D-52"
     port: 443
     server: mmgr.club
     skip-cert-verify: true
     tls: true
     type: http
     sni: mmgr.club
-  - name: "HUB-D-27"
-    client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    network: tcp
+  - name: "HUB-D-54"
     port: 443
-    public-key: iKiBA7VUMrGy7J3puIr6rbsEj7FMtRazqQywedgGeCA
-    server: 150.251.141.28
+    server: 146.70.242.130
     skip-cert-verify: true
-    tfo: false
+    tls: true
+    type: http
+  - name: "HUB-D-55"
+    password: None
+    port: 443
+    server: 149.36.51.129
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-56"
+    client-fingerprint: chrome
+    enable: true
+    query-server-name: cloudflare-ech.com
+    network: ws
+    port: 8443
+    server: 132.243.203.218
+    skip-cert-verify: true
     tls: true
     type: vless
-    uuid: 129799e0-a9b1-4ae8-80bd-fa92db813f85
-    servername: nolan.shhflow.xyz
-  - name: "HUB-D-28"
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      path: /v
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+    servername: cdn8848.776676.xyz
+  - name: "HUB-D-57"
+    port: 443
+    server: 185.183.105.130
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-58"
+    port: 443
+    server: 185.245.84.50
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-59"
     password: None
     port: 443
     server: 149.36.50.157
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-29"
+  - name: "HUB-D-60"
     password: None
     port: 443
     server: 212.102.63.1
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-30"
-    password: None
-    port: 443
-    server: 212.102.63.31
+  - name: "HUB-D-61"
+    port: 8443
+    server: 104.219.236.83
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-31"
+  - name: "HUB-D-62"
     port: 443
     server: 146.70.242.146
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-32"
-    port: 443
-    server: 149.88.21.129
+  - name: "HUB-D-63"
+    port: 9002
+    server: 84.17.47.147
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-33"
+  - name: "HUB-D-65"
+    port: 443
+    server: 149.34.248.65
+    skip-cert-verify: true
+    sni: 149.34.248.65
+    tls: true
+    type: http
+  - name: "HUB-D-66"
     port: 443
     server: 185.235.0.66
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-34"
+  - name: "HUB-D-67"
+    password: None
+    port: 443
+    server: 87.120.103.226
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-68"
+    client-fingerprint: chrome
+    encryption: none
+    network: ws
+    port: 443
+    server: 45.142.127.22
+    tls: true
+    type: vless
+    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+    ws-opts:
+      path: /
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+    xudp: true
+    packet-encoding: xudp
+    servername: gl3sr.q4ds.ksm.hh.vavava.kdns.fr
+  - name: "HUB-D-69"
+    network: ws
+    port: 2095
+    server: www.whatismyip.net
+    type: vless
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      path: /
+    User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+    xudp: true
+    packet-encoding: xudp
+  - name: "HUB-D-70"
+    client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    network: tcp
+    port: 443
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: a8
+    server: 152.232.55.106
+    tls: true
+    type: vless
+    uuid: d097ade5-225a-4a50-9f0e-fae258aa4d0c
+    xudp: true
+    packet-encoding: xudp
+    servername: api.videolenta.cc
+  - name: "HUB-D-71"
+    client-fingerprint: chrome
+    encryption: none
+    network: ws
+    port: 443
+    server: 43.164.134.99
+    tls: true
+    type: vless
+    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+    ws-opts:
+      path: /
+    User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv)
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+    xudp: true
+    packet-encoding: xudp
+    servername: gl3sr.q4ds.ksm.hh.vavava.kdns.fr
+  - name: "HUB-D-72"
+    client-fingerprint: random
+    encryption: none
+    network: ws
+    port: 443
+    server: ct.877774.xyz
+    tls: true
+    type: vless
+    uuid: 1367d3f3-a7f4-4a31-ba9a-ac2793fa0b9b
+    ws-opts:
+      path: /announcement
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    xudp: true
+    packet-encoding: xudp
+    servername: us-lax.xhs152.shop
+  - name: "HUB-D-74"
+    cipher: 2022-blake3-chacha20-poly1305
+    password: QXHfUaFRhH6qiO8T/a5el3MGLLpbe7IQqFNs2RPeQO0=
+    port: 59924
+    server: 130.61.34.252
+    type: ss
+  - name: "HUB-D-75"
+    port: 443
+    server: 149.36.50.1
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-76"
     cipher: 2022-blake3-chacha20-poly1305
     password: rsZGSjFXUyi6kX8P6glg15+TdK0zdtKVBjkHYeZdJ58=
     port: 59924
     server: 130.61.82.183
     type: ss
-  - name: "HUB-D-35"
-    port: 443
-    server: jgwynphotoarts.pro
-    skip-cert-verify: false
-    tls: true
-    type: http
-    sni: jgwynphotoarts.pro
-  - name: "HUB-D-36"
-    port: 443
-    server: 5.255.118.82
-    skip-cert-verify: true
-    tls: true
-    type: http
   - name: "HUB-E-1"
     type: http
-    server: 84.17.47.148
+    server: 138.199.35.196
     port: 9002
-    password: None
     tls: true
+    sni: 138.199.35.196
     skip-cert-verify: true
   - name: "HUB-E-2"
     type: http
-    server: fan.571589.xyz
+    server: 149.36.50.129
     port: 443
     tls: true
-    sni: fan.571589.xyz
+    skip-cert-verify: true
   - name: "HUB-E-3"
     type: http
-    server: 185.44.107.166
+    server: 185.216.35.130
     port: 443
     tls: true
     skip-cert-verify: true
   - name: "HUB-E-4"
-    type: socks5
-    server: 83.147.216.208
-    port: 1080
-  - name: "HUB-E-5"
     type: http
-    server: 193.176.84.17
+    server: 84.17.47.146
     port: 9002
     tls: true
-    sni: 193.176.84.17
+    sni: 84.17.47.146
     skip-cert-verify: true
+  - name: "HUB-E-5"
+    type: vless
+    server: 158.101.209.32
+    port: 62145
+    uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
   - name: "HUB-E-6"
     type: http
-    server: 193.176.84.38
-    port: 9002
+    server: 157.22.183.72
+    port: 443
     tls: true
     skip-cert-verify: true
   - name: "HUB-E-7"
     type: http
-    server: 138.199.35.207
-    port: 9002
+    server: 149.36.50.1
+    port: 443
     tls: true
     skip-cert-verify: true
-  - name: "HUB-E-9"
-    type: vless
-    server: 64.204.49.68
+  - name: "HUB-E-8"
+    type: http
+    server: jewelscollecti.icu
     port: 443
-    uuid: 7b102311-43fd-4e8f-877e-8090623c101d
     tls: true
-    servername: vp10.pages.dev
-    client-fingerprint: firefox
-    network: ws
-    ws-opts:
-      path: /
+    sni: jewelscollecti.icu
+    skip-cert-verify: true
+  - name: "HUB-E-9"
+    type: http
+    server: 47.90.206.169
+    port: 7615
+    tls: true
+    skip-cert-verify: true
   - name: "HUB-E-10"
     type: http
-    server: 138.199.35.218
+    server: 138.199.35.208
     port: 9002
+    password: None
     tls: true
     skip-cert-verify: true
   - name: "HUB-E-11"
     type: http
-    server: fan.587475.xyz
-    port: 443
+    server: 138.199.35.219
+    port: 9002
     tls: true
-    sni: fan.587475.xyz
+    sni: 138.199.35.219
     skip-cert-verify: true
   - name: "HUB-E-12"
     type: http
-    server: 138.199.35.204
-    port: 9002
+    server: 5.101.149.245
+    port: 8443
     tls: true
     skip-cert-verify: true
   - name: "HUB-E-13"
     type: http
-    server: 84.17.47.150
-    port: 9002
+    server: 37.120.233.18
+    port: 443
     tls: true
     skip-cert-verify: true
   - name: "HUB-E-14"
-    type: ss
-    server: 130.61.148.34
-    port: 59924
-    cipher: 2022-blake3-chacha20-poly1305
-    password: NiPxf0H2Yidm6y+KQxFBL9h6N0fIGwFOiUQPGC+3l+w=
-  - name: "HUB-E-15"
     type: http
-    server: 138.199.35.205
+    server: fan.973511.xyz
+    port: 443
+    username: bnVsbDpudWxs
+    tls: true
+    skip-cert-verify: true
+  - name: "HUB-E-15"
+    type: ss
+    server: 121.46.230.139
+    port: 65443
+    cipher: aes-256-cfb
+    password: 7eadc6dbe2ae
+  - name: "HUB-E-16"
+    type: http
+    server: 138.199.35.195
     port: 9002
     tls: true
-    sni: 138.199.35.205
+    sni: 138.199.35.195
     skip-cert-verify: true
-  - name: "HUB-E-16"
-    type: vless
-    server: 13.143.137.164
-    port: 9443
-    uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-    flow: xtls-rprx-vision
-    tls: true
-    servername: plaincanvas.videoclothing.xyz
-    client-fingerprint: firefox
-    public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
-    short-id: e336c9a786fae301
-  - name: "HUB-E-18"
-    type: hysteria2
-    server: fl2.xiaoliyu.us
-    port: 2052
-    password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
-    sni: fl2.xiaoliyu.us
-    skip-cert-verify: true
-  - name: "HUB-E-19"
-    type: socks5
-    server: 161.35.90.93
-    port: 1083
-  - name: "HUB-E-22"
-    type: socks5
-    server: 123.58.219.171
-    port: 10808
-  - name: "HUB-E-23"
+  - name: "HUB-E-17"
     type: http
-    server: fan.240104.xyz
+    server: 193.176.84.21
+    port: 9002
+    tls: true
+    skip-cert-verify: true
+  - name: "HUB-E-18"
+    type: ss
+    server: 168.107.65.209
+    port: 56927
+    cipher: 2022-blake3-chacha20-poly1305
+    password: jzbveBTs+YuJotZVNhD1uM6abJDkpkxoV/ZPZTYTaSs=
+  - name: "HUB-E-19"
+    type: http
+    server: 87.98.174.157
+    port: 6103
+    tls: true
+    skip-cert-verify: true
+  - name: "HUB-E-20"
+    type: http
+    server: crosscards.site
     port: 443
+    password: None
     tls: true
-  - name: "HUB-E-24"
-    type: vless
-    server: hg.zhujue.us
-    port: 11000
-    uuid: 0e46345c-f33b-4f9b-b8ec-90e7c986af7e
-    flow: xtls-rprx-vision
+  - name: "HUB-E-21"
+    type: http
+    server: 84.17.47.148
+    port: 9002
     tls: true
-    servername: s0.awsstatic.com
-    client-fingerprint: chrome
-    public-key: sFRyah8EOSGcab8TfIdkq53c5HBSwAVfYQCyvZ0_BG4
-  - name: "HUB-E-25"
-    type: socks5
-    server: 121.169.46.116
-    port: 1090
-    username: T2c9PTo=
-  - name: "HUB-E-26"
+    skip-cert-verify: true
+  - name: "HUB-E-22"
+    type: http
+    server: 138.199.35.217
+    port: 9002
+    tls: true
+    sni: 138.199.35.217
+    skip-cert-verify: true
+  - name: "HUB-E-23"
     type: http
     server: 154.26.139.24
     port: 443
     tls: true
     skip-cert-verify: true
+  - name: "HUB-E-24"
+    type: http
+    server: goedkoopgeluid.icu
+    port: 443
+    password: None
+    tls: true
+    skip-cert-verify: true
+  - name: "HUB-E-25"
+    type: http
+    server: tzoa.fun
+    port: 443
+    tls: true
+  - name: "HUB-E-26"
+    type: ss
+    server: 130.61.112.180
+    port: 59924
+    cipher: 2022-blake3-chacha20-poly1305
+    password: ++mR5br/NAviA18jrILlV+DvdnZdmQqWhx54nclkxAI=
   - name: "HUB-E-27"
+    type: http
+    server: 185.216.35.66
+    port: 443
+    tls: true
+    sni: 185.216.35.66
+    skip-cert-verify: true
+  - name: "HUB-E-28"
+    type: socks5
+    server: 47.243.173.50
+    port: 11211
+    username: 111
+    password: 111
+  - name: "HUB-E-29"
+    type: http
+    server: fan.571589.xyz
+    port: 443
+    tls: true
+    skip-cert-verify: true
+  - name: "HUB-E-31"
     type: vless
-    server: tg.zhujue.us
-    port: 11000
-    uuid: 0e46345c-f33b-4f9b-b8ec-90e7c986af7e
+    server: kr-reality.dogeggx.us.ci
+    port: 443
+    uuid: c91765d8-9ba9-49c5-9ae0-c7bc4edd3377
     flow: xtls-rprx-vision
     tls: true
-    servername: s0.awsstatic.com
+    servername: polandballmania.com
     client-fingerprint: chrome
-    public-key: sFRyah8EOSGcab8TfIdkq53c5HBSwAVfYQCyvZ0_BG4
-  - name: "HUB-E-28"
+    public-key: N3WIzgOE8EsEnXcESY4zsXFm8jao91GcuraiqsKbNwo
+    short-id: 7b9b96edc66a88d9
+  - name: "HUB-E-32"
+    type: socks5
+    server: 121.169.46.116
+    port: 1090
+    username: VmtSS2FrOVdRbFZpZWpBMk9nPT06
+  - name: "HUB-E-33"
+    type: http
+    server: efr-marktplatz.club
+    port: 443
+    tls: true
+    sni: efr-marktplatz.club
+  - name: "HUB-E-34"
     type: http
     server: sr2-id.freeconnect.link
     port: 9251
     username: freeuser1
     password: freeuser1
     tls: true
-  - name: "HUB-E-29"
+  - name: "HUB-E-35"
+    type: vless
+    server: k2.cloud--vpn.site
+    port: 443
+    uuid: cc3ec459-8d76-4066-ab4b-2614608f1afb
+    network: ws
+    tls: true
+    servername: ssl.fastly.com
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+  - name: "HUB-E-36"
     type: vless
     server: a2.arshia-nova.ir
     port: 443
@@ -2487,7 +2867,7 @@ proxies:
     client-fingerprint: chrome
     ws-opts:
       path: /
-  - name: "HUB-E-30"
+  - name: "HUB-E-37"
     type: vless
     server: g1.haxat.bestvbest.ir
     port: 20610
@@ -3376,7 +3756,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-21"
     type: vless
-    server: 104.21.227.134
+    server: 104.21.224.5
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -3402,7 +3782,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-23"
     type: vless
-    server: 104.21.7.133
+    server: 172.67.187.145
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -3415,7 +3795,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-24"
     type: vless
-    server: 104.18.42.98
+    server: 172.64.152.241
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -3441,7 +3821,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-26"
     type: vless
-    server: 104.21.24.249
+    server: 172.67.221.62
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -3467,7 +3847,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-28"
     type: vless
-    server: 104.21.80.180
+    server: 172.67.152.183
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -3519,7 +3899,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-32"
     type: vless
-    server: 104.21.89.164
+    server: 172.67.189.246
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -3532,7 +3912,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-33"
     type: vless
-    server: 162.159.135.234
+    server: 162.159.130.234
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -3545,7 +3925,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-34"
     type: vless
-    server: 104.16.250.22
+    server: 104.18.185.26
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -3571,7 +3951,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-36"
     type: vless
-    server: 172.67.187.145
+    server: 104.21.7.133
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -3584,7 +3964,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-37"
     type: vless
-    server: 172.64.145.158
+    server: 104.18.35.15
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -3597,7 +3977,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-38"
     type: vless
-    server: 172.67.221.62
+    server: 104.21.24.249
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -3623,7 +4003,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-40"
     type: vless
-    server: 172.67.152.183
+    server: 104.21.80.180
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -3675,7 +4055,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-44"
     type: vless
-    server: 172.67.189.246
+    server: 104.21.89.164
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -3688,7 +4068,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-45"
     type: vless
-    server: 162.159.130.234
+    server: 162.159.135.234
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -3714,7 +4094,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-47"
     type: vless
-    server: 104.18.185.26
+    server: 104.16.250.22
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -3727,7 +4107,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-48"
     type: vless
-    server: 104.21.224.5
+    server: 104.21.227.134
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -13784,6 +14164,7 @@ proxy-groups:
       - "HUB-D-22"
       - "HUB-D-23"
       - "HUB-D-25"
+      - "HUB-D-26"
       - "HUB-D-27"
       - "HUB-D-28"
       - "HUB-D-29"
@@ -13791,9 +14172,44 @@ proxy-groups:
       - "HUB-D-31"
       - "HUB-D-32"
       - "HUB-D-33"
-      - "HUB-D-34"
       - "HUB-D-35"
       - "HUB-D-36"
+      - "HUB-D-37"
+      - "HUB-D-38"
+      - "HUB-D-39"
+      - "HUB-D-40"
+      - "HUB-D-41"
+      - "HUB-D-42"
+      - "HUB-D-43"
+      - "HUB-D-44"
+      - "HUB-D-45"
+      - "HUB-D-46"
+      - "HUB-D-47"
+      - "HUB-D-49"
+      - "HUB-D-50"
+      - "HUB-D-51"
+      - "HUB-D-52"
+      - "HUB-D-54"
+      - "HUB-D-55"
+      - "HUB-D-56"
+      - "HUB-D-57"
+      - "HUB-D-58"
+      - "HUB-D-59"
+      - "HUB-D-60"
+      - "HUB-D-61"
+      - "HUB-D-62"
+      - "HUB-D-63"
+      - "HUB-D-65"
+      - "HUB-D-66"
+      - "HUB-D-67"
+      - "HUB-D-68"
+      - "HUB-D-69"
+      - "HUB-D-70"
+      - "HUB-D-71"
+      - "HUB-D-72"
+      - "HUB-D-74"
+      - "HUB-D-75"
+      - "HUB-D-76"
       - "HUB-E-1"
       - "HUB-E-2"
       - "HUB-E-3"
@@ -13801,6 +14217,7 @@ proxy-groups:
       - "HUB-E-5"
       - "HUB-E-6"
       - "HUB-E-7"
+      - "HUB-E-8"
       - "HUB-E-9"
       - "HUB-E-10"
       - "HUB-E-11"
@@ -13809,8 +14226,11 @@ proxy-groups:
       - "HUB-E-14"
       - "HUB-E-15"
       - "HUB-E-16"
+      - "HUB-E-17"
       - "HUB-E-18"
       - "HUB-E-19"
+      - "HUB-E-20"
+      - "HUB-E-21"
       - "HUB-E-22"
       - "HUB-E-23"
       - "HUB-E-24"
@@ -13819,7 +14239,13 @@ proxy-groups:
       - "HUB-E-27"
       - "HUB-E-28"
       - "HUB-E-29"
-      - "HUB-E-30"
+      - "HUB-E-31"
+      - "HUB-E-32"
+      - "HUB-E-33"
+      - "HUB-E-34"
+      - "HUB-E-35"
+      - "HUB-E-36"
+      - "HUB-E-37"
       - "HUB-OM-1"
       - "HUB-OM-2"
       - "HUB-OM-3"
