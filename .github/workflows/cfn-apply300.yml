@@ -1,0 +1,105 @@
+# CFNext 优选 300 apply：从 GitHub runner（海外）调 CFNext API，
+# 写入 cfn_top300.json 里的 300 个优选 IP + subMode=custom + 关追加（无随机补足）。
+#
+# 触发：
+#   - push（.228 每 6h 测速后推 cfn_top300.json 自动触发；bot 自推不会触发）
+#   - 手动 dispatch
+#   - schedule 每 6h（兜底，数据不变时 apply 是幂等的）
+#
+# 产物：cfn-apply300-summary.txt（本次 apply 结果留档）
+name: cfn apply 300
+
+on:
+  push:
+    branches: [main]
+    paths: ['cfn_top300.json']
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: apply 300 优选到 CFNext
+        run: |
+          set -uo pipefail
+          BASE="https://cfnext.opera-masque.workers.dev/990f7b89-3ebc-4254-a64e-6714e3f12ff0"
+          python3 - <<'PY'
+          import json, time, urllib.request, sys
+          BASE = 'https://cfnext.opera-masque.workers.dev/990f7b89-3ebc-4254-a64e-6714e3f12ff0'
+          top = json.load(open('cfn_top300.json'))
+          ips = [{'ip': x['ip'], 'port': 443, 'name': x.get('name', ''),
+                  'relay': bool(x.get('relay', False))} for x in top]
+          print(f'待写入: {len(ips)} (relay {sum(1 for i in ips if i["relay"])})')
+          H = {'User-Agent': 'Mozilla/5.0', 'Content-Type': 'application/json'}
+          def req(method, url, data=None, t=40):
+              r = urllib.request.Request(url, data=data, headers=H, method=method)
+              with urllib.request.urlopen(r, timeout=t) as resp:
+                  return json.loads(resp.read().decode())
+          cur = None
+          for i in range(10):
+              try:
+                  cur = req('GET', BASE + '/api/config')
+                  cur = cur.get('data', cur)
+                  print('GET ok (attempt %d)' % i)
+                  break
+              except Exception as e:
+                  print('GET attempt %d: %s' % (i, e.__class__.__name__))
+                  time.sleep(5)
+          if cur is None:
+              print('FAIL: GET 10 次全失败')
+              sys.exit(1)
+          print('当前 preferredIPs=%d subMode=%r' % (
+              len(cur.get('preferredIPs') or []),
+              (cur.get('optimizer') or {}).get('subMode')))
+          new = dict(cur)
+          new['preferredIPs'] = ips
+          opt = dict(new.get('optimizer') or {})
+          opt['subMode'] = 'custom'
+          opt['subIncludeDefault'] = False
+          new['optimizer'] = opt
+          ok = False
+          for i in range(10):
+              try:
+                  out = req('POST', BASE + '/api/config',
+                            data=json.dumps(new).encode())
+                  out = out.get('data', out)
+                  print('POST ok (attempt %d): preferredIPs=%d subMode=%r' % (
+                      i, len(out.get('preferredIPs') or []),
+                      (out.get('optimizer') or {}).get('subMode')))
+                  ok = True
+                  break
+              except Exception as e:
+                  print('POST attempt %d: %s' % (i, e.__class__.__name__))
+                  time.sleep(5)
+          if not ok:
+              print('FAIL: POST 10 次全失败')
+              sys.exit(1)
+          time.sleep(3)
+          for i in range(5):
+              try:
+                  v = req('GET', BASE + '/api/config')
+                  v = v.get('data', v)
+                  vo = v.get('optimizer') or {}
+                  print('回读: preferredIPs=%d subMode=%r subIncludeDefault=%r' % (
+                      len(v.get('preferredIPs') or []),
+                      vo.get('subMode'), vo.get('subIncludeDefault')))
+                  break
+              except Exception as e:
+                  print('回读 attempt %d: %s' % (i, e.__class__.__name__))
+                  time.sleep(4)
+          PY
+          set -e
+
+      - name: 留档
+        run: |
+          set -e
+          echo "applied $(date -u +%Y-%m-%dT%H:%M:%SZ) top=$(python3 -c 'import json;print(len(json.load(open("cfn_top300.json"))))')" > cfn-apply300-summary.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cfn-apply300-summary.txt
+          git diff --quiet --cached -- cfn-apply300-summary.txt || \
+            git commit -m "cfn apply300 summary $(date -u +%Y-%m-%dT%H:%M:%SZ)" || true
