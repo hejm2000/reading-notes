@@ -5,175 +5,175 @@ proxies:
     port: 10202
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-HK-2 (47ms)"
+  - name: "HUB-A-HK-2 (49ms)"
     type: ss
     server: ss.012.node-for-bigairport.win
     port: 10202
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-HK-3 (47ms)"
+  - name: "HUB-A-HK-3"
     type: ss
     server: ss.013.node-for-bigairport.win
     port: 10202
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-HK-4 (47ms)"
+  - name: "HUB-A-HK-4 (50ms)"
     type: ss
     server: ss.014.node-for-bigairport.win
     port: 10202
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-HK-5 (47ms)"
+  - name: "HUB-A-HK-5"
     type: ss
     server: ss.015.node-for-bigairport.win
     port: 10202
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-HK-6 (47ms)"
+  - name: "HUB-A-HK-6 (46ms)"
     type: ss
     server: ss.016.node-for-bigairport.win
     port: 10202
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-HK-7 (93ms)"
+  - name: "HUB-A-HK-7 (89ms)"
     type: ss
     server: ss.017.node-for-bigairport.win
     port: 20002
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-HK-8"
+  - name: "HUB-A-HK-8 (96ms)"
     type: ss
     server: ss.018.node-for-bigairport.win
     port: 20004
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-HK-9 (89ms)"
+  - name: "HUB-A-HK-9"
     type: ss
     server: ss.019.node-for-bigairport.win
     port: 20002
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-HK-10 (95ms)"
+  - name: "HUB-A-HK-10 (98ms)"
     type: ss
     server: ss.020.node-for-bigairport.win
     port: 20002
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-JP-11 (143ms)"
+  - name: "HUB-A-JP-11"
     type: ss
     server: ss.021.node-for-bigairport.win
     port: 20004
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-JP-12 (143ms)"
+  - name: "HUB-A-JP-12 (192ms)"
     type: ss
     server: ss.022.node-for-bigairport.win
     port: 30104
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-JP-13 (181ms)"
+  - name: "HUB-A-JP-13 (193ms)"
     type: ss
     server: ss.023.node-for-bigairport.win
     port: 30104
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-JP-14 (189ms)"
+  - name: "HUB-A-JP-14 (288ms)"
     type: ss
     server: ss.024.node-for-bigairport.win
     port: 20004
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-JP-15 (190ms)"
+  - name: "HUB-A-JP-15"
     type: ss
     server: ss.025.node-for-bigairport.win
     port: 30104
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-JP-16 (188ms)"
+  - name: "HUB-A-JP-16 (338ms)"
     type: ss
     server: ss.026.node-for-bigairport.win
     port: 20004
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-JP-17 (192ms)"
+  - name: "HUB-A-JP-17"
     type: ss
     server: ss.027.node-for-bigairport.win
     port: 30104
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-JP-18 (231ms)"
+  - name: "HUB-A-JP-18 (19619ms)"
     type: ss
     server: ss.028.node-for-bigairport.win
     port: 20004
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-SG-19 (238ms)"
+  - name: "HUB-A-SG-19 (19618ms)"
     type: ss
     server: ss.029.node-for-bigairport.win
     port: 30104
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-SG-20 (235ms)"
+  - name: "HUB-A-SG-20"
     type: ss
     server: ss.030.node-for-bigairport.win
     port: 30104
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-JP-21 (284ms)"
+  - name: "HUB-A-JP-21 (19572ms)"
     type: ss
     server: ss.031.node-for-bigairport.win
     port: 29005
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-JP-22 (242ms)"
+  - name: "HUB-A-JP-22 (19572ms)"
     type: ss
     server: ss.032.node-for-bigairport.win
     port: 29005
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-JP-23 (277ms)"
+  - name: "HUB-A-JP-23 (19569ms)"
     type: ss
     server: ss.033.node-for-bigairport.win
     port: 29005
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-JP-24 (284ms)"
+  - name: "HUB-A-JP-24"
     type: ss
     server: ss.034.node-for-bigairport.win
     port: 20005
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-JP-25 (236ms)"
+  - name: "HUB-A-JP-25 (19470ms)"
     type: ss
     server: ss.035.node-for-bigairport.win
     port: 29005
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-SG-26 (308ms)"
+  - name: "HUB-A-SG-26 (19367ms)"
     type: ss
     server: ss.036.node-for-bigairport.win
     port: 29005
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-SG-27 (278ms)"
+  - name: "HUB-A-SG-27 (260ms)"
     type: ss
     server: ss.037.node-for-bigairport.win
     port: 29005
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-SG-28 (313ms)"
+  - name: "HUB-A-SG-28 (257ms)"
     type: ss
     server: ss.038.node-for-bigairport.win
     port: 20005
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-SG-29 (317ms)"
+  - name: "HUB-A-SG-29 (261ms)"
     type: ss
     server: ss.039.node-for-bigairport.win
     port: 29005
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-SG-30 (271ms)"
+  - name: "HUB-A-SG-30 (325ms)"
     type: ss
     server: ss.040.node-for-bigairport.win
     port: 29005
@@ -192,349 +192,533 @@ proxies:
     server: hk1-r.link-t7.com
     port: 10126
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@hk1-r.link-t7.com:10126?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-2"
     type: vless
     server: hk2-r.link-t7.com
     port: 10127
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@hk2-r.link-t7.com:10127?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-3"
     type: vless
     server: hk3-r.link-t7.com
     port: 10128
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@hk3-r.link-t7.com:10128?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-4"
     type: vless
     server: hk4-r.link-t7.com
     port: 10129
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@hk4-r.link-t7.com:10129?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-5"
     type: vless
     server: hk5-r.link-t7.com
     port: 10130
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@hk5-r.link-t7.com:10130?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-6"
     type: vless
     server: hk6-r.link-t7.com
     port: 10136
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@hk6-r.link-t7.com:10136?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-HK-7"
     type: vless
     server: hk-isp-1.link-t7.com
     port: 10246
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@hk-isp-1.link-t7.com:10246?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.c
   - name: "HUB-B-HK-8"
     type: vless
     server: hk-isp-2.link-t7.com
     port: 10247
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@hk-isp-2.link-t7.com:10247?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.c
   - name: "HUB-B-HK-9"
     type: vless
     server: hk-isp-3.link-t7.com
     port: 10248
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@hk-isp-3.link-t7.com:10248?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.c
   - name: "HUB-B-HK-10"
     type: vless
     server: hk-isp-4.link-t7.com
     port: 10249
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@hk-isp-4.link-t7.com:10249?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.c
   - name: "HUB-B-11"
     type: vless
     server: jp1-r.link-t7.com
     port: 10031
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@jp1-r.link-t7.com:10031?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-12"
     type: vless
     server: jp2-r.link-t7.com
     port: 10032
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@jp2-r.link-t7.com:10032?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-13"
     type: vless
     server: jp3-r.link-t7.com
     port: 10033
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@jp3-r.link-t7.com:10033?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-14"
     type: vless
     server: jp4-r.link-t7.com
     port: 10034
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@jp4-r.link-t7.com:10034?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-15"
     type: vless
     server: jp5-r.link-t7.com
     port: 10035
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@jp5-r.link-t7.com:10035?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-16"
     type: vless
     server: jp6-r.link-t7.com
     port: 10036
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@jp6-r.link-t7.com:10036?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-17"
     type: hysteria2
     server: jp6.dexlos.com
-    port: 21078
+    port: 21025
     tls: true
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp6.dexlos.com:21078/?sni=jp6.dexlos.com#JP6-HY2
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: jp6.dexlos.com
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp6.dexlos.com:21025/?sni=jp6.dexlos.com#JP6-HY2
   - name: "HUB-B-18"
     type: hysteria2
     server: jp7.dexlos.com
-    port: 21216
+    port: 21251
     tls: true
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp7.dexlos.com:21216/?sni=jp7.dexlos.com#JP7-HY2
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: jp7.dexlos.com
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp7.dexlos.com:21251/?sni=jp7.dexlos.com#JP7-HY2
   - name: "HUB-B-19"
     type: hysteria2
     server: jp8.dexlos.com
-    port: 21466
+    port: 21527
     tls: true
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp8.dexlos.com:21466/?sni=jp8.dexlos.com#JP8-HY2
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: jp8.dexlos.com
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp8.dexlos.com:21527/?sni=jp8.dexlos.com#JP8-HY2
   - name: "HUB-B-20"
     type: hysteria2
     server: jp9.dexlos.com
-    port: 21752
+    port: 21718
     tls: true
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp9.dexlos.com:21752/?sni=jp9.dexlos.com#JP9-HY2
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: jp9.dexlos.com
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp9.dexlos.com:21718/?sni=jp9.dexlos.com#JP9-HY2
   - name: "HUB-B-21"
     type: hysteria2
     server: jp10.dexlos.com
-    port: 21818
+    port: 21824
     tls: true
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp10.dexlos.com:21818/?sni=jp10.dexlos.com#JP10-HY2
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: jp10.dexlos.com
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp10.dexlos.com:21824/?sni=jp10.dexlos.com#JP10-HY2
   - name: "HUB-B-22"
     type: vless
     server: kr1-r.link-t7.com
     port: 10046
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@kr1-r.link-t7.com:10046?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-23"
     type: vless
     server: kr2-r.link-t7.com
     port: 10047
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@kr2-r.link-t7.com:10047?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-24"
     type: vless
     server: kr3-r.link-t7.com
     port: 10048
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@kr3-r.link-t7.com:10048?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-25"
     type: vless
     server: kr4-r.link-t7.com
     port: 10049
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@kr4-r.link-t7.com:10049?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-26"
     type: vless
     server: kr5-r.link-t7.com
     port: 10050
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@kr5-r.link-t7.com:10050?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-27"
     type: vless
     server: sg1-r.link-t7.com
     port: 10036
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@sg1-r.link-t7.com:10036?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-28"
     type: vless
     server: sg2-r.link-t7.com
     port: 10037
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@sg2-r.link-t7.com:10037?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-29"
     type: vless
     server: sg3-r.link-t7.com
     port: 10038
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: d1.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@sg3-r.link-t7.com:10038?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=d1.awsstatic.com&
   - name: "HUB-B-30"
     type: vless
     server: sg4-r.link-t7.com
     port: 10039
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: d1.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@sg4-r.link-t7.com:10039?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=d1.awsstatic.com&
   - name: "HUB-B-31"
     type: vless
     server: sg5-r.link-t7.com
     port: 10040
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: d1.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@sg5-r.link-t7.com:10040?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=d1.awsstatic.com&
   - name: "HUB-B-32"
     type: hysteria2
     server: sg1.dexlos.com
-    port: 20081
+    port: 20149
     tls: true
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@sg1.dexlos.com:20081/?sni=sg1.dexlos.com#SG1-HY2
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: sg1.dexlos.com
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@sg1.dexlos.com:20149/?sni=sg1.dexlos.com#SG1-HY2
   - name: "HUB-B-33"
     type: hysteria2
     server: sg2.dexlos.com
-    port: 20239
+    port: 20287
     tls: true
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@sg2.dexlos.com:20239/?sni=sg2.dexlos.com#SG2-HY2
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: sg2.dexlos.com
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@sg2.dexlos.com:20287/?sni=sg2.dexlos.com#SG2-HY2
   - name: "HUB-B-34"
     type: hysteria2
     server: sg3.dexlos.com
-    port: 20443
+    port: 20531
     tls: true
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@sg3.dexlos.com:20443/?sni=sg3.dexlos.com#SG3-HY2
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: sg3.dexlos.com
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@sg3.dexlos.com:20531/?sni=sg3.dexlos.com#SG3-HY2
   - name: "HUB-B-35"
     type: tuic
     server: tw1.dexlos.com
     port: 8080
     tls: true
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956:38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: tw1.dexlos.com
     # raw: tuic://38B05560-C433-4FBD-8F39-1F5E44901956:38B05560-C433-4FBD-8F39-1F5E44901956@tw1.dexlos.com:8080?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=tw1.dexlos.com&insecure=0#TW-1
   - name: "HUB-B-36"
     type: tuic
     server: tw2.dexlos.com
     port: 8080
     tls: true
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956:38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: tw2.dexlos.com
     # raw: tuic://38B05560-C433-4FBD-8F39-1F5E44901956:38B05560-C433-4FBD-8F39-1F5E44901956@tw2.dexlos.com:8080?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=tw2.dexlos.com&insecure=0#TW-2
   - name: "HUB-B-37"
     type: tuic
     server: tw3.dexlos.com
     port: 8080
     tls: true
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956:38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: tw3.dexlos.com
     # raw: tuic://38B05560-C433-4FBD-8F39-1F5E44901956:38B05560-C433-4FBD-8F39-1F5E44901956@tw3.dexlos.com:8080?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=tw3.dexlos.com&insecure=0#TW-3
   - name: "HUB-B-38"
     type: tuic
     server: tw4.dexlos.com
     port: 8080
     tls: true
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956:38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: tw4.dexlos.com
     # raw: tuic://38B05560-C433-4FBD-8F39-1F5E44901956:38B05560-C433-4FBD-8F39-1F5E44901956@tw4.dexlos.com:8080?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=tw4.dexlos.com&insecure=0#TW-4
   - name: "HUB-B-39"
     type: tuic
     server: tw5.dexlos.com
     port: 8080
     tls: true
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956:38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: tw5.dexlos.com
     # raw: tuic://38B05560-C433-4FBD-8F39-1F5E44901956:38B05560-C433-4FBD-8F39-1F5E44901956@tw5.dexlos.com:8080?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=tw5.dexlos.com&insecure=0#TW-5
   - name: "HUB-B-40"
     type: tuic
     server: tw6.dexlos.com
     port: 8080
     tls: true
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956:38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: tw6.dexlos.com
     # raw: tuic://38B05560-C433-4FBD-8F39-1F5E44901956:38B05560-C433-4FBD-8F39-1F5E44901956@tw6.dexlos.com:8080?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=tw6.dexlos.com&insecure=0#TW-6
   - name: "HUB-B-41"
     type: tuic
     server: tw7.dexlos.com
     port: 8080
     tls: true
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956:38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: tw7.dexlos.com
     # raw: tuic://38B05560-C433-4FBD-8F39-1F5E44901956:38B05560-C433-4FBD-8F39-1F5E44901956@tw7.dexlos.com:8080?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=tw7.dexlos.com&insecure=0#TW-7
   - name: "HUB-B-42"
     type: tuic
     server: tw8.dexlos.com
     port: 8080
     tls: true
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956:38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: tw8.dexlos.com
     # raw: tuic://38B05560-C433-4FBD-8F39-1F5E44901956:38B05560-C433-4FBD-8F39-1F5E44901956@tw8.dexlos.com:8080?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=tw8.dexlos.com&insecure=0#TW-8
   - name: "HUB-B-43"
     type: tuic
     server: tw9.dexlos.com
     port: 8080
     tls: true
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956:38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: tw9.dexlos.com
     # raw: tuic://38B05560-C433-4FBD-8F39-1F5E44901956:38B05560-C433-4FBD-8F39-1F5E44901956@tw9.dexlos.com:8080?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=tw9.dexlos.com&insecure=0#TW-9
   - name: "HUB-B-44"
     type: tuic
     server: tw10.dexlos.com
     port: 8080
     tls: true
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956:38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: tw10.dexlos.com
     # raw: tuic://38B05560-C433-4FBD-8F39-1F5E44901956:38B05560-C433-4FBD-8F39-1F5E44901956@tw10.dexlos.com:8080?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=tw10.dexlos.com&insecure=0#TW-10
   - name: "HUB-B-45"
     type: vless
     server: us1-r.link-t7.com
     port: 10238
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@us1-r.link-t7.com:10238?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-46"
     type: vless
     server: us2-r.link-t7.com
     port: 10239
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@us2-r.link-t7.com:10239?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-47"
     type: vless
     server: us3-r.link-t7.com
     port: 10240
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@us3-r.link-t7.com:10240?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-48"
     type: vless
     server: us4-r.link-t7.com
     port: 10241
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@us4-r.link-t7.com:10241?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-49"
     type: vless
     server: us5-r.link-t7.com
     port: 10242
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@us5-r.link-t7.com:10242?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-50"
     type: vless
     server: us6-r.link-t7.com
     port: 10243
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@us6-r.link-t7.com:10243?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-51"
     type: vless
     server: us7-r.link-t7.com
     port: 10244
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@us7-r.link-t7.com:10244?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-52"
     type: vless
     server: us8-r.link-t7.com
     port: 10245
     tls: true
+    uuid: 38B05560-C433-4FBD-8F39-1F5E44901956
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    fingerprint: chrome
+    servername: s0.awsstatic.com
     # raw: vless://38B05560-C433-4FBD-8F39-1F5E44901956@us8-r.link-t7.com:10245?type=grpc&encryption=none&security=reality&flow=&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE&sid=686c0ef0&sni=s0.awsstatic.com&
   - name: "HUB-B-53"
     type: hysteria2
     server: us1.dexlos.com
-    port: 20164
+    port: 20165
     tls: true
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us1.dexlos.com:20164/?sni=us1.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US1-HY2
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: us1.dexlos.com
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us1.dexlos.com:20165/?sni=us1.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US1-HY2
   - name: "HUB-B-54"
     type: hysteria2
     server: us2.dexlos.com
-    port: 20210
+    port: 20266
     tls: true
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us2.dexlos.com:20210/?sni=us2.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US2-HY2
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: us2.dexlos.com
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us2.dexlos.com:20266/?sni=us2.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US2-HY2
   - name: "HUB-B-55"
     type: hysteria2
     server: us3.dexlos.com
-    port: 20433
+    port: 20490
     tls: true
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us3.dexlos.com:20433/?sni=us3.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US3-HY2
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: us3.dexlos.com
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us3.dexlos.com:20490/?sni=us3.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US3-HY2
   - name: "HUB-B-56"
     type: hysteria2
     server: us4.dexlos.com
-    port: 20687
+    port: 20728
     tls: true
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us4.dexlos.com:20687/?sni=us4.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US4-HY2
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: us4.dexlos.com
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us4.dexlos.com:20728/?sni=us4.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US4-HY2
   - name: "HUB-B-57"
     type: hysteria2
     server: us5.dexlos.com
-    port: 20845
+    port: 20847
     tls: true
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us5.dexlos.com:20845/?sni=us5.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US5-HY2
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: us5.dexlos.com
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us5.dexlos.com:20847/?sni=us5.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US5-HY2
   - name: "HUB-B-58"
     type: hysteria2
     server: us6.dexlos.com
-    port: 21067
+    port: 21198
     tls: true
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us6.dexlos.com:21067/?sni=us6.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US6-HY2
+    password: 38B05560-C433-4FBD-8F39-1F5E44901956
+    servername: us6.dexlos.com
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us6.dexlos.com:21198/?sni=us6.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US6-HY2
   - name: "HUB-C-1"
     type: vless
     server: 212.16.92.112
@@ -2380,44 +2564,60 @@ proxies:
     type: http
   - name: "HUB-E-1"
     type: http
-    server: fan.571589.xyz
+    server: webdrone.club
     port: 443
+    username: T2s1dmJtVT06
     tls: true
-    sni: fan.571589.xyz
+    sni: webdrone.club
   - name: "HUB-E-2"
     type: http
-    server: 138.199.35.217
+    server: 138.199.35.219
     port: 9002
-    password: None
     tls: true
-    sni: 138.199.35.217
     skip-cert-verify: true
   - name: "HUB-E-3"
     type: http
-    server: 138.199.35.208
-    port: 9002
+    server: 149.36.50.157
+    port: 443
     tls: true
     skip-cert-verify: true
   - name: "HUB-E-4"
     type: http
-    server: fan.587475.xyz
-    port: 443
+    server: 193.176.84.26
+    port: 9002
     tls: true
+    sni: www.bing.com
     skip-cert-verify: true
   - name: "HUB-E-5"
-    type: http
-    server: 193.176.84.35
-    port: 9002
+    type: vless
+    server: 104.21.47.191
+    port: 443
+    uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
     tls: true
+    servername: 5-M19.NortH-kOrea-FloW.kDns.FR
     skip-cert-verify: true
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /CjBjB9sn5pCvaSwScc
   - name: "HUB-E-6"
-    type: http
-    server: 84.17.47.148
-    port: 9002
-    password: None
-    tls: true
-    skip-cert-verify: true
+    type: ss
+    server: 92.5.231.133
+    port: 45819
+    cipher: 2022-blake3-chacha20-poly1305
+    password: gBPl8MuQUn/PBFVy+dKiMcPL6c0Ergh8ZmmGqMIH2NA=
   - name: "HUB-E-7"
+    type: vless
+    server: 13.143.137.164
+    port: 9443
+    uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+    flow: xtls-rprx-vision
+    tls: true
+    servername: plaincanvas.videoclothing.xyz
+    client-fingerprint: firefox
+    public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
+    short-id: e336c9a786fae301
+  - name: "HUB-E-8"
     type: hysteria2
     server: 24.233.8.109
     port: 443
@@ -2426,106 +2626,84 @@ proxies:
     skip-cert-verify: true
     obfs: salamander
     obfs-password: c8827ab99e316c5bd414e21afa915ddf
-  - name: "HUB-E-8"
-    type: http
-    server: carolinafreigh.fun
-    port: 443
-    username: Ok5vbmU=
-    tls: true
   - name: "HUB-E-9"
     type: socks5
-    server: 121.169.46.116
-    port: 1090
-    username: VkRKamJFMHdVV3hOTUZFMk9nOlZESmpiRTB3VVd4Tk1GRTJPZw==
-  - name: "HUB-E-11"
-    type: ss
-    server: 3.148.253.102
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "HUB-E-12"
+    server: 144.91.121.61
+    port: 1088
+  - name: "HUB-E-10"
     type: http
-    server: 51.158.243.91
-    port: 443
-    tls: true
-    sni: 51.158.243.91
-    skip-cert-verify: true
-  - name: "HUB-E-13"
-    type: http
-    server: 138.199.35.205
+    server: 138.199.35.197
     port: 9002
-    tls: true
-    skip-cert-verify: true
-  - name: "HUB-E-14"
-    type: http
-    server: 138.199.35.212
-    port: 9002
-    tls: true
-    sni: 138.199.35.212
-    skip-cert-verify: true
-  - name: "HUB-E-15"
-    type: socks5
-    server: 83.147.216.208
-    port: 1080
-    username: Og==
-  - name: "HUB-E-16"
-    type: anytls
-    server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
-    port: 443
-    password: 9sK2mP8xQ7vL3nZ6
-    sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
-    skip-cert-verify: true
-    client-fingerprint: chrome
-  - name: "HUB-E-17"
-    type: hysteria2
-    server: es1.xiaoliyu.cyou
-    port: 4433
-    password: 19f72087-4591-4d72-930b-2697078ec2be
-    skip-cert-verify: true
-  - name: "HUB-E-18"
-    type: http
-    server: mmgr.club
-    port: 443
     password: None
     tls: true
     skip-cert-verify: true
+  - name: "HUB-E-11"
+    type: http
+    server: jgwynphotoarts.pro
+    port: 443
+    tls: true
+  - name: "HUB-E-12"
+    type: socks5
+    server: 144.24.47.42
+    port: 1080
+  - name: "HUB-E-14"
+    type: http
+    server: fan.973511.xyz
+    port: 443
+    tls: true
+    skip-cert-verify: true
+  - name: "HUB-E-15"
+    type: http
+    server: 138.199.35.204
+    port: 9002
+    tls: true
+    sni: 138.199.35.204
+    skip-cert-verify: true
+  - name: "HUB-E-16"
+    type: http
+    server: 193.35.104.196
+    port: 443
+    tls: true
+    sni: 193.35.104.196
+    skip-cert-verify: true
+  - name: "HUB-E-17"
+    type: http
+    server: sr2-id.freeconnect.link
+    port: 9251
+    username: freeuser1
+    password: freeuser1
+    tls: true
+  - name: "HUB-E-18"
+    type: ss
+    server: 129.151.65.24
+    port: 61312
+    cipher: 2022-blake3-chacha20-poly1305
+    password: YtbZ5p/WBjlRfs2aQ1vr44sGpkdKyx5Xbdd+DKP7ke0=
   - name: "HUB-E-19"
     type: http
-    server: fan.132031.xyz
+    server: fan.587475.xyz
     port: 443
     tls: true
     skip-cert-verify: true
   - name: "HUB-E-20"
-    type: hysteria2
-    server: gta.internet-card.sbs
+    type: http
+    server: fan.240104.xyz
     port: 443
-    password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-    sni: gta.internet-card.sbs
+    tls: true
+    sni: fan.240104.xyz
   - name: "HUB-E-21"
     type: http
-    server: 193.176.84.16
+    server: 138.199.35.202
     port: 9002
-    password: None
     tls: true
+    sni: 138.199.35.202
     skip-cert-verify: true
   - name: "HUB-E-22"
-    type: http
-    server: 138.199.35.200
-    port: 9002
-    tls: true
-    sni: 138.199.35.200
-    skip-cert-verify: true
+    type: socks5
+    server: 121.169.46.116
+    port: 1090
+    username: VkRKak9WQlViejA2Og==
   - name: "HUB-E-24"
-    type: vless
-    server: 186.246.10.40
-    port: 443
-    uuid: 86ea1e85-b95d-4afd-b28f-b41831d56665
-    tls: true
-    servername: cdn.dachniy-vopros.org
-    network: ws
-    ws-opts:
-      path: /home
-  - name: "HUB-E-25"
     type: http
     server: 146.70.29.45
     port: 443
@@ -2533,14 +2711,8 @@ proxies:
     password: e4b72b531a2d10900519
     tls: true
     sni: 92461d2d.acsnet.co
-  - name: "HUB-E-27"
-    type: http
-    server: sr2-id.freeconnect.link
-    port: 9251
-    username: freeuser1
-    password: freeuser1
-    tls: true
-  - name: "HUB-E-29"
+    skip-cert-verify: true
+  - name: "HUB-E-25"
     type: vless
     server: 8.222.70.238
     port: 443
@@ -7730,7 +7902,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-381"
     type: vless
-    server: 104.16.124.96
+    server: 104.16.123.96
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -7778,7 +7950,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-385"
     type: vless
-    server: 172.67.221.62
+    server: 104.21.24.249
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -7814,7 +7986,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-388"
     type: vless
-    server: 172.67.153.253
+    server: 104.21.90.78
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -7826,7 +7998,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-389"
     type: vless
-    server: 104.17.185.207
+    server: 104.17.101.139
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -7838,7 +8010,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-390"
     type: vless
-    server: 104.18.42.54
+    server: 172.64.145.202
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -7850,7 +8022,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-391"
     type: vless
-    server: 172.67.189.246
+    server: 104.21.89.164
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -7862,7 +8034,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-392"
     type: vless
-    server: 162.159.135.234
+    server: 162.159.130.234
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -7874,7 +8046,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-393"
     type: vless
-    server: 104.16.250.22
+    server: 104.18.185.26
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -7886,7 +8058,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-394"
     type: vless
-    server: 104.16.123.96
+    server: 104.16.124.96
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -7922,7 +8094,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-397"
     type: vless
-    server: 104.21.24.249
+    server: 172.67.221.62
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -7958,7 +8130,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-400"
     type: vless
-    server: 104.21.90.78
+    server: 172.67.153.253
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -7970,7 +8142,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-401"
     type: vless
-    server: 104.17.101.139
+    server: 104.17.185.207
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -7982,7 +8154,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-402"
     type: vless
-    server: 172.64.145.202
+    server: 104.18.42.54
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -7994,7 +8166,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-403"
     type: vless
-    server: 104.21.89.164
+    server: 172.67.189.246
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -8006,7 +8178,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-404"
     type: vless
-    server: 162.159.130.234
+    server: 162.159.135.234
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -8018,7 +8190,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-405"
     type: vless
-    server: 104.21.227.134
+    server: 104.21.224.5
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -8030,7 +8202,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-406"
     type: vless
-    server: 104.21.224.5
+    server: 104.21.227.134
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -8042,7 +8214,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-407"
     type: vless
-    server: 104.18.185.26
+    server: 104.16.250.22
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11510,7 +11682,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-696"
     type: vless
-    server: 104.25.148.19
+    server: 104.20.230.116
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11522,7 +11694,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-697"
     type: vless
-    server: 172.71.128.67
+    server: 188.114.102.31
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11534,7 +11706,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-698"
     type: vless
-    server: 162.159.34.198
+    server: 188.114.100.132
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11546,7 +11718,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-699"
     type: vless
-    server: 104.27.124.217
+    server: 104.19.60.163
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11558,7 +11730,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-700"
     type: vless
-    server: 104.25.18.85
+    server: 162.159.251.179
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11570,7 +11742,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-701"
     type: vless
-    server: 172.65.242.114
+    server: 104.27.226.208
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11582,7 +11754,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-702"
     type: vless
-    server: 188.114.106.163
+    server: 104.17.53.195
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11594,7 +11766,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-703"
     type: vless
-    server: 188.114.102.94
+    server: 172.67.239.168
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11606,7 +11778,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-704"
     type: vless
-    server: 104.17.52.61
+    server: 172.68.27.185
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11618,7 +11790,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-705"
     type: vless
-    server: 188.114.99.254
+    server: 172.65.50.151
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11630,7 +11802,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-706"
     type: vless
-    server: 188.114.109.42
+    server: 104.16.30.147
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11642,7 +11814,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-707"
     type: vless
-    server: 104.22.130.160
+    server: 104.25.247.96
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11654,7 +11826,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-708"
     type: vless
-    server: 172.65.119.205
+    server: 172.66.237.19
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11666,7 +11838,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-709"
     type: vless
-    server: 188.114.108.243
+    server: 104.16.54.225
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11678,7 +11850,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-710"
     type: vless
-    server: 104.24.245.42
+    server: 162.159.149.252
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11690,7 +11862,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-711"
     type: vless
-    server: 104.23.234.102
+    server: 104.17.175.154
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11702,7 +11874,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-712"
     type: vless
-    server: 104.25.204.181
+    server: 104.25.122.105
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11714,7 +11886,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-713"
     type: vless
-    server: 104.21.173.211
+    server: 188.114.111.223
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11726,7 +11898,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-714"
     type: vless
-    server: 172.70.5.90
+    server: 104.27.109.85
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11738,7 +11910,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-715"
     type: vless
-    server: 162.159.151.24
+    server: 188.114.111.64
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11750,7 +11922,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-716"
     type: vless
-    server: 172.68.10.194
+    server: 162.158.144.231
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11762,7 +11934,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-717"
     type: vless
-    server: 104.26.226.36
+    server: 162.159.156.149
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11774,7 +11946,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-718"
     type: vless
-    server: 172.66.144.154
+    server: 104.17.21.212
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11786,7 +11958,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-719"
     type: vless
-    server: 188.114.106.132
+    server: 188.114.98.136
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11798,7 +11970,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-720"
     type: vless
-    server: 188.114.107.4
+    server: 172.65.58.202
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11810,7 +11982,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-721"
     type: vless
-    server: 104.25.57.247
+    server: 162.159.254.146
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11822,7 +11994,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-722"
     type: vless
-    server: 172.71.138.144
+    server: 104.27.75.145
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11834,7 +12006,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-723"
     type: vless
-    server: 172.71.229.196
+    server: 104.26.1.184
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11846,7 +12018,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-724"
     type: vless
-    server: 172.65.57.190
+    server: 162.158.20.15
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11858,7 +12030,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-725"
     type: vless
-    server: 162.159.182.198
+    server: 104.22.127.189
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11870,7 +12042,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-726"
     type: vless
-    server: 104.26.248.174
+    server: 188.114.101.88
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11882,7 +12054,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-727"
     type: vless
-    server: 104.19.242.159
+    server: 162.158.207.115
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11894,7 +12066,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-728"
     type: vless
-    server: 172.71.204.220
+    server: 104.17.41.228
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11906,7 +12078,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-729"
     type: vless
-    server: 188.114.100.155
+    server: 162.158.110.249
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11918,7 +12090,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-730"
     type: vless
-    server: 162.159.222.247
+    server: 188.114.109.48
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11930,7 +12102,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-731"
     type: vless
-    server: 104.22.66.228
+    server: 188.114.105.45
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11942,7 +12114,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-732"
     type: vless
-    server: 104.19.147.37
+    server: 188.114.99.113
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11954,7 +12126,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-733"
     type: vless
-    server: 104.27.245.77
+    server: 104.22.65.90
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11966,7 +12138,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-734"
     type: vless
-    server: 104.24.105.199
+    server: 162.159.248.241
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11978,7 +12150,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-735"
     type: vless
-    server: 188.114.106.152
+    server: 172.65.129.134
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -11990,7 +12162,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-736"
     type: vless
-    server: 104.25.89.1
+    server: 188.114.102.204
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12002,7 +12174,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-737"
     type: vless
-    server: 104.25.160.250
+    server: 162.159.133.57
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12014,7 +12186,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-738"
     type: vless
-    server: 162.158.139.47
+    server: 104.18.200.128
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12026,7 +12198,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-739"
     type: vless
-    server: 104.23.149.36
+    server: 162.159.73.160
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12038,7 +12210,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-740"
     type: vless
-    server: 104.26.222.121
+    server: 162.159.59.217
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12050,7 +12222,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-741"
     type: vless
-    server: 172.68.127.8
+    server: 162.158.62.56
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12062,7 +12234,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-742"
     type: vless
-    server: 104.24.179.191
+    server: 104.18.114.15
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12074,7 +12246,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-743"
     type: vless
-    server: 162.158.189.51
+    server: 104.20.146.8
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12086,7 +12258,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-744"
     type: vless
-    server: 104.24.98.166
+    server: 172.70.243.156
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12098,7 +12270,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-745"
     type: vless
-    server: 104.25.213.5
+    server: 172.69.76.165
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12110,7 +12282,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-746"
     type: vless
-    server: 104.20.130.119
+    server: 162.158.67.153
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12122,7 +12294,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-747"
     type: vless
-    server: 172.68.12.147
+    server: 172.71.16.43
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12134,7 +12306,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-748"
     type: vless
-    server: 188.114.99.13
+    server: 104.26.212.251
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12146,7 +12318,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-749"
     type: vless
-    server: 104.24.156.191
+    server: 172.70.81.90
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12158,7 +12330,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-750"
     type: vless
-    server: 162.158.45.43
+    server: 162.158.118.103
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12170,7 +12342,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-751"
     type: vless
-    server: 172.64.202.235
+    server: 104.26.214.50
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12182,7 +12354,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-752"
     type: vless
-    server: 172.70.242.51
+    server: 104.25.27.149
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12194,7 +12366,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-753"
     type: vless
-    server: 104.27.200.99
+    server: 172.66.224.160
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12206,7 +12378,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-754"
     type: vless
-    server: 172.64.180.175
+    server: 104.21.66.192
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12218,7 +12390,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-755"
     type: vless
-    server: 104.26.126.97
+    server: 104.26.65.29
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12230,7 +12402,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-756"
     type: vless
-    server: 188.114.100.40
+    server: 104.26.206.229
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12242,7 +12414,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-757"
     type: vless
-    server: 172.64.180.139
+    server: 104.24.164.50
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12254,7 +12426,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-758"
     type: vless
-    server: 188.114.108.255
+    server: 104.21.76.122
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12266,7 +12438,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-759"
     type: vless
-    server: 104.26.111.247
+    server: 104.26.41.81
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12278,7 +12450,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-760"
     type: vless
-    server: 162.159.49.105
+    server: 188.114.108.51
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12290,7 +12462,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-761"
     type: vless
-    server: 104.25.173.168
+    server: 188.114.99.214
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12302,7 +12474,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-762"
     type: vless
-    server: 188.114.102.143
+    server: 172.68.14.238
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12314,7 +12486,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-763"
     type: vless
-    server: 172.71.76.158
+    server: 162.158.239.15
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12326,7 +12498,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-764"
     type: vless
-    server: 104.27.68.234
+    server: 188.114.111.248
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12338,7 +12510,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-765"
     type: vless
-    server: 104.23.115.148
+    server: 188.114.100.27
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12350,7 +12522,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-766"
     type: vless
-    server: 162.158.59.55
+    server: 188.114.99.53
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12362,7 +12534,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-767"
     type: vless
-    server: 104.27.148.66
+    server: 188.114.99.219
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12374,7 +12546,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-768"
     type: vless
-    server: 162.158.114.117
+    server: 104.25.116.192
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12386,7 +12558,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-769"
     type: vless
-    server: 104.17.233.21
+    server: 104.19.78.187
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12398,7 +12570,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-770"
     type: vless
-    server: 172.71.202.133
+    server: 104.25.54.104
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12410,7 +12582,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-771"
     type: vless
-    server: 104.25.59.84
+    server: 104.24.10.161
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12422,7 +12594,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-772"
     type: vless
-    server: 188.114.108.175
+    server: 172.69.143.122
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12434,7 +12606,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-773"
     type: vless
-    server: 104.27.62.125
+    server: 162.158.44.46
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12446,7 +12618,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-774"
     type: vless
-    server: 162.159.241.105
+    server: 104.23.180.225
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12458,7 +12630,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-775"
     type: vless
-    server: 172.69.18.30
+    server: 172.66.154.29
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12470,7 +12642,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-776"
     type: vless
-    server: 104.26.212.233
+    server: 188.114.110.33
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12482,7 +12654,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-777"
     type: vless
-    server: 172.70.103.97
+    server: 162.159.182.137
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12494,7 +12666,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-778"
     type: vless
-    server: 104.24.244.162
+    server: 188.114.96.41
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12506,7 +12678,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-779"
     type: vless
-    server: 162.159.83.128
+    server: 162.159.67.5
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12518,7 +12690,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-780"
     type: vless
-    server: 188.114.109.8
+    server: 162.158.217.0
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12530,7 +12702,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-781"
     type: vless
-    server: 188.114.106.66
+    server: 162.158.160.244
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12540,103 +12712,7 @@ proxies:
     client-fingerprint: chrome
     ws-opts:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
-  - name: "HUB-CFN-783"
-    type: vless
-    server: 162.158.153.173
-    port: 443
-    uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
-    network: ws
-    tls: true
-    skip-cert-verify: false
-    servername: cfnext.opera-masque.workers.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
-  - name: "HUB-CFN-784"
-    type: vless
-    server: 162.158.122.147
-    port: 443
-    uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
-    network: ws
-    tls: true
-    skip-cert-verify: false
-    servername: cfnext.opera-masque.workers.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
-  - name: "HUB-CFN-785"
-    type: vless
-    server: 172.69.66.204
-    port: 443
-    uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
-    network: ws
-    tls: true
-    skip-cert-verify: false
-    servername: cfnext.opera-masque.workers.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
-  - name: "HUB-CFN-786"
-    type: vless
-    server: 188.114.107.215
-    port: 443
-    uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
-    network: ws
-    tls: true
-    skip-cert-verify: false
-    servername: cfnext.opera-masque.workers.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
-  - name: "HUB-CFN-787"
-    type: vless
-    server: 104.24.122.247
-    port: 443
-    uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
-    network: ws
-    tls: true
-    skip-cert-verify: false
-    servername: cfnext.opera-masque.workers.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
-  - name: "HUB-CFN-788"
-    type: vless
-    server: 188.114.111.133
-    port: 443
-    uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
-    network: ws
-    tls: true
-    skip-cert-verify: false
-    servername: cfnext.opera-masque.workers.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
-  - name: "HUB-CFN-789"
-    type: vless
-    server: 188.114.105.142
-    port: 443
-    uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
-    network: ws
-    tls: true
-    skip-cert-verify: false
-    servername: cfnext.opera-masque.workers.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
-  - name: "HUB-CFN-790"
-    type: vless
-    server: 104.24.155.156
-    port: 443
-    uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
-    network: ws
-    tls: true
-    skip-cert-verify: false
-    servername: cfnext.opera-masque.workers.dev
-    client-fingerprint: chrome
-    ws-opts:
-      path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
-  - name: "HUB-CFN-791"
+  - name: "HUB-CFN-782"
     type: vless
     server: 188.114.102.56
     port: 443
@@ -12648,9 +12724,117 @@ proxies:
     client-fingerprint: chrome
     ws-opts:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
+  - name: "HUB-CFN-783"
+    type: vless
+    server: 172.69.163.207
+    port: 443
+    uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
+    network: ws
+    tls: true
+    skip-cert-verify: false
+    servername: cfnext.opera-masque.workers.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
+  - name: "HUB-CFN-784"
+    type: vless
+    server: 104.27.59.49
+    port: 443
+    uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
+    network: ws
+    tls: true
+    skip-cert-verify: false
+    servername: cfnext.opera-masque.workers.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
+  - name: "HUB-CFN-785"
+    type: vless
+    server: 172.70.100.13
+    port: 443
+    uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
+    network: ws
+    tls: true
+    skip-cert-verify: false
+    servername: cfnext.opera-masque.workers.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
+  - name: "HUB-CFN-786"
+    type: vless
+    server: 188.114.110.30
+    port: 443
+    uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
+    network: ws
+    tls: true
+    skip-cert-verify: false
+    servername: cfnext.opera-masque.workers.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
+  - name: "HUB-CFN-787"
+    type: vless
+    server: 104.26.174.114
+    port: 443
+    uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
+    network: ws
+    tls: true
+    skip-cert-verify: false
+    servername: cfnext.opera-masque.workers.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
+  - name: "HUB-CFN-788"
+    type: vless
+    server: 172.65.236.193
+    port: 443
+    uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
+    network: ws
+    tls: true
+    skip-cert-verify: false
+    servername: cfnext.opera-masque.workers.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
+  - name: "HUB-CFN-789"
+    type: vless
+    server: 104.26.178.60
+    port: 443
+    uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
+    network: ws
+    tls: true
+    skip-cert-verify: false
+    servername: cfnext.opera-masque.workers.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
+  - name: "HUB-CFN-790"
+    type: vless
+    server: 104.27.248.173
+    port: 443
+    uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
+    network: ws
+    tls: true
+    skip-cert-verify: false
+    servername: cfnext.opera-masque.workers.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
+  - name: "HUB-CFN-791"
+    type: vless
+    server: 188.114.110.255
+    port: 443
+    uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
+    network: ws
+    tls: true
+    skip-cert-verify: false
+    servername: cfnext.opera-masque.workers.dev
+    client-fingerprint: chrome
+    ws-opts:
+      path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-792"
     type: vless
-    server: 104.25.194.226
+    server: 104.27.48.3
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12662,7 +12846,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-793"
     type: vless
-    server: 162.158.175.163
+    server: 188.114.106.145
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12674,7 +12858,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-794"
     type: vless
-    server: 188.114.107.153
+    server: 162.159.236.62
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12686,7 +12870,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-795"
     type: vless
-    server: 172.69.50.187
+    server: 172.69.224.197
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12698,7 +12882,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-796"
     type: vless
-    server: 172.68.108.11
+    server: 162.158.241.200
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12710,7 +12894,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-797"
     type: vless
-    server: 188.114.107.180
+    server: 188.114.97.238
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12722,7 +12906,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-798"
     type: vless
-    server: 172.65.17.208
+    server: 162.159.128.57
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12734,7 +12918,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-799"
     type: vless
-    server: 172.64.145.129
+    server: 104.24.164.185
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12746,7 +12930,7 @@ proxies:
       path: /990f7b89-3ebc-4254-a64e-6714e3f12ff0
   - name: "HUB-CFN-800"
     type: vless
-    server: 162.158.221.187
+    server: 104.18.65.84
     port: 443
     uuid: 990f7b89-3ebc-4254-a64e-6714e3f12ff0
     network: ws
@@ -12772,35 +12956,35 @@ proxy-groups:
     type: url-test
     proxies:
       - "HUB-A-HK-1 (47ms)"
-      - "HUB-A-HK-2 (47ms)"
-      - "HUB-A-HK-3 (47ms)"
-      - "HUB-A-HK-4 (47ms)"
-      - "HUB-A-HK-5 (47ms)"
-      - "HUB-A-HK-6 (47ms)"
-      - "HUB-A-HK-7 (93ms)"
-      - "HUB-A-HK-8"
-      - "HUB-A-HK-9 (89ms)"
-      - "HUB-A-HK-10 (95ms)"
-      - "HUB-A-JP-11 (143ms)"
-      - "HUB-A-JP-12 (143ms)"
-      - "HUB-A-JP-13 (181ms)"
-      - "HUB-A-JP-14 (189ms)"
-      - "HUB-A-JP-15 (190ms)"
-      - "HUB-A-JP-16 (188ms)"
-      - "HUB-A-JP-17 (192ms)"
-      - "HUB-A-JP-18 (231ms)"
-      - "HUB-A-SG-19 (238ms)"
-      - "HUB-A-SG-20 (235ms)"
-      - "HUB-A-JP-21 (284ms)"
-      - "HUB-A-JP-22 (242ms)"
-      - "HUB-A-JP-23 (277ms)"
-      - "HUB-A-JP-24 (284ms)"
-      - "HUB-A-JP-25 (236ms)"
-      - "HUB-A-SG-26 (308ms)"
-      - "HUB-A-SG-27 (278ms)"
-      - "HUB-A-SG-28 (313ms)"
-      - "HUB-A-SG-29 (317ms)"
-      - "HUB-A-SG-30 (271ms)"
+      - "HUB-A-HK-2 (49ms)"
+      - "HUB-A-HK-3"
+      - "HUB-A-HK-4 (50ms)"
+      - "HUB-A-HK-5"
+      - "HUB-A-HK-6 (46ms)"
+      - "HUB-A-HK-7 (89ms)"
+      - "HUB-A-HK-8 (96ms)"
+      - "HUB-A-HK-9"
+      - "HUB-A-HK-10 (98ms)"
+      - "HUB-A-JP-11"
+      - "HUB-A-JP-12 (192ms)"
+      - "HUB-A-JP-13 (193ms)"
+      - "HUB-A-JP-14 (288ms)"
+      - "HUB-A-JP-15"
+      - "HUB-A-JP-16 (338ms)"
+      - "HUB-A-JP-17"
+      - "HUB-A-JP-18 (19619ms)"
+      - "HUB-A-SG-19 (19618ms)"
+      - "HUB-A-SG-20"
+      - "HUB-A-JP-21 (19572ms)"
+      - "HUB-A-JP-22 (19572ms)"
+      - "HUB-A-JP-23 (19569ms)"
+      - "HUB-A-JP-24"
+      - "HUB-A-JP-25 (19470ms)"
+      - "HUB-A-SG-26 (19367ms)"
+      - "HUB-A-SG-27 (260ms)"
+      - "HUB-A-SG-28 (257ms)"
+      - "HUB-A-SG-29 (261ms)"
+      - "HUB-A-SG-30 (325ms)"
       - "HUB-A-31"
       - "HUB-B-1"
       - "HUB-B-2"
@@ -13078,9 +13262,9 @@ proxy-groups:
       - "HUB-E-7"
       - "HUB-E-8"
       - "HUB-E-9"
+      - "HUB-E-10"
       - "HUB-E-11"
       - "HUB-E-12"
-      - "HUB-E-13"
       - "HUB-E-14"
       - "HUB-E-15"
       - "HUB-E-16"
@@ -13092,8 +13276,6 @@ proxy-groups:
       - "HUB-E-22"
       - "HUB-E-24"
       - "HUB-E-25"
-      - "HUB-E-27"
-      - "HUB-E-29"
       - "HUB-OM-1"
       - "HUB-OM-2"
       - "HUB-OM-3"
@@ -13931,6 +14113,7 @@ proxy-groups:
       - "HUB-CFN-779"
       - "HUB-CFN-780"
       - "HUB-CFN-781"
+      - "HUB-CFN-782"
       - "HUB-CFN-783"
       - "HUB-CFN-784"
       - "HUB-CFN-785"
