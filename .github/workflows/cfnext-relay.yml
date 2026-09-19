@@ -10,8 +10,6 @@ on:
   schedule:
     - cron: '*/4 * * * *'  # 每 4 小时
   workflow_dispatch:
-  push:
-    branches: [main]
 
 permissions:
   contents: write
