@@ -109,23 +109,17 @@ proxies:
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
   - name: "HUB-A-SG-19"
     type: ss
-    server: ss.038.node-for-bigairport.win
-    port: 20005
-    cipher: aes-256-gcm
-    password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-SG-20"
-    type: ss
     server: ss.039.node-for-bigairport.win
     port: 29005
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-SG-21"
+  - name: "HUB-A-SG-20"
     type: ss
     server: ss.040.node-for-bigairport.win
     port: 29005
     cipher: aes-256-gcm
     password: 94267415-0347-44e2-92ff-a98dbbb4ef4d
-  - name: "HUB-A-22"
+  - name: "HUB-A-21"
     type: vmess
     server: 1.1.1.1
     port: 65535
@@ -296,43 +290,43 @@ proxies:
   - name: "HUB-B-17"
     type: hysteria2
     server: jp6.dexlos.com
-    port: 21005
+    port: 21198
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: jp6.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp6.dexlos.com:21005/?sni=jp6.dexlos.com#JP6-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp6.dexlos.com:21198/?sni=jp6.dexlos.com#JP6-HY2
   - name: "HUB-B-18"
     type: hysteria2
     server: jp7.dexlos.com
-    port: 21351
+    port: 21341
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: jp7.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp7.dexlos.com:21351/?sni=jp7.dexlos.com#JP7-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp7.dexlos.com:21341/?sni=jp7.dexlos.com#JP7-HY2
   - name: "HUB-B-19"
     type: hysteria2
     server: jp8.dexlos.com
-    port: 21487
+    port: 21502
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: jp8.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp8.dexlos.com:21487/?sni=jp8.dexlos.com#JP8-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp8.dexlos.com:21502/?sni=jp8.dexlos.com#JP8-HY2
   - name: "HUB-B-20"
     type: hysteria2
     server: jp9.dexlos.com
-    port: 21675
+    port: 21753
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: jp9.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp9.dexlos.com:21675/?sni=jp9.dexlos.com#JP9-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp9.dexlos.com:21753/?sni=jp9.dexlos.com#JP9-HY2
   - name: "HUB-B-21"
     type: hysteria2
     server: jp10.dexlos.com
-    port: 21948
+    port: 21874
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: jp10.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp10.dexlos.com:21948/?sni=jp10.dexlos.com#JP10-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@jp10.dexlos.com:21874/?sni=jp10.dexlos.com#JP10-HY2
   - name: "HUB-B-22"
     type: vless
     server: kr1-r.link-t7.com
@@ -436,27 +430,27 @@ proxies:
   - name: "HUB-B-32"
     type: hysteria2
     server: sg1.dexlos.com
-    port: 20136
+    port: 20190
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: sg1.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@sg1.dexlos.com:20136/?sni=sg1.dexlos.com#SG1-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@sg1.dexlos.com:20190/?sni=sg1.dexlos.com#SG1-HY2
   - name: "HUB-B-33"
     type: hysteria2
     server: sg2.dexlos.com
-    port: 20210
+    port: 20249
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: sg2.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@sg2.dexlos.com:20210/?sni=sg2.dexlos.com#SG2-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@sg2.dexlos.com:20249/?sni=sg2.dexlos.com#SG2-HY2
   - name: "HUB-B-34"
     type: hysteria2
     server: sg3.dexlos.com
-    port: 20531
+    port: 20443
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: sg3.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@sg3.dexlos.com:20531/?sni=sg3.dexlos.com#SG3-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@sg3.dexlos.com:20443/?sni=sg3.dexlos.com#SG3-HY2
   - name: "HUB-B-35"
     type: tuic
     server: tw1.dexlos.com
@@ -620,52 +614,96 @@ proxies:
   - name: "HUB-B-53"
     type: hysteria2
     server: us1.dexlos.com
-    port: 20069
+    port: 20015
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: us1.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us1.dexlos.com:20069/?sni=us1.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US1-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us1.dexlos.com:20015/?sni=us1.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US1-HY2
   - name: "HUB-B-54"
     type: hysteria2
     server: us2.dexlos.com
-    port: 20254
+    port: 20260
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: us2.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us2.dexlos.com:20254/?sni=us2.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US2-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us2.dexlos.com:20260/?sni=us2.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US2-HY2
   - name: "HUB-B-55"
     type: hysteria2
     server: us3.dexlos.com
-    port: 20478
+    port: 20588
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: us3.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us3.dexlos.com:20478/?sni=us3.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US3-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us3.dexlos.com:20588/?sni=us3.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US3-HY2
   - name: "HUB-B-56"
     type: hysteria2
     server: us4.dexlos.com
-    port: 20713
+    port: 20729
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: us4.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us4.dexlos.com:20713/?sni=us4.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US4-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us4.dexlos.com:20729/?sni=us4.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US4-HY2
   - name: "HUB-B-57"
     type: hysteria2
     server: us5.dexlos.com
-    port: 20868
+    port: 20911
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: us5.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us5.dexlos.com:20868/?sni=us5.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US5-HY2
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us5.dexlos.com:20911/?sni=us5.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US5-HY2
   - name: "HUB-B-58"
     type: hysteria2
     server: us6.dexlos.com
-    port: 21161
+    port: 21187
     tls: true
     password: 38B05560-C433-4FBD-8F39-1F5E44901956
     servername: us6.dexlos.com
-    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us6.dexlos.com:21161/?sni=us6.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US6-HY2
-  - name: "HUB-C-1"
+    # raw: hysteria2://38B05560-C433-4FBD-8F39-1F5E44901956@us6.dexlos.com:21187/?sni=us6.dexlos.com&obfs=salamander&obfs-password=xK9mN2pLq5vR8wB3#US6-HY2
+  - name: "HUB-C-HK-1"
+    type: vless
+    server: 45.145.228.155
+    port: 2574
+    uuid: 032b96c6-752f-4cff-88d1-fad817b0dad3
+    servername: dash.cloudflare.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    public-key: JXdqcykVt3Ue2ToOemH_AHoZUnQKbGIzaUmeZY7o32Y
+    skip-cert-verify: true
+  - name: "HUB-C-2"
+    type: vless
+    server: 45.152.65.129
+    port: 11563
+    uuid: d949020f-6ec6-455a-819b-7d7b32f9ff14
+    servername: aws.amazon.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    public-key: WzLRxXsO23hehh3gwGkVYfGpAW_tV0QOpfza_Os5Cgg
+    skip-cert-verify: true
+  - name: "HUB-C-US-3"
+    type: vless
+    server: 207.57.129.114
+    port: 14934
+    uuid: 630b700b-3c91-463a-9ef5-ee01f5848b45
+    servername: dash.cloudflare.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    public-key: C9qIqeSCAkCLIqki3n21hyeILLltWcZJ6M0HgRTGmk4
+    skip-cert-verify: true
+  - name: "HUB-C-US-4"
+    type: vless
+    server: 207.57.131.82
+    port: 42038
+    uuid: 451ae20e-adca-4d00-bf12-9572f58f181b
+    servername: aws.amazon.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    public-key: uK4Syxig1VpR42JEkbld2ZIaymNkt5MW4UMt21LsaRA
+    skip-cert-verify: true
+  - name: "HUB-C-5"
     type: vless
     server: pl.bubahero.com
     port: 443
@@ -677,234 +715,185 @@ proxies:
     public-key: GmZv3anSeAeHr_cMFKr-6MPLli-nyKNatnY6P3AFK00
     short-id: 9c2378562188c3cb
     skip-cert-verify: true
-  - name: "HUB-C-3"
+  - name: "HUB-C-HK-6"
     type: vless
-    server: pl-waw-2.blook.network
-    port: 443
-    uuid: 5d287c19-b677-41cb-a56a-d4157813a23c
-    servername: pl-waw-2.blook.network
+    server: 83.229.127.18
+    port: 27948
+    uuid: 7010c0c4-ac62-4456-9f40-fead039d2be5
+    servername: www.amazon.com
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: chrome
-    public-key: fySMRTC4X8TFAGNlb7bOZUV2wzWU8VWFO8-tuLl9Mms
-    short-id: 41f8
+    public-key: ZJbUs5ZBJacR5XKdOKz8rI7ovNMcq0ocdCvsA0Z3ul8
     skip-cert-verify: true
-  - name: "HUB-C-4"
+  - name: "HUB-C-US-7"
     type: vless
-    server: md-kiv-2.blook.network
-    port: 443
-    uuid: 4715152e-d226-4d14-8cfd-f3f0463dff3a
-    servername: md-kiv-2.blook.network
+    server: 68.64.183.164
+    port: 14163
+    uuid: 8871f4a9-cb90-4159-b3d0-84b90efdd3ca
+    servername: www.paypal.com
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: chrome
-    public-key: SqYAVrG01Mk0KXzlkmckO6lxvv6iZBJJvxE6PvD2vD0
-    short-id: db26
+    public-key: 40j_uKu51A06ECDlinwC6Q7h7ZPWs9Bkv24_EZdcvnQ
     skip-cert-verify: true
-  - name: "HUB-C-KR-5"
+  - name: "HUB-C-US-8"
     type: vless
-    server: 34.64.149.137
-    port: 443
-    uuid: 700a7a0e-3f27-406c-81d1-aa1abe411af8
-    servername: www.cloudflare.com
-    tls: true
-    client-fingerprint: chrome
-    public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
-    short-id: 3fd0a8ddef3ae5c6
-    skip-cert-verify: true
-  - name: "HUB-C-6"
-    type: vless
-    server: 34.176.98.128
-    port: 443
-    uuid: 4fe7ceb2-160c-4564-89e6-8f5fd0b05cd5
-    servername: www.cloudflare.com
-    tls: true
-    client-fingerprint: chrome
-    public-key: 3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw
-    short-id: d7676b6a468a03b3
-    skip-cert-verify: true
-  - name: "HUB-C-7"
-    type: vless
-    server: 34.87.244.111
-    port: 443
-    uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
-    servername: www.cloudflare.com
-    tls: true
-    client-fingerprint: chrome
-    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
-    short-id: d725f0dd8cce210f
-    skip-cert-verify: true
-  - name: "HUB-C-8"
-    type: vless
-    server: api-4pda-k9x4m.xubi.org
-    port: 443
-    uuid: 57e2a48b-0cc2-4b60-aacd-b36358fcba96
-    servername: 4pda.to
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-    public-key: 8q_xD5tfjZGDPsnq-3VqXWVV7-D03crExMBuL4xQNBM
-    short-id: d4f6a8c1b2e3f9aa
-    skip-cert-verify: true
-  - name: "HUB-C-9"
-    type: vless
-    server: 2.26.51.75
-    port: 443
-    uuid: 57e2a48b-0cc2-4b60-aacd-b36358fcba96
-    servername: 4pda.to
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-    public-key: 8q_xD5tfjZGDPsnq-3VqXWVV7-D03crExMBuL4xQNBM
-    short-id: d4f6a8c1b2e3f9aa
-    skip-cert-verify: true
-  - name: "HUB-C-10"
-    type: vless
-    server: hhhorp.plus-hit.ru
-    port: 443
-    uuid: 84a794a5-2420-4ca7-8e08-8d21571f36f3
-    servername: hhhorp.plus-hit.ru
+    server: 207.57.135.124
+    port: 2128
+    uuid: 630630d0-35eb-41b1-a7e9-90ca7e5c897f
+    servername: www.amazon.com
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: chrome
-    public-key: N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA
-    short-id: 7c8e3d4a9b1f26d3
+    public-key: 0zFniJLY80LQ5zKKB-X6r-tpHgAI6yqUVxJFQGG9SUM
+    skip-cert-verify: true
+  - name: "HUB-C-US-9"
+    type: vless
+    server: 38.147.171.99
+    port: 46042
+    uuid: 1e89e68f-eceb-4159-baee-2b77c9d34717
+    servername: dash.cloudflare.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    public-key: BjAkOapbZN6R4cUgz8Ye-o-uyWz6o_LoUlI5kbURMh0
+    skip-cert-verify: true
+  - name: "HUB-C-US-10"
+    type: vless
+    server: 207.57.134.242
+    port: 59672
+    uuid: d1ac7eb4-a6fd-481b-8c91-5c40680af484
+    servername: www.amazon.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    public-key: MyT8CmpFM5SbEol-rsH-Gm-I8GJLAfRLQnGnyNCXrho
     skip-cert-verify: true
   - name: "HUB-C-11"
     type: vless
-    server: finkafsb.finiki.lol
-    port: 443
-    uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-    servername: finkafsb.finiki.lol
+    server: 45.152.66.168
+    port: 27906
+    uuid: c1cbaa45-23ad-4113-8d9f-c66ec5ec3960
+    servername: dash.cloudflare.com
     tls: true
     flow: xtls-rprx-vision
-    client-fingerprint: random
-    public-key: YBKHp6R7xp2Ss2kxbvDNMFPpRrf3oh1wQ2dVMukPHmA
-    short-id: d110331f200987ae
+    client-fingerprint: chrome
+    public-key: zw-86s4VfPvHEbmPeIA_0U0rFYiNlkmR9ky2y23fvWk
     skip-cert-verify: true
   - name: "HUB-C-US-12"
     type: vless
-    server: de5.edge-9d7c.com
+    server: 207.57.135.37
+    port: 58979
+    uuid: 99385d38-676e-4e21-8de5-bd3b0b57e2b6
+    servername: www.ebay.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    public-key: BMGv1azVuzaXicmRgvGIbDdRv-9tIjfvtSCKRh1EfVw
+    skip-cert-verify: true
+  - name: "HUB-C-US-13"
+    type: vless
+    server: 68.64.183.115
+    port: 27684
+    uuid: ff7fecdc-f816-4ff7-9447-65ecbae25ec2
+    servername: dash.cloudflare.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    public-key: CTB0zNN-oslyk5a3NfliC_nUakFUn94QH8X_rN5ZvlQ
+    skip-cert-verify: true
+  - name: "HUB-C-14"
+    type: vless
+    server: 194.93.63.246
     port: 443
-    uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
-    servername: de5.edge-9d7c.com
+    uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+    servername: pl.bubahero.com
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: chrome
-    public-key: qoAuuFJ0eK1lAMHIqTt6LniY6qu1GIobrGthBcRHUXM
-    short-id: 9d84de9d9f7b85e9
+    public-key: GmZv3anSeAeHr_cMFKr-6MPLli-nyKNatnY6P3AFK00
+    short-id: 9c2378562188c3cb
     skip-cert-verify: true
-  - name: "HUB-C-13"
+  - name: "HUB-C-15"
     type: vless
-    server: us22.sofast.live
-    port: 58011
-    uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-    tls: true
-    client-fingerprint: chrome
-    skip-cert-verify: true
-  - name: "HUB-C-US-14"
-    type: vless
-    server: 13.143.137.164
-    port: 9443
-    uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-    servername: plaincanvas.videoclothing.xyz
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
-    short-id: e336c9a786fae301
-    skip-cert-verify: true
-  - name: "HUB-C-US-15"
-    type: vless
-    server: 72.56.41.33
-    port: 40443
-    uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
-    servername: deepl.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
-    short-id: ee33
-    skip-cert-verify: true
-  - name: "HUB-C-US-16"
-    type: vless
-    server: 31.77.7.122
-    port: 2087
-    uuid: 36cd557b-2b3d-46d3-8071-c77dd9cf7623
-    servername: www.nokia.com
-    tls: true
-    client-fingerprint: ios
-    public-key: TqsHQWg0oFULyLiaXe9vuwYXmLR6mRLiL376GJbX2Cs
-    short-id: 407f4d9be75efc56
-    skip-cert-verify: true
-  - name: "HUB-C-17"
-    type: vless
-    server: 138.124.109.158
+    server: core-data.gorekmas.online
     port: 443
-    uuid: 6a9f6c23-2b38-4720-9305-337f494f50a4
-    servername: api-maps.yandex.ru
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    public-key: cttKOS1BlF-u-mvX63PWNPJK6W_RXfx1wo8yjBEt1hI
-    short-id: a2eb8d694a5480ff
-    skip-cert-verify: true
-  - name: "HUB-C-18"
-    type: vmess
-    server: 112.132.215.108
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-  - name: "HUB-C-19"
-    type: vless
-    server: jujujuj.mervi.icu
-    port: 443
-    uuid: 9bbd487f-8f84-4ad7-b897-681c3f7d95dc
-    servername: jujujuj.mervi.icu
+    uuid: 4f8a1d19-4d21-47f5-816e-a8f475fbd3f7
+    servername: core-data.gorekmas.online
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: random
-    public-key: j7_ysAZxK5vBkMqvu0r8_UUuR3Qp7Yml3fXFDGR5x3w
-    short-id: 573703f224b75e8c
+    public-key: CRh0VOb2qvDm4H89m6qiHg_9M6nnJ0f_h0kpPitA6hw
+    short-id: 266337e69bb1f189
     skip-cert-verify: true
-  - name: "HUB-C-20"
+  - name: "HUB-C-HK-16"
     type: vless
-    server: 34.15.162.1
-    port: 443
-    uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+    server: 45.144.137.215
+    port: 29827
+    uuid: 2726dd7f-81fe-4b31-9b9b-e691ee730562
+    servername: aws.amazon.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    public-key: aFwfZMfFUyzU8RB_vh3fxtjUxDcQlu4QapSdQH0jG04
+    skip-cert-verify: true
+  - name: "HUB-C-US-17"
+    type: vless
+    server: 68.64.182.58
+    port: 44407
+    uuid: 7c14a115-019f-4d67-8c7c-6f6814fb5610
+    servername: dash.cloudflare.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    public-key: 1jRHait01lfgKnhfctcvx6EbGtvBxyZyi4JMcIl3qzI
+    skip-cert-verify: true
+  - name: "HUB-C-HK-18"
+    type: vless
+    server: 193.134.211.247
+    port: 29417
+    uuid: 1c1d0af7-c77b-4fb2-a1a4-fac03cc6c483
     servername: www.cloudflare.com
     tls: true
+    flow: xtls-rprx-vision
     client-fingerprint: chrome
-    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
-    short-id: ca672c53fbbac555
+    public-key: n9zqA9DrsO1bHnC_e2_e9MAxpyPdC_EA06Dm_rw4oWY
     skip-cert-verify: true
-  - name: "HUB-C-21"
+  - name: "HUB-C-HK-19"
     type: vless
-    server: 2.59.134.226
-    port: 443
-    uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
-    servername: rich-falcon.cdn.cachefleet.com
+    server: 45.145.229.184
+    port: 29680
+    uuid: a6eae9b3-15eb-455f-a5f1-b73b2d304a32
+    servername: www.ebay.com
     tls: true
     flow: xtls-rprx-vision
-    client-fingerprint: qq
-    public-key: 1sSmdw90uTiGuitDvp_q8zcXTcHXKQS3IVjA7T1UNiY
+    client-fingerprint: chrome
+    public-key: PcmyuWGLbzBiTAqTuui0FSq3DUa6SIXzbDFARaeV23U
     skip-cert-verify: true
-  - name: "HUB-C-22"
+  - name: "HUB-C-HK-20"
     type: vless
-    server: 196.196.206.38
-    port: 443
-    uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-    servername: finkafsb.finiki.lol
+    server: 45.145.228.129
+    port: 3077
+    uuid: 308afb3e-b0ce-41c8-9987-4023161fac75
+    servername: aws.amazon.com
     tls: true
     flow: xtls-rprx-vision
-    client-fingerprint: firefox
-    public-key: YBKHp6R7xp2Ss2kxbvDNMFPpRrf3oh1wQ2dVMukPHmA
-    short-id: d110331f200987ae
+    client-fingerprint: chrome
+    public-key: 48zW4lXrGFUEbsQ1JSRrv2yLzmxMsWYSk9KACEG_eFk
     skip-cert-verify: true
-  - name: "HUB-C-JP-23"
+  - name: "HUB-C-HK-21"
+    type: vless
+    server: 103.143.81.124
+    port: 3139
+    uuid: 87ecd928-9831-416a-bf4d-25e441ffb4cf
+    servername: aws.amazon.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    public-key: RYrYabqY07TQmF41ouUnBSjA6pDhUN4Ms7OKY-KrKh0
+    skip-cert-verify: true
+  - name: "HUB-C-JP-22"
     type: vless
     server: 103.115.18.54
     port: 443
@@ -914,231 +903,47 @@ proxies:
     tls: true
     client-fingerprint: chrome
     ws-opts:
-      path: /mall/china/doc?ed=2560
+      path: /episode/files?ed=2560
     skip-cert-verify: true
-  - name: "HUB-C-24"
-    type: trojan
-    server: bestcdn1.868863.xyz
-    port: 2096
-    password: ccf0eb75-6b23-4e70-a254-c9652b0acd17
-    sni: 17898321985142.206353.xyz
-    skip-cert-verify: true
+  - name: "HUB-C-US-24"
+    type: vless
+    server: 63.141.128.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    tls: true
     ws-opts:
-      path: /agrbniuh
-  - name: "HUB-C-25"
-    type: trojan
-    server: bestcdn0.868863.xyz
-    port: 2053
-    password: ccf0eb75-6b23-4e70-a254-c9652b0acd17
-    sni: 17898321981991.682637.xyz
+      path: /
     skip-cert-verify: true
+  - name: "HUB-C-US-25"
+    type: vless
+    server: 45.40.149.50
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    tls: true
     ws-opts:
-      path: /ahyrtuyjykl
+      path: /
+    skip-cert-verify: true
   - name: "HUB-C-26"
     type: trojan
-    server: bestcdn0.868863.xyz
-    port: 2096
-    password: ccf0eb75-6b23-4e70-a254-c9652b0acd17
-    sni: 17898321988756.682637.xyz
+    server: 104.21.46.3
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
     skip-cert-verify: true
     ws-opts:
-      path: /ahyrtuyjykl
+      path: /assignment
   - name: "HUB-C-27"
     type: trojan
-    server: bestcdn3.868863.xyz
-    port: 2053
-    password: ccf0eb75-6b23-4e70-a254-c9652b0acd17
-    sni: 17898321983217.206355.xyz
+    server: join-telegram-channel.tirexnet.kdns.fr
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
     skip-cert-verify: true
     ws-opts:
-      path: /videomuaawe
-  - name: "HUB-C-28"
-    type: trojan
-    server: bestcdn3.868863.xyz
-    port: 2083
-    password: ccf0eb75-6b23-4e70-a254-c9652b0acd17
-    sni: 17898321986346.206353.xyz
-    skip-cert-verify: true
-    ws-opts:
-      path: /agrbniuh
+      path: /assignment
   - name: "HUB-C-29"
-    type: trojan
-    server: bestcdn0.868863.xyz
-    port: 2087
-    password: ccf0eb75-6b23-4e70-a254-c9652b0acd17
-    sni: 17898321982313.682637.xyz
-    skip-cert-verify: true
-    ws-opts:
-      path: /ahyrtuyjykl
-  - name: "HUB-C-US-30"
-    type: trojan
-    server: bestcdn2.868863.xyz
-    port: 2096
-    password: ccf0eb75-6b23-4e70-a254-c9652b0acd17
-    sni: 17898321986900.206355.xyz
-    skip-cert-verify: true
-    ws-opts:
-      path: /videomuaawe
-  - name: "HUB-C-TW-31"
-    type: vmess
-    server: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
-    port: 443
-    uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-  - name: "HUB-C-TW-36"
-    type: vmess
-    server: dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
-    port: 443
-    uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-  - name: "HUB-C-37"
-    type: trojan
-    server: bestcdn1.868863.xyz
-    port: 2053
-    password: ccf0eb75-6b23-4e70-a254-c9652b0acd17
-    sni: 17898321985816.206352.xyz
-    skip-cert-verify: true
-    ws-opts:
-      path: /agraeabtegrrh
-  - name: "HUB-C-38"
-    type: trojan
-    server: bestcdn0.868863.xyz
-    port: 8443
-    password: ccf0eb75-6b23-4e70-a254-c9652b0acd17
-    sni: 17898321982535.682637.xyz
-    skip-cert-verify: true
-    ws-opts:
-      path: /ahyrtuyjykl
-  - name: "HUB-C-39"
-    type: trojan
-    server: bestcdn3.868863.xyz
-    port: 2087
-    password: ccf0eb75-6b23-4e70-a254-c9652b0acd17
-    sni: 17898321988892.206352.xyz
-    skip-cert-verify: true
-    ws-opts:
-      path: /agraeabtegrrh
-  - name: "HUB-C-40"
-    type: trojan
-    server: bestcdn1.868863.xyz
-    port: 2087
-    password: ccf0eb75-6b23-4e70-a254-c9652b0acd17
-    sni: 17898321982275.206356.xyz
-    skip-cert-verify: true
-    ws-opts:
-      path: /dmusicmuaawe
-  - name: "HUB-C-42"
-    type: trojan
-    server: 104.18.23.63
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-US-43"
-    type: trojan
-    server: 165.215.250.14
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-US-44"
-    type: trojan
-    server: 130.250.137.171
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-US-45"
-    type: trojan
-    server: 216.24.57.7
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-47"
-    type: trojan
-    server: www.ignitelimit.com
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-48"
-    type: trojan
-    server: 104.18.22.63
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-50"
-    type: trojan
-    server: 88.198.82.150
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-US-55"
-    type: trojan
-    server: 162.159.136.234
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-56"
-    type: trojan
-    server: 104.17.177.143
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-57"
-    type: trojan
-    server: www.speedtest.org
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-58"
-    type: trojan
-    server: 104.17.111.3
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-61"
     type: trojan
     server: join-telegram-channel-tirexnet.trex.kdns.fr
     port: 443
@@ -1147,15 +952,213 @@ proxies:
     skip-cert-verify: true
     ws-opts:
       path: /assignment
-  - name: "HUB-C-64"
+  - name: "HUB-C-31"
     type: trojan
-    server: www.speedtest.net
+    server: 104.21.8.107
     port: 443
     password: humanity
     sni: www.ignitelimit.com
     skip-cert-verify: true
     ws-opts:
       path: /assignment
+  - name: "HUB-C-33"
+    type: trojan
+    server: 88.198.82.150
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-34"
+    type: trojan
+    server: 172.67.149.60
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-35"
+    type: trojan
+    server: www.speedtest.org
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-36"
+    type: trojan
+    server: 172.67.74.2
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-39"
+    type: trojan
+    server: 172.67.188.109
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-US-40"
+    type: vless
+    server: 50.62.198.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-43"
+    type: trojan
+    server: 198.41.223.96
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-SG-44"
+    type: vless
+    server: 43.174.195.1
+    port: 443
+    uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+    network: ws
+    servername: kv.074167.xyz
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-US-45"
+    type: vless
+    server: 45.40.150.4
+    port: 80
+    uuid: 72c2b7cc-fcd9-494f-8a2e-21dcd062ff11
+    network: ws
+    tls: true
+    ws-opts:
+      path: /pyip=Telegram🇨🇳++
+    skip-cert-verify: true
+  - name: "HUB-C-52"
+    type: vless
+    server: 64.226.95.244
+    port: 2096
+    uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+    network: ws
+    servername: cf3.schzyc.cc.cd
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-US-53"
+    type: vless
+    server: 45.40.151.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-54"
+    type: trojan
+    server: 104.18.152.108
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-55"
+    type: trojan
+    server: 104.19.229.21
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: assignment
+  - name: "HUB-C-56"
+    type: trojan
+    server: 104.16.174.36
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-57"
+    type: trojan
+    server: 104.16.174.34
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-58"
+    type: trojan
+    server: 104.18.152.208
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-59"
+    type: trojan
+    server: www.ignitelimit.com
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-60"
+    type: trojan
+    server: 104.18.152.210
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-61"
+    type: trojan
+    server: 104.17.177.143
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-64"
+    type: trojan
+    server: 104.16.174.33
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-66"
+    type: trojan
+    server: 104.16.174.22
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: //assignment
   - name: "HUB-C-67"
     type: trojan
     server: 104.17.111.4
@@ -1167,7 +1170,7 @@ proxies:
       path: /assignment
   - name: "HUB-C-68"
     type: trojan
-    server: 172.67.221.242
+    server: 104.18.152.187
     port: 443
     password: humanity
     sni: www.ignitelimit.com
@@ -1176,7 +1179,7 @@ proxies:
       path: /assignment
   - name: "HUB-C-69"
     type: trojan
-    server: 104.17.148.22
+    server: 104.18.152.244
     port: 443
     password: humanity
     sni: www.ignitelimit.com
@@ -1185,375 +1188,6 @@ proxies:
       path: /assignment
   - name: "HUB-C-71"
     type: trojan
-    server: join-telegram-channel.tirexnet.kdns.fr
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-78"
-    type: trojan
-    server: 172.67.149.60
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-83"
-    type: trojan
-    server: 172.67.74.2
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-85"
-    type: trojan
-    server: 104.21.8.107
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-87"
-    type: trojan
-    server: 104.18.152.159
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-88"
-    type: trojan
-    server: 104.20.6.134
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-89"
-    type: trojan
-    server: 104.18.152.208
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-90"
-    type: trojan
-    server: 104.17.111.8
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-91"
-    type: trojan
-    server: 104.18.152.244
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-93"
-    type: trojan
-    server: 104.18.152.230
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-94"
-    type: trojan
-    server: 104.26.14.137
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-95"
-    type: trojan
-    server: 104.18.152.152
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-96"
-    type: trojan
-    server: 104.18.152.155
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-97"
-    type: trojan
-    server: 104.26.15.137
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-98"
-    type: trojan
-    server: 104.18.152.103
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-100"
-    type: trojan
-    server: 104.16.174.124
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-102"
-    type: trojan
-    server: 104.18.152.140
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-103"
-    type: trojan
-    server: 104.18.12.149
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-104"
-    type: trojan
-    server: 104.18.152.77
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-106"
-    type: trojan
-    server: 104.16.174.71
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-108"
-    type: trojan
-    server: 104.18.152.187
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-109"
-    type: trojan
-    server: 104.18.152.113
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-110"
-    type: trojan
-    server: ip.myip2.qzz.io
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-111"
-    type: trojan
-    server: 104.18.152.246
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-112"
-    type: trojan
-    server: 104.17.111.1
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-113"
-    type: trojan
-    server: 104.16.174.44
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-114"
-    type: trojan
-    server: 104.18.152.233
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-115"
-    type: trojan
-    server: 104.16.174.148
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-116"
-    type: trojan
-    server: 104.18.152.161
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-117"
-    type: trojan
-    server: 45.130.125.158
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-118"
-    type: trojan
-    server: 104.18.15.230
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-119"
-    type: trojan
-    server: 104.18.152.149
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-120"
-    type: trojan
-    server: 104.18.152.97
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-121"
-    type: trojan
-    server: 104.16.174.101
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-125"
-    type: trojan
-    server: 104.16.73.213
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-127"
-    type: trojan
-    server: 104.16.174.22
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: //assignment
-  - name: "HUB-C-129"
-    type: trojan
-    server: 104.16.174.12
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-132"
-    type: trojan
-    server: 104.16.174.36
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-133"
-    type: trojan
-    server: 104.16.7.70
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-135"
-    type: trojan
-    server: 104.18.152.144
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-137"
-    type: trojan
-    server: 104.18.152.143
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-138"
-    type: trojan
     server: 104.18.152.73
     port: 443
     password: humanity
@@ -1561,187 +1195,7 @@ proxies:
     skip-cert-verify: true
     ws-opts:
       path: /assignment
-  - name: "HUB-C-142"
-    type: trojan
-    server: 86.38.214.205
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-145"
-    type: trojan
-    server: 104.18.152.207
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-147"
-    type: trojan
-    server: 172.67.188.109
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-148"
-    type: trojan
-    server: 198.41.223.96
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-149"
-    type: trojan
-    server: 104.16.174.117
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-150"
-    type: trojan
-    server: 104.18.152.133
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-152"
-    type: trojan
-    server: 104.16.174.37
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-159"
-    type: trojan
-    server: 104.16.174.46
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-161"
-    type: trojan
-    server: 104.18.152.179
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-162"
-    type: trojan
-    server: 104.16.174.121
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-164"
-    type: trojan
-    server: 104.18.152.50
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-172"
-    type: trojan
-    server: 188.114.97.7
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-174"
-    type: trojan
-    server: 104.18.152.225
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-175"
-    type: trojan
-    server: 104.18.152.229
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-176"
-    type: trojan
-    server: 104.16.174.34
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-183"
-    type: trojan
-    server: 104.16.174.33
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-186"
-    type: trojan
-    server: 141.101.90.101
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-190"
-    type: trojan
-    server: 104.18.152.108
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-197"
-    type: trojan
-    server: 104.18.152.204
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-198"
-    type: trojan
-    server: 104.16.174.72
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-200"
+  - name: "HUB-C-72"
     type: trojan
     server: 104.18.152.175
     port: 443
@@ -1750,70 +1204,61 @@ proxies:
     skip-cert-verify: true
     ws-opts:
       path: /assignment
-  - name: "HUB-C-208"
+  - name: "HUB-C-73"
     type: trojan
-    server: 104.16.174.185
+    server: 104.18.152.143
     port: 443
     password: humanity
     sni: www.ignitelimit.com
     skip-cert-verify: true
     ws-opts:
       path: /assignment
-  - name: "HUB-C-210"
+  - name: "HUB-C-76"
     type: trojan
-    server: 104.16.174.109
+    server: 104.16.174.46
     port: 443
     password: humanity
     sni: www.ignitelimit.com
     skip-cert-verify: true
     ws-opts:
       path: /assignment
-  - name: "HUB-C-212"
+  - name: "HUB-C-78"
     type: trojan
-    server: 104.16.174.14
+    server: 104.18.152.133
     port: 443
     password: humanity
     sni: www.ignitelimit.com
     skip-cert-verify: true
     ws-opts:
       path: /assignment
-  - name: "HUB-C-214"
+  - name: "HUB-C-79"
     type: trojan
-    server: 104.18.152.210
+    server: ip.myip2.qzz.io
     port: 443
     password: humanity
     sni: www.ignitelimit.com
     skip-cert-verify: true
     ws-opts:
       path: /assignment
-  - name: "HUB-C-216"
+  - name: "HUB-C-80"
     type: trojan
-    server: 104.16.174.143
+    server: 104.16.174.37
     port: 443
     password: humanity
     sni: www.ignitelimit.com
     skip-cert-verify: true
     ws-opts:
       path: /assignment
-  - name: "HUB-C-US-252"
+  - name: "HUB-C-82"
     type: trojan
-    server: 167.82.76.7
-    port: 443
-    password: MiTIVPN
-    sni: ssl.fastly.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-  - name: "HUB-C-254"
-    type: trojan
-    server: 104.21.46.3
+    server: 104.18.152.225
     port: 443
     password: humanity
     sni: www.ignitelimit.com
     skip-cert-verify: true
     ws-opts:
       path: /assignment
-  - name: "HUB-C-261"
+  - name: "HUB-C-84"
     type: trojan
     server: 104.16.174.6
     port: 443
@@ -1822,99 +1267,7 @@ proxies:
     skip-cert-verify: true
     ws-opts:
       path: /assignment
-  - name: "HUB-C-265"
-    type: trojan
-    server: 162.159.254.191
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-  - name: "HUB-C-US-278"
-    type: trojan
-    server: bestcdn2.868863.xyz
-    port: 2083
-    password: ccf0eb75-6b23-4e70-a254-c9652b0acd17
-    sni: 17898321987094.206352.xyz
-    skip-cert-verify: true
-    ws-opts:
-      path: /agraeabtegrrh
-  - name: "HUB-C-US-279"
-    type: trojan
-    server: bestcdn2.868863.xyz
-    port: 2087
-    password: ccf0eb75-6b23-4e70-a254-c9652b0acd17
-    sni: 17898321985980.206353.xyz
-    skip-cert-verify: true
-    ws-opts:
-      path: /agrbniuh
-  - name: "HUB-C-281"
-    type: vless
-    server: 172.67.223.26
-    port: 443
-    uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
-    network: ws
-    servername: 5-M17.KUWAIt-LInE.kdNs.FR
-    tls: true
-    ws-opts:
-      path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
-    skip-cert-verify: true
-  - name: "HUB-C-282"
-    type: vless
-    server: 104.18.11.118
-    port: 8880
-    uuid: 17b2ed22-5fd0-47ad-b5f0-658379379ced
-    network: ws
-    tls: true
-    ws-opts:
-      path: /pyip
-    skip-cert-verify: true
-  - name: "HUB-C-283"
-    type: vless
-    server: 104.26.6.214
-    port: 8880
-    uuid: 4bf6fee9-d3c4-4a98-b83b-170bf37c669c
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-    skip-cert-verify: true
-  - name: "HUB-C-284"
-    type: vless
-    server: 172.67.65.56
-    port: 2053
-    uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
-    network: ws
-    servername: whitecreeper.pages.dev
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /proxyip=ProxyIP.SG.CMLiussss.Net
-    skip-cert-verify: true
-  - name: "HUB-C-US-285"
-    type: vless
-    server: 165.215.250.16
-    port: 443
-    uuid: e8d06b09-acd9-448c-9874-3c36151d36ee
-    network: ws
-    servername: icy-wildflower-2590.lihuifeng595.workers.dev
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /?ed=2048
-    skip-cert-verify: true
-  - name: "HUB-C-286"
-    type: vless
-    server: 104.17.147.22
-    port: 80
-    uuid: 63f1ef69-92fd-427a-b3e4-98ffddf81ac6
-    network: ws
-    tls: true
-    ws-opts:
-      path: /nPKoVRUdyuRZ6jpY/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbSxwcm94eWlwLmNtbGl1c3Nzcy5uZXQsbmltYS5uc2NsLmlyLHR1cmsucmFkaWNhbGl6YXRpb24uaXI=
-    skip-cert-verify: true
-  - name: "HUB-C-287"
+  - name: "HUB-C-85"
     type: trojan
     server: 8.6.112.0
     port: 443
@@ -1923,25 +1276,62 @@ proxies:
     skip-cert-verify: true
     ws-opts:
       path: /assignment
-  - name: "HUB-C-290"
+  - name: "HUB-C-86"
     type: trojan
-    server: 104.18.152.219
+    server: 104.17.111.8
     port: 443
     password: humanity
     sni: www.ignitelimit.com
     skip-cert-verify: true
     ws-opts:
       path: /assignment
-  - name: "HUB-C-291"
+  - name: "HUB-C-90"
     type: trojan
-    server: 104.19.229.21
+    server: 104.16.174.185
     port: 443
     password: humanity
     sni: www.ignitelimit.com
     skip-cert-verify: true
     ws-opts:
       path: /assignment
-  - name: "HUB-C-292"
+  - name: "HUB-C-91"
+    type: trojan
+    server: 104.16.7.70
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-92"
+    type: trojan
+    server: 104.16.174.71
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-93"
+    type: trojan
+    server: 104.18.152.207
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-94"
+    type: vless
+    server: 91.206.71.8
+    port: 80
+    uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
+    network: ws
+    tls: true
+    ws-opts:
+      path: /pyip=Telegram🇨🇳+@WangCai2
+    skip-cert-verify: true
+  - name: "HUB-C-96"
     type: vless
     server: 172.67.138.191
     port: 443
@@ -1953,123 +1343,1463 @@ proxies:
     ws-opts:
       path: /LNbYtR09FXg1AmmjhdiHvR8v
     skip-cert-verify: true
-  - name: "HUB-C-293"
-    type: vless
-    server: 104.16.10.2
-    port: 443
-    uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
-    network: ws
-    servername: vip.868068.xyz
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /proxyip=us.xiabibi.cf
-    skip-cert-verify: true
-  - name: "HUB-C-296"
-    type: vless
-    server: 160.30.54.63
-    port: 443
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    network: ws
-    servername: cdn8848.776676.xyz
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /channel?ed=2560
-    skip-cert-verify: true
-  - name: "HUB-C-297"
-    type: vless
-    server: 147.90.229.204
-    port: 443
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    network: ws
-    servername: cdn8848.776676.xyz
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /sort/outbound/redirect.php?ed=2560
-    skip-cert-verify: true
-  - name: "HUB-C-298"
+  - name: "HUB-C-97"
     type: trojan
-    server: 45.130.125.76
+    server: 104.18.152.149
     port: 443
     password: humanity
     sni: www.ignitelimit.com
     skip-cert-verify: true
     ws-opts:
       path: /assignment
-  - name: "HUB-C-306"
-    type: vless
-    server: atomic-prase23893.my-vm.work
-    port: 8088
-    uuid: tmp_user
-    network: ws
-    tls: true
-    ws-opts:
-      path: /api
-    skip-cert-verify: true
-  - name: "HUB-C-US-334"
-    type: vless
-    server: a2.arshia-nova.ir
+  - name: "HUB-C-99"
+    type: trojan
+    server: 104.18.152.219
     port: 443
-    uuid: 9503e890-3702-4847-af0a-2bceac2f0da0
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-104"
+    type: trojan
+    server: 104.18.152.246
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-US-105"
+    type: vless
+    server: 155.46.167.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
-    servername: ssl.fastly.com
     tls: true
-    client-fingerprint: firefox
     ws-opts:
       path: /
     skip-cert-verify: true
-  - name: "HUB-C-US-335"
+  - name: "HUB-C-108"
+    type: trojan
+    server: 104.18.152.50
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-109"
+    type: trojan
+    server: 104.18.152.144
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-114"
+    type: trojan
+    server: 104.18.152.152
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-115"
+    type: trojan
+    server: 104.18.152.77
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-121"
+    type: trojan
+    server: 104.18.152.229
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-122"
+    type: trojan
+    server: 104.16.174.148
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-125"
+    type: trojan
+    server: 104.18.152.140
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-127"
+    type: trojan
+    server: 104.16.174.44
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-137"
+    type: trojan
+    server: 104.17.148.22
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-139"
+    type: trojan
+    server: 104.18.152.179
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-JP-140"
     type: vless
-    server: 172.66.0.236
+    server: 92.113.124.228
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-141"
+    type: vless
+    server: 103.118.254.37
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-HK-142"
+    type: vless
+    server: 122.10.119.252
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-JP-143"
+    type: vless
+    server: 132.226.5.163
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-JP-144"
+    type: vless
+    server: 102.134.49.108
+    port: 8443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-TW-145"
+    type: vless
+    server: 140.235.39.162
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-SG-146"
+    type: vless
+    server: 103.195.188.206
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-HK-147"
+    type: vless
+    server: 216.23.84.115
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-JP-148"
+    type: vless
+    server: 154.19.187.190
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-SG-149"
+    type: vless
+    server: 103.195.188.192
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-KR-150"
+    type: vless
+    server: 123.111.169.70
     port: 2083
-    uuid: 44eae030-290b-4083-8102-6f8bab05701b
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
     network: ws
-    servername: cfvvv-ev1.pages.dev
+    servername: shuma.ccwu.cc
     tls: true
     client-fingerprint: chrome
     ws-opts:
       path: /
     skip-cert-verify: true
-  - name: "HUB-C-337"
-    type: vmess
-    server: www.shopify.com
-    port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: guanwang.awsno.com
-    network: ws
-    ws-opts:
-      path: /hls/cctv5phd.m3u8
-  - name: "HUB-C-338"
+  - name: "HUB-C-JP-151"
     type: vless
-    server: 104.21.16.44
+    server: 35.72.179.15
     port: 443
-    uuid: cb53f904-c979-454f-bf43-621990008148
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
     network: ws
-    servername: 0.aq0.ccwu.cc
+    servername: shuma.ccwu.cc
     tls: true
     client-fingerprint: chrome
     ws-opts:
-      path: /LNbYtR09FXg1AmmjhdiHvR8v
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-HK-152"
+    type: vless
+    server: 103.143.81.178
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-TW-154"
+    type: vless
+    server: 140.235.39.19
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-JP-155"
+    type: vless
+    server: 161.33.29.51
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-JP-156"
+    type: vless
+    server: 101.142.129.72
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-HK-157"
+    type: vless
+    server: 103.101.0.73
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-SG-158"
+    type: vless
+    server: 103.170.217.60
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-159"
+    type: vless
+    server: 104.128.190.209
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-160"
+    type: vless
+    server: 141.227.137.177
+    port: 2053
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-JP-161"
+    type: vless
+    server: 103.31.77.108
+    port: 2053
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-162"
+    type: vless
+    server: 13.200.106.232
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-US-163"
+    type: vless
+    server: 50.62.195.4
+    port: 80
+    uuid: e382b6dd-2dac-49c5-b16f-1cd0a6b73bf2
+    network: ws
+    tls: true
+    ws-opts:
+      path: /pyip=Telegram🇨🇳+@WangCai2
+    skip-cert-verify: true
+  - name: "HUB-C-164"
+    type: vless
+    server: 185.179.82.201
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-165"
+    type: trojan
+    server: 104.18.23.63
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-US-166"
+    type: vless
+    server: 80.93.202.40
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-167"
+    type: vless
+    server: 141.227.186.38
+    port: 2053
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-168"
+    type: vless
+    server: 194.71.227.213
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-169"
+    type: vless
+    server: 103.228.168.182
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-170"
+    type: vless
+    server: 104.194.140.26
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-171"
+    type: vless
+    server: 89.46.42.141
+    port: 2053
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-172"
+    type: vless
+    server: 141.227.188.153
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-173"
+    type: vless
+    server: 109.172.8.37
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-174"
+    type: vless
+    server: 107.189.2.206
+    port: 8443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-US-176"
+    type: trojan
+    server: 216.24.57.7
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-US-177"
+    type: trojan
+    server: 130.250.137.171
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-US-179"
+    type: trojan
+    server: 162.159.136.234
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-181"
+    type: trojan
+    server: 104.18.22.63
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-185"
+    type: vless
+    server: 104.128.137.133
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-186"
+    type: vless
+    server: 103.200.28.113
+    port: 8443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-US-187"
+    type: trojan
+    server: 165.215.250.14
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-189"
+    type: vless
+    server: 38.180.109.174
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-192"
+    type: trojan
+    server: 172.67.221.242
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-JP-194"
+    type: vless
+    server: 45.202.254.133
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-195"
+    type: vless
+    server: 180.149.37.38
+    port: 8443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-US-205"
+    type: trojan
+    server: 167.82.76.7
+    port: 443
+    password: MiTIVPN
+    sni: ssl.fastly.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+  - name: "HUB-C-206"
+    type: vless
+    server: 185.153.198.86
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-207"
+    type: vless
+    server: 194.32.107.150
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-208"
+    type: vless
+    server: 185.105.108.92
+    port: 8443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-209"
+    type: vless
+    server: 213.111.148.137
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-210"
+    type: vless
+    server: 216.238.79.164
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-211"
+    type: vless
+    server: 46.8.194.76
+    port: 8443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-212"
+    type: vless
+    server: 46.250.250.48
+    port: 8443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-213"
+    type: vless
+    server: 144.31.217.95
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-215"
+    type: vless
+    server: 104.143.204.237
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-216"
+    type: vless
+    server: 109.206.241.16
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-217"
+    type: vless
+    server: 103.126.50.196
+    port: 8443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-218"
+    type: vless
+    server: 216.173.67.159
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-219"
+    type: vless
+    server: 195.133.92.20
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-222"
+    type: vless
+    server: 149.154.157.213
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-225"
+    type: vless
+    server: 216.173.67.119
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-226"
+    type: vless
+    server: 46.8.194.76
+    port: 2053
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-227"
+    type: trojan
+    server: 104.17.111.1
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-228"
+    type: vless
+    server: 152.114.195.163
+    port: 8443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-229"
+    type: trojan
+    server: 104.17.111.3
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-230"
+    type: vless
+    server: 109.176.202.20
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-231"
+    type: vless
+    server: 103.167.234.26
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-232"
+    type: vless
+    server: 216.173.67.144
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-233"
+    type: vless
+    server: 198.55.102.68
+    port: 2083
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-234"
+    type: vless
+    server: 154.46.31.118
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-235"
+    type: vless
+    server: 107.150.20.112
+    port: 8443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-236"
+    type: vless
+    server: 151.243.181.99
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-US-237"
+    type: vless
+    server: 167.160.177.68
+    port: 2096
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-239"
+    type: vless
+    server: 2.56.204.183
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-240"
+    type: vless
+    server: 104.143.204.23
+    port: 8443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-241"
+    type: vless
+    server: 104.143.204.23
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-242"
+    type: vless
+    server: 103.71.22.133
+    port: 8443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-243"
+    type: vless
+    server: 89.46.42.92
+    port: 2053
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-244"
+    type: vless
+    server: 195.246.230.125
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-245"
+    type: vless
+    server: 213.111.177.107
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-246"
+    type: vless
+    server: 193.180.209.136
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-247"
+    type: vless
+    server: 38.54.29.210
+    port: 2053
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-248"
+    type: vless
+    server: 193.180.208.169
+    port: 8443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-249"
+    type: vless
+    server: 185.125.171.128
+    port: 8443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-250"
+    type: vless
+    server: 5.35.103.185
+    port: 8443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-251"
+    type: vless
+    server: 139.84.135.130
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-253"
+    type: trojan
+    server: 104.26.14.137
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-254"
+    type: trojan
+    server: 104.18.12.149
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-257"
+    type: trojan
+    server: www.speedtest.net
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-264"
+    type: trojan
+    server: 104.18.152.97
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-266"
+    type: trojan
+    server: 104.16.174.121
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: //assignment
+  - name: "HUB-C-267"
+    type: trojan
+    server: 104.16.174.14
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-268"
+    type: trojan
+    server: 104.18.152.230
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-269"
+    type: trojan
+    server: 104.16.73.213
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-271"
+    type: trojan
+    server: 104.16.174.124
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-277"
+    type: trojan
+    server: 104.18.15.230
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-278"
+    type: trojan
+    server: 104.16.174.101
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-283"
+    type: trojan
+    server: 104.16.174.109
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-284"
+    type: trojan
+    server: 188.114.97.7
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-286"
+    type: trojan
+    server: 104.18.152.233
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-287"
+    type: trojan
+    server: 104.18.152.155
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-290"
+    type: trojan
+    server: 45.130.125.158
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-291"
+    type: trojan
+    server: 86.38.214.205
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-292"
+    type: trojan
+    server: 104.16.174.72
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-293"
+    type: trojan
+    server: 104.16.174.12
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-294"
+    type: trojan
+    server: 104.26.15.137
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-295"
+    type: trojan
+    server: 104.20.6.134
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-US-304"
+    type: vless
+    server: 104.194.84.188
+    port: 8443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+  - name: "HUB-C-308"
+    type: trojan
+    server: 104.16.174.143
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-310"
+    type: trojan
+    server: 162.159.254.191
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-316"
+    type: trojan
+    server: 104.18.152.113
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-317"
+    type: trojan
+    server: 104.16.174.117
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-321"
+    type: trojan
+    server: 104.18.152.159
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-325"
+    type: trojan
+    server: 104.18.152.161
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-328"
+    type: trojan
+    server: 104.18.152.204
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-333"
+    type: trojan
+    server: 104.18.152.103
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-384"
+    type: trojan
+    server: 141.101.90.101
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+  - name: "HUB-C-394"
+    type: vless
+    server: 157.151.4.93
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    network: ws
+    servername: shuma.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
     skip-cert-verify: true
   - name: "HUB-D-1"
-    client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    network: tcp
+    password: 9sK2mP8xQ7vL3nZ6
     port: 443
-    public-key: G2U8_BvRAgcOw0sX8u_0yYdVAlD8CWLSi-uYjvH07hw
-    short-id: 4fa44664f6a566d3
-    server: 31.77.201.33
+    server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+    skip-cert-verify: true
+    sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+    type: anytls
+  - name: "HUB-D-2"
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 19000
+    server: anytls2.864106.xyz
+    skip-cert-verify: true
+    sni: anytls2.864106.xyz
+    type: anytls
+  - name: "HUB-D-3"
+    client-fingerprint: chrome
+    network: ws
+    port: 443
+    server: adheres-scruple.quick-cdn.net
     tls: true
     type: vless
-    uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-    servername: italia.superbuba.top
-  - name: "HUB-D-2"
+    uuid: 7478f643-1ef4-47fd-8ac7-5d53c6c64217
+    ws-opts:
+      path: /ws
+    servername: adheres-scruple.quick-cdn.net
+  - name: "HUB-D-4"
+    client-fingerprint: chrome
+    network: ws
+    password: humanity
+    port: 443
+    server: 172.67.188.109
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    ws-opts:
+      path: /assignment
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+  - name: "HUB-D-5"
     client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -2084,55 +2814,50 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: gesmankos.sadiepinki.com
-  - name: "HUB-D-3"
-    client-fingerprint: chrome
-    network: ws
-    port: 443
-    server: prisonvpnc-production-8b3b.up.railway.app
-    tls: true
-    type: vless
-    uuid: 08687611-b1cc-47a5-b090-094c83b0c257
-    ws-opts:
-      path: /vless
-    User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H)
-    xudp: true
-    packet-encoding: xudp
-    servername: prisonvpnc-production-8b3b.up.railway.app
-  - name: "HUB-D-4"
-    client-fingerprint: chrome
-    encryption: none
-    network: ws
-    port: 443
-    server: 69.46.46.45
-    tls: true
-    type: vless
-    uuid: Default
-    ws-opts:
-      path: /ws/vless/Default
-    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    xudp: true
-    packet-encoding: xudp
-    servername: ezaccess1-slv-ezaccess1-5222.up.railway.app
-  - name: "HUB-D-5"
-    client-fingerprint: chrome
-    encryption: none
-    network: ws
-    port: 443
-    server: 69.46.46.44
-    tls: true
-    type: vless
-    uuid: Default
-    ws-opts:
-      path: /ws/vless/Default
-    User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    xudp: true
-    packet-encoding: xudp
-    servername: ezaccess1-slv-ezaccess1-c507.up.railway.app
   - name: "HUB-D-6"
+    encryption: mlkem768x25519plus.random.0rtt.4ZiK3Dv6QqgU4hTboAe80H0CPJ6KV_GUdsjOCLY3UlA
+    network: xhttp
+    port: 6010
+    server: fr.masterpgd.com
+    type: vless
+    uuid: d2bf8658-06dc-4462-80d4-39c5c3bb0dd8
+    xhttp-opts:
+      mode: stream-up
+    host: myket.ir
+    path: /assets
+    xudp: true
+    packet-encoding: xudp
+  - name: "HUB-D-7"
+    client-fingerprint: chrome
+    network: ws
+    password: humanity
+    port: 443
+    server: 172.67.74.2
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    ws-opts:
+      path: /assignment
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+  - name: "HUB-D-8"
+    client-fingerprint: chrome
+    encryption: none
+    network: xhttp
+    port: 8443
+    public-key: Gu_QdtOX6E8pZcYvDWgHKA5dxcit7hrpU27sizCEWXg
+    short-id: e0
+    server: nl-xh02.tcp-reset-club.net
+    tls: true
+    type: vless
+    uuid: 721bacfe-ff09-4e63-a735-686015bc1351
+    xhttp-opts:
+      mode: stream-one
+    path: /assets/v2/pkg
+    max-concurrency: 16-32
+    xudp: true
+    packet-encoding: xudp
+    servername: s3.netavex.com
+  - name: "HUB-D-9"
     client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -2147,264 +2872,263 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: tt.sonyabibboop.com
-  - name: "HUB-D-7"
-    client-fingerprint: chrome
-    encryption: none
-    network: ws
-    port: 443
-    server: 69.46.46.121
-    tls: true
-    type: vless
-    uuid: Default
-    ws-opts:
-      path: /ws/vless/Default
-    User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    xudp: true
-    packet-encoding: xudp
-    servername: ezaccess1-slv-ezaccess1-de5d.up.railway.app
-  - name: "HUB-D-8"
-    client-fingerprint: chrome
-    encryption: none
-    grpc-service-name: grpc-common3
-    network: grpc
-    port: 35108
-    public-key: X_lOw5Zz4SJBa1cRHV4dAq5msYE-ClY5-WNcBmBWRxg
-    short-id: 52add08b86a5ccea
-    server: 152.228.139.33
-    tls: true
-    type: vless
-    uuid: 81dc0b61-f9fe-4ad6-8b4e-b8c067b73712
-    xudp: true
-    packet-encoding: xudp
-    servername: www.nvidia.com
   - name: "HUB-D-10"
     client-fingerprint: chrome
     encryption: none
-    flow: xtls-rprx-vision
     network: tcp
-    port: 2900
-    public-key: t6ZD1BAopEpgPCz0KoCpZlahTg6otStYBgU6iJ-kOkc
-    short-id: 171ef978859d26c6
-    server: 2.28.62.48
+    port: 443
+    public-key: k9BuzZPnzofDcPTaa7ROHNIc9ww2jy3tLAJ04GuKvAQ
+    short-id: 669d7ae5e1611511
+    server: 5.129.228.40
     tls: true
     type: vless
-    uuid: 0de1047d-fadd-4075-a08e-2223c5dadd0a
+    uuid: 88a247b9-3e0b-4c0e-ba88-61fc63a9c5d1
     xudp: true
     packet-encoding: xudp
-    servername: www.numpy.org
+    servername: static.yandex.net
   - name: "HUB-D-11"
-    cipher: aes-256-cfb
-    password: amazonskr05
-    port: 443
-    server: 3.120.158.57
-    type: ss
+    client-fingerprint: chrome
+    encryption: none
+    network: xhttp
+    port: 8443
+    public-key: Gu_QdtOX6E8pZcYvDWgHKA5dxcit7hrpU27sizCEWXg
+    short-id: e0
+    server: ch-plr-xh-pilot.tcp-reset-club.net
+    tls: true
+    type: vless
+    uuid: 721bacfe-ff09-4e63-a735-686015bc1351
+    xhttp-opts:
+      mode: stream-one
+    path: /assets/v2/pkg
+    xudp: true
+    packet-encoding: xudp
+    servername: s3.netavex.com
   - name: "HUB-D-12"
+    client-fingerprint: chrome
+    network: ws
+    password: humanity
+    port: 443
+    server: 104.16.174.14
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    ws-opts:
+      path: /assignment
+    User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I)
+  - name: "HUB-D-13"
+    client-fingerprint: chrome
+    network: ws
+    password: humanity
+    port: 443
+    server: 104.18.152.77
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    ws-opts:
+      path: /assignment
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+  - name: "HUB-D-14"
+    client-fingerprint: chrome
+    network: ws
+    password: humanity
+    port: 443
+    server: join-telegram-channel.tirexnet.kdns.fr
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    ws-opts:
+      path: /assignment
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+  - name: "HUB-D-15"
+    client-fingerprint: chrome
+    network: ws
+    password: humanity
+    port: 443
+    server: 104.16.174.46
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    ws-opts:
+      path: /assignment
+    User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+  - name: "HUB-D-16"
+    password: maintell
+    port: 2053
+    server: 152.70.237.123
+    skip-cert-verify: true
+    sni: bing.com
+    type: hysteria2
+  - name: "HUB-D-17"
+    password: Og==
+    port: 1080
+    server: 103.210.161.8
+    skip-cert-verify: true
+    type: socks5
+    username: Og==
+  - name: "HUB-D-18"
     client-fingerprint: chrome
     encryption: none
     network: ws
     port: 443
-    server: 69.46.46.117
+    server: 104.21.62.195
     tls: true
     type: vless
-    uuid: Default
+    uuid: cb53f904-c979-454f-bf43-621990008148
     ws-opts:
-      path: /ws/vless/Default
-    User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
+      path: /LNbYtR09FXg1AmmjhdiHvR8v
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
     xudp: true
     packet-encoding: xudp
-    servername: ezaccess1-slv-ezaccess1-c8e8.up.railway.app
-  - name: "HUB-D-13"
-    cipher: aes-256-cfb
-    password: amazonskr05
-    port: 443
-    server: 63.176.107.205
-    type: ss
-  - name: "HUB-D-14"
+    servername: 3.qq1-0.kdns.fr
+  - name: "HUB-D-19"
     password: None
     port: 443
-    server: 37.120.233.50
+    server: 146.70.242.146
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-15"
-    port: 1080
-    server: 103.210.161.8
-    type: socks5
-  - name: "HUB-D-16"
+  - name: "HUB-D-20"
+    password: None
+    port: 443
+    server: 149.22.85.78
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-21"
+    password: None
+    port: 443
+    server: 149.50.216.65
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-22"
     port: 9002
     server: 84.17.47.150
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-17"
+  - name: "HUB-D-23"
     password: None
     port: 9002
     server: 84.17.47.148
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-18"
+  - name: "HUB-D-24"
     port: 9002
-    server: 84.17.47.149
+    server: 193.176.84.17
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-19"
+  - name: "HUB-D-25"
     port: 9002
-    server: 193.176.84.33
+    server: 193.176.84.25
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-20"
+  - name: "HUB-D-26"
+    port: 9002
+    server: 193.176.84.39
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-27"
     port: 9002
     server: 138.199.35.216
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-21"
-    port: 9002
-    server: 138.199.35.198
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-22"
-    client-fingerprint: chrome
-    network: ws
-    port: 2096
-    server: 2.26.125.38
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-    ws-opts:
-      path: /cdn/v3/live
-    servername: st3f6d.rumedia-cdn.com
-  - name: "HUB-D-23"
-    cipher: chacha20-ietf
-    obfs: plain
-    obfs-param: 33f313723.douyin.com
-    password: di15PV
-    port: 7007
-    protocol: auth_aes128_md5
-    protocol-param: 313723:dCwrni
-    server: api.meituan88.com
-    type: ssr
-  - name: "HUB-D-24"
-    cipher: chacha20-ietf
-    obfs: plain
-    obfs-param: 33f313723.douyin.com
-    password: di15PV
-    port: 7016
-    protocol: auth_aes128_md5
-    protocol-param: 313723:dCwrni
-    server: api.meituan88.com
-    type: ssr
-  - name: "HUB-D-25"
+  - name: "HUB-D-28"
     client-fingerprint: chrome
     enable: true
     query-server-name: cloudflare-ech.com
     network: ws
     port: 443
-    server: 162.159.152.31
+    server: 45.76.206.46
     skip-cert-verify: true
     tls: true
     type: vless
     uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
     ws-opts:
-      path: /urls
+      path: /tags/go/groups
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2560
     servername: cdn8848.776676.xyz
-  - name: "HUB-D-26"
-    cipher: 2022-blake3-chacha20-poly1305
-    password: UpeZLBSVADf64wezj0K1CcapVO6MLWWPYtMJue7gxqE=
-    port: 59924
-    server: 130.61.116.110
-    type: ss
-  - name: "HUB-D-27"
-    cipher: chacha20-ietf
-    obfs: plain
-    obfs-param: 33f313723.douyin.com
-    password: di15PV
-    port: 18566
-    protocol: auth_aes128_md5
-    protocol-param: 313723:dCwrni
-    server: api.meituan88.com
-    type: ssr
-  - name: "HUB-D-28"
-    cipher: 2022-blake3-chacha20-poly1305
-    password: 1RmIsogd2wO+AKg9dt+4v9PGoeuLhLSAztfnuapH+VI=
-    port: 59924
-    server: 130.61.148.193
-    type: ss
   - name: "HUB-D-29"
     client-fingerprint: chrome
     enable: true
     query-server-name: cloudflare-ech.com
     network: ws
     port: 443
-    server: 151.241.129.79
+    server: 68.64.178.52
     skip-cert-verify: true
     tls: true
     type: vless
     uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
     ws-opts:
-      path: /docs/gif
+      path: /downloads/posts/programs
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2560
     servername: cdn8848.776676.xyz
   - name: "HUB-D-30"
-    cipher: 2022-blake3-chacha20-poly1305
-    password: hJ+f10t7OSwpGbSouJJ4/DvKxUvgo9hi7u9bLfFVmVc=
-    port: 61312
-    server: 144.24.224.176
-    type: ss
-  - name: "HUB-D-31"
-    cipher: 2022-blake3-chacha20-poly1305
-    password: uj8R95KXC2t2Hcu3vuBQFbem9H1p3o9MF4kipyyiQR0=
-    port: 45819
-    server: 152.70.59.102
-    type: ss
-  - name: "HUB-D-32"
     client-fingerprint: chrome
     enable: true
     query-server-name: cloudflare-ech.com
     network: ws
-    port: 2096
-    server: 172.64.79.63
+    port: 443
+    server: 160.25.75.40
     skip-cert-verify: true
     tls: true
     type: vless
     uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
     ws-opts:
-      path: /vod/doujin
+      path: /html
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2560
     servername: cdn8848.776676.xyz
-  - name: "HUB-D-33"
-    client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    network: tcp
+  - name: "HUB-D-31"
+    client-fingerprint: chrome
+    enable: true
+    query-server-name: cloudflare-ech.com
+    network: ws
     port: 443
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: 4fa44664f6a566d3
-    server: gesmankos.sadiepinki.com
+    server: 104.16.152.241
     skip-cert-verify: true
-    tfo: false
     tls: true
     type: vless
-    uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-    servername: gesmankos.sadiepinki.com
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      path: /user/china
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+    servername: cdn8848.776676.xyz
+  - name: "HUB-D-32"
+    password: dCwrni
+    port: 7008
+    server: api.meituan88.com
+    skip-cert-verify: true
+    sni: globalnetworktraffic.com
+    type: anytls
+  - name: "HUB-D-33"
+    client-fingerprint: chrome
+    enable: true
+    query-server-name: cloudflare-ech.com
+    network: ws
+    port: 443
+    server: 194.76.172.160
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      path: /cp/docs
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+    servername: cdn8848.776676.xyz
   - name: "HUB-D-34"
     port: 443
-    server: 185.246.153.42
+    server: 146.70.176.242
     skip-cert-verify: true
-    sni: 482c8436a1f7c908b48a1757abb5dd79-3791fb4df2db250b.apache-iv.com
     tls: true
     type: http
   - name: "HUB-D-35"
@@ -2414,44 +3138,46 @@ proxies:
     tls: true
     type: http
   - name: "HUB-D-36"
-    port: 9002
-    server: 138.199.35.218
-    skip-cert-verify: true
+    port: 443
+    server: efr-marktplatz.club
+    sni: efr-marktplatz.club
     tls: true
     type: http
   - name: "HUB-D-37"
-    port: 9002
-    server: 138.199.35.210
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-38"
     port: 443
     server: 146.70.244.18
     skip-cert-verify: true
     tls: true
     type: http
+  - name: "HUB-D-38"
+    port: 443
+    server: 149.36.51.129
+    skip-cert-verify: true
+    tls: true
+    type: http
   - name: "HUB-D-39"
-    port: 9002
-    server: 138.199.35.219
+    port: 443
+    server: 146.70.203.18
     skip-cert-verify: true
     tls: true
     type: http
   - name: "HUB-D-40"
-    port: 6103
-    server: 87.98.174.157
+    password: None
+    port: 9002
+    server: 138.199.35.217
     skip-cert-verify: true
     tls: true
     type: http
   - name: "HUB-D-41"
+    password: None
     port: 9002
-    server: 138.199.35.206
+    server: 138.199.35.207
     skip-cert-verify: true
     tls: true
     type: http
   - name: "HUB-D-42"
     port: 9002
-    server: 138.199.35.209
+    server: 138.199.35.199
     skip-cert-verify: true
     tls: true
     type: http
@@ -2463,344 +3189,278 @@ proxies:
     type: http
   - name: "HUB-D-44"
     port: 9002
-    server: 138.199.35.205
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-45"
-    password: None
-    port: 443
-    server: 149.36.51.129
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-46"
-    port: 9002
     server: 138.199.35.196
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-47"
+  - name: "HUB-D-45"
     port: 9002
     server: 138.199.35.220
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-48"
+  - name: "HUB-D-46"
     port: 9002
-    server: 138.199.35.195
+    server: 138.199.35.212
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-49"
-    port: 443
-    server: 151.115.54.133
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-50"
-    port: 443
-    server: 185.140.209.235
-    skip-cert-verify: true
-    sni: 482c8436a1f7c908b48a1757abb5dd79-ce85c45206570905.apache-iv.com
-    tls: true
-    type: http
-  - name: "HUB-D-51"
-    port: 9002
-    server: 138.199.35.208
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-52"
-    port: 443
-    server: 185.216.35.66
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-53"
-    password: None
-    port: 443
-    server: 51.158.243.91
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-54"
+  - name: "HUB-D-47"
     port: 443
     server: 37.120.233.34
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-55"
-    port: 443
-    server: 82.102.17.178
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-56"
-    password: None
-    port: 9002
-    server: 193.176.84.30
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-57"
-    port: 443
-    server: goedkoopgeluid.icu
-    skip-cert-verify: true
-    tls: true
-    type: http
-    sni: goedkoopgeluid.icu
-  - name: "HUB-D-58"
-    port: 443
-    server: jgwynphotoarts.pro
-    sni: jgwynphotoarts.pro
-    tls: true
-    type: http
-  - name: "HUB-D-59"
-    password: None
-    port: 443
-    server: 185.94.192.210
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-60"
-    password: None
-    port: 9002
-    server: 138.199.35.201
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-61"
-    port: 443
-    server: 185.245.84.50
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-62"
-    port: 443
-    server: 185.235.0.34
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-63"
+  - name: "HUB-D-48"
     client-fingerprint: chrome
     enable: true
     query-server-name: cloudflare-ech.com
     network: ws
     port: 443
-    server: 161.35.18.70
+    server: 161.104.44.138
     skip-cert-verify: true
     tls: true
     type: vless
     uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
     ws-opts:
-      path: /about
+      path: /my/m/note
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2560
     servername: cdn8848.776676.xyz
-  - name: "HUB-D-64"
+  - name: "HUB-D-49"
+    port: 9443
+    server: 38.95.111.226
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-50"
+    port: 443
+    server: zebpay.site
+    sni: zebpay.site
+    tls: true
+    type: http
+  - name: "HUB-D-52"
+    port: 443
+    server: 185.245.84.50
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-53"
+    client-fingerprint: chrome
+    enable: true
+    query-server-name: cloudflare-ech.com
+    network: ws
+    port: 2083
+    server: 152.42.140.20
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      path: /services
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+    servername: cdn8848.776676.xyz
+  - name: "HUB-D-54"
+    port: 443
+    server: jewelscollecti.icu
+    skip-cert-verify: true
+    tls: true
+    type: http
+    sni: jewelscollecti.icu
+  - name: "HUB-D-55"
+    port: 9002
+    server: 193.176.84.40
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-56"
+    auth: 633bc3be486b646190661ac2387c150a
+    obfs: salamander
+    obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
+    password: 633bc3be486b646190661ac2387c150a
+    port: 443
+    server: 152.67.115.203
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+  - name: "HUB-D-57"
+    port: 443
+    server: 109.248.149.34
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-58"
     password: None
     port: 443
     server: 37.120.233.18
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-65"
+  - name: "HUB-D-59"
     port: 443
-    server: 185.235.0.2
+    server: 149.36.50.1
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-66"
-    password: None
-    port: 999
-    server: 8.243.167.51
-    type: http
-  - name: "HUB-D-67"
-    port: 443
-    server: 149.88.96.1
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-68"
+  - name: "HUB-D-60"
     client-fingerprint: chrome
     enable: true
     query-server-name: cloudflare-ech.com
     network: ws
     port: 443
-    server: 31.76.18.213
+    server: 46.8.178.234
     skip-cert-verify: true
     tls: true
     type: vless
     uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
     ws-opts:
-      path: /product/uploads/new
+      path: /about/ads/articles
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2560
     servername: cdn8848.776676.xyz
-  - name: "HUB-D-69"
-    port: 443
-    server: 130.195.250.34
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-70"
-    password: None
+  - name: "HUB-D-61"
     port: 443
     server: 130.195.250.18
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-71"
+  - name: "HUB-D-62"
+    port: 443
+    server: 149.88.96.1
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-63"
     password: None
     port: 443
-    server: 146.70.244.2
+    server: 146.70.123.98
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-72"
+  - name: "HUB-D-64"
     port: 443
-    server: 185.183.105.146
+    server: 130.195.250.34
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-73"
+  - name: "HUB-D-65"
     password: None
     port: 443
     server: 37.120.156.34
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-74"
+  - name: "HUB-D-66"
     port: 443
     server: 31.7.62.50
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-75"
-    port: 443
-    server: 146.70.242.146
+  - name: "HUB-D-67"
+    port: 23856
+    server: 51.159.225.196
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-76"
-    port: 443
-    server: 79.142.77.63
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-77"
+  - name: "HUB-D-68"
     port: 443
     server: 149.88.21.129
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-78"
+  - name: "HUB-D-69"
     port: 443
-    server: 103.97.88.154
+    server: 185.94.192.210
     skip-cert-verify: true
-    sni: 4a8c2906c96058315dffbc2b0e7ff19b-98005bea43f9ac33.apache-iv.com
     tls: true
     type: http
-  - name: "HUB-D-79"
+  - name: "HUB-D-70"
     password: None
     port: 443
     server: 109.248.147.66
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-80"
-    password: None
-    port: 443
-    server: 146.70.242.130
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-81"
+  - name: "HUB-D-71"
     port: 9002
-    server: 193.176.84.19
+    server: 193.176.84.36
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-82"
-    port: 443
-    server: 149.50.216.65
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-83"
-    cipher: chacha20-ietf
-    obfs: plain
-    obfs-param: 33f313723.douyin.com
-    password: di15PV
-    port: 7018
-    protocol: auth_aes128_md5
-    protocol-param: 313723:dCwrni
-    server: api.meituan88.com
-    type: ssr
-  - name: "HUB-D-84"
-    password: None
-    port: 443
-    server: 149.102.245.65
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-85"
-    port: 443
-    server: 212.102.63.61
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-86"
-    client-fingerprint: firefox
-    grpc-mode: gun
-    grpc-service-name: grpc_common1
-    network: grpc
-    port: 30963
-    public-key: XxNAqnYJDizM_4_ycJxyaa9xbx29hpDfwAtCv1Wga1M
-    short-id: c776352067
-    server: 57.128.177.218
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    uuid: aabcb69e-9f17-44bd-aaac-552dd23e9691
-    servername: us.vrzn.download.nvidia.com
-  - name: "HUB-D-87"
-    port: 443
-    server: 212.102.63.31
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "HUB-D-88"
+  - name: "HUB-D-72"
     client-fingerprint: chrome
     enable: true
     query-server-name: cloudflare-ech.com
     network: ws
     port: 443
-    server: 123.51.23.113
+    server: 104.17.145.73
     skip-cert-verify: true
     tls: true
     type: vless
     uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
     ws-opts:
-      path: /event/link
+      path: /act
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2560
     servername: cdn8848.776676.xyz
-  - name: "HUB-D-89"
+  - name: "HUB-D-73"
     port: 443
-    server: 149.22.85.78
+    server: 212.102.63.61
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-90"
+  - name: "HUB-D-74"
     port: 443
-    server: 212.102.63.1
+    server: 212.102.63.31
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "HUB-D-91"
+  - name: "HUB-D-75"
+    cipher: rc4-md5
+    obfs: plain
+    obfs-param: 33f313723.douyin.com
+    password: di15PV
+    port: 9051
+    protocol: auth_aes128_md5
+    protocol-param: 313723:dCwrni
+    server: api.meituan88.com
+    type: ssr
+  - name: "HUB-D-76"
+    port: 443
+    server: 87.120.103.226
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-78"
+    client-fingerprint: safari
+    network: ws
+    password: TAJhE0BC0_S1JDm9EmQxyLS64uC8ekbr
+    port: 9433
+    server: de2.x8lab.org
+    skip-cert-verify: false
+    sni: de2.x8lab.org
+    type: trojan
+    ws-opts:
+      path: /chatbot
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+  - name: "HUB-D-79"
+    client-fingerprint: chrome
+    encryption: none
+    network: xhttp
+    port: 443
+    server: onex-production-7ff4.up.railway.app
+    tls: true
+    type: vless
+    uuid: 0cb6370a-c656-b2dc-b982-3b52a10204f6
+    xhttp-opts:
+      mode: packet-up
+    host: onex-production-7ff4.up.railway.app
+    path: /xhttp-siz10/packet-up/0cb6370a-c656-b2dc-b982-3b52a10204f6
+    xudp: true
+    packet-encoding: xudp
+    servername: onex-production-7ff4.up.railway.app
+  - name: "HUB-D-80"
     client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -2815,14 +3475,14 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: www.lamer.com.hk
-  - name: "HUB-D-92"
+  - name: "HUB-D-81"
     client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
     network: tcp
-    port: 61205
-    public-key: PhXLfJ4s8EPauWaeRpzAjSuZibhmMiZFEMr8h8qU6iI
-    short-id: d1f38c0f15ed22
+    port: 60507
+    public-key: zCNI8OUsvp6NKt52Z_93OoqegAjbVjzP2tHGXd3cQjM
+    short-id: 0888830f7006f1
     server: clhkzzzdbgwxxndnlm.cfooov.xyz
     tls: true
     type: vless
@@ -2830,29 +3490,14 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: addons.mozilla.org
-  - name: "HUB-D-93"
+  - name: "HUB-D-82"
     client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
     network: tcp
-    port: 53342
-    public-key: ziA8SjPNF_6c8QlILdfvt3PPZSoKpfOFe85Okzs4Wj0
-    short-id: b6e225ece28bee45
-    server: jprbbqwlqqnmwysrl.cfooov.xyz
-    tls: true
-    type: vless
-    uuid: 17ab31f7-c021-4aec-83b2-ab48de8886bd
-    xudp: true
-    packet-encoding: xudp
-    servername: www.apple.com
-  - name: "HUB-D-94"
-    client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    network: tcp
-    port: 62638
-    public-key: PhXLfJ4s8EPauWaeRpzAjSuZibhmMiZFEMr8h8qU6iI
-    short-id: d1f38c0f15ed22
+    port: 31378
+    public-key: zCNI8OUsvp6NKt52Z_93OoqegAjbVjzP2tHGXd3cQjM
+    short-id: 0888830f7006f1
     server: sczznmbbbzgwlwzdhsql.jiedddym.com
     tls: true
     type: vless
@@ -2860,267 +3505,357 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: addons.mozilla.org
-  - name: "HUB-D-95"
+  - name: "HUB-D-83"
+    client-fingerprint: firefox
     encryption: none
-    grpc-service-name: vless
-    network: grpc
-    port: 2085
-    server: 104.143.223.80
+    flow: xtls-rprx-vision
+    network: tcp
+    port: 443
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: 4fa44664f6a566d3
+    server: gesmankos.sadiepinki.com
+    tls: true
     type: vless
-    uuid: 38ffee35-b305-41ba-89e0-78e62d95b99c
+    uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
     xudp: true
     packet-encoding: xudp
-  - name: "HUB-D-96"
+    servername: gesmankos.sadiepinki.com
+  - name: "HUB-D-84"
+    client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    network: tcp
+    port: 443
+    server: 50.7.120.202
+    tls: true
+    type: vless
+    uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+    xudp: true
+    packet-encoding: xudp
+    servername: nl-dedic-mori-2.failspace.top
+  - name: "HUB-D-85"
+    auth_str: dongtaiwang.com
+    down: 50
+    port: 20088
+    server: 5.83.129.153
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: 10
+    auth-str: dongtaiwang.com
+  - name: "HUB-D-86"
+    client-fingerprint: safari
+    encryption: none
+    flow: xtls-rprx-vision
+    network: tcp
+    port: 443
+    public-key: wK66Ve91QmwuclMGLWiN3ADL0i4-VwEK-_P4sDynogo
+    short-id: 99bfeeeb5c1c
+    server: 213.176.78.168
+    tls: true
+    type: vless
+    uuid: c795bdd5-0460-42bd-927b-fbff154d2ab5
+    xudp: true
+    packet-encoding: xudp
+    servername: cdp.x5.ru
+  - name: "HUB-D-87"
+    port: 9002
+    server: 193.176.84.21
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-88"
+    port: 443
+    server: fullmanfirm.icu
+    skip-cert-verify: true
+    tls: true
+    type: http
+    sni: fullmanfirm.icu
+  - name: "HUB-D-89"
+    port: 9002
+    server: 138.199.35.214
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "HUB-D-90"
+    client-fingerprint: chrome
+    encryption: none
+    network: ws
+    port: 443
+    server: 140.248.186.45
+    tls: true
+    type: vless
+    uuid: XpnTeam-13
+    ws-opts:
+      path: /
+    User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K)
+    xudp: true
+    packet-encoding: xudp
+    servername: ssl.fastly.com
+  - name: "HUB-D-91"
+    client-fingerprint: firefox
+    network: tcp
+    port: 443
+    public-key: k9BuzZPnzofDcPTaa7ROHNIc9ww2jy3tLAJ04GuKvAQ
+    short-id: 669d7ae5e1611511
+    server: 72.56.80.123
+    tls: true
+    type: vless
+    uuid: 88a247b9-3e0b-4c0e-ba88-61fc63a9c5d1
+    xudp: true
+    packet-encoding: xudp
+    servername: static.yandex.net
+  - name: "HUB-D-92"
     client-fingerprint: chrome
     network: ws
     port: 443
-    server: amirpanel-production-8b40.up.railway.app
+    server: 104.21.90.161
     tls: true
     type: vless
-    uuid: 7b394c74-38a2-4d66-046c-df2f1ae703f1
+    uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
     ws-opts:
-      path: /ws/7b394c74-38a2-4d66-046c-df2f1ae703f1
-    User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+      path: /CjBjB9sn5pCvaSwScc
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
     xudp: true
     packet-encoding: xudp
-    servername: amirpanel-production-8b40.up.railway.app
+    servername: 4-m19.pErU-Line.cCwU.cc
+  - name: "HUB-D-93"
+    client-fingerprint: chrome
+    network: xhttp
+    port: 9443
+    server: 31.76.226.100
+    tls: true
+    type: vless
+    uuid: d9d0f208-d582-41d5-bb7b-742671402810
+    xhttp-opts:
+      mode: auto
+    host: hub-ee-01.hanvpn.cc
+    path: /ee01-xhttp-8e47a/
+    xudp: true
+    packet-encoding: xudp
+    servername: hub-ee-01.hanvpn.cc
+  - name: "HUB-D-94"
+    client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    network: tcp
+    port: 443
+    server: kama2.api3-max.ru
+    tls: true
+    type: vless
+    uuid: cdd6bfce-781a-4454-b7d5-4778abb5c24f
+    xudp: true
+    packet-encoding: xudp
+    servername: kama2.api3-max.ru
+  - name: "HUB-D-95"
+    client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    network: tcp
+    port: 443
+    server: roskaa6.api3-max.ru
+    tls: true
+    type: vless
+    uuid: cdd6bfce-781a-4454-b7d5-4778abb5c24f
+    xudp: true
+    packet-encoding: xudp
+    servername: roskaa6.api3-max.ru
   - name: "HUB-D-97"
-    client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    network: tcp
-    port: 443
-    public-key: G2U8_BvRAgcOw0sX8u_0yYdVAlD8CWLSi-uYjvH07hw
-    short-id: 4fa44664f6a566d3
-    server: 31.76.113.231
+    port: 9002
+    server: 193.176.84.33
+    skip-cert-verify: true
+    sni: www.bing.com
     tls: true
-    type: vless
-    uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-    xudp: true
-    packet-encoding: xudp
-    servername: italia.superbuba.top
+    type: http
   - name: "HUB-D-98"
-    client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    network: tcp
-    port: 443
-    public-key: G2U8_BvRAgcOw0sX8u_0yYdVAlD8CWLSi-uYjvH07hw
-    short-id: 4fa44664f6a566d3
-    server: italia.superbuba.top
+    port: 9002
+    server: 193.176.84.38
+    skip-cert-verify: true
+    sni: www.bing.com
     tls: true
-    type: vless
-    uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-    xudp: true
-    packet-encoding: xudp
-    servername: italia.superbuba.top
+    type: http
   - name: "HUB-D-99"
-    password: test123
-    port: 1080
-    server: 104.168.249.36
-    skip-cert-verify: true
-    type: socks5
-    username: test123
-  - name: "HUB-D-100"
-    password: test123
-    port: 1080
-    server: 185.145.99.41
-    skip-cert-verify: true
-    type: socks5
-    username: test123
-  - name: "HUB-D-101"
     port: 9002
     server: 193.176.84.35
     skip-cert-verify: true
     sni: www.bing.com
     tls: true
     type: http
+  - name: "HUB-D-100"
+    client-fingerprint: chrome
+    network: xhttp
+    port: 443
+    server: 31.185.108.84
+    tls: true
+    type: vless
+    uuid: Telegram:Daredevil_404
+    xhttp-opts:
+      mode: auto
+    host: daredevil2.manufacturingcity.ir
+    path: /TelegramChannel:@daredevil_404
+    x-padding-bytes: 100-1000
+    xudp: true
+    packet-encoding: xudp
+    servername: daredevil2.manufacturingcity.ir
   - name: "HUB-E-1"
     type: vless
-    server: 207.57.128.108
-    port: 35559
-    uuid: 6d7deb4c-d700-4e0f-bc17-122ccc564f28
+    server: 13.143.137.164
+    port: 9443
+    uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
     flow: xtls-rprx-vision
     tls: true
-    servername: www.ebay.com
+    servername: plaincanvas.videoclothing.xyz
     client-fingerprint: chrome
-    public-key: 0BRJ4nv0yLutb5ATRT3WbLgE9Y58udx3PbVOUVbOhkY
+    public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
+    short-id: e336c9a786fae301
   - name: "HUB-E-2"
-    type: http
-    server: 107.151.238.27
-    port: 443
-    username: testuser1
-    password: e4b72b531a2d10900519
-    tls: true
-    sni: 6b97ee1b.acsnet.co
-  - name: "HUB-E-3"
     type: vless
-    server: 45.11.27.86
-    port: 443
-    uuid: a2738d8d-ed26-4b13-a4a2-b89c7238cd10
-    flow: xtls-rprx-vision
-    tls: true
-    servername: 5post-gate.x5.ru
-    client-fingerprint: firefox
-    public-key: IBzFSziv_xISB-Q6X90PocTBde6jb4X6swEvdZQhqzk
-    short-id: d0aae44f
-  - name: "HUB-E-4"
-    type: http
-    server: 138.199.35.219
-    port: 9002
-    tls: true
-    sni: 138.199.35.219
-    skip-cert-verify: true
-  - name: "HUB-E-5"
-    type: http
-    server: 35.247.136.78
-    port: 443
-    tls: true
-    sni: 35.247.136.78
-    skip-cert-verify: true
-  - name: "HUB-E-6"
-    type: socks5
-    server: 123.58.219.171
-    port: 10808
-  - name: "HUB-E-7"
-    type: hysteria2
-    server: dg1.mangshe.xyz
-    port: 2056
-    password: 41f0d6d3-4a45-4635-8225-2abd2284189b
-    sni: dg1.mangshe.xyz
-    skip-cert-verify: true
-  - name: "HUB-E-8"
-    type: http
-    server: 138.199.35.198
-    port: 9002
-    tls: true
-    skip-cert-verify: true
-  - name: "HUB-E-9"
-    type: http
-    server: 84.17.47.148
-    port: 9002
-    tls: true
-    skip-cert-verify: true
-  - name: "HUB-E-10"
-    type: vless
-    server: 104.21.62.195
-    port: 443
-    uuid: cb53f904-c979-454f-bf43-621990008148
-    tls: true
-    servername: 5.qq1-0.kdns.fr
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /LNbYtR09FXg1AmmjhdiHvR8v
-  - name: "HUB-E-11"
-    type: http
-    server: 138.199.35.209
-    port: 9002
-    tls: true
-    sni: 138.199.35.209
-    skip-cert-verify: true
-  - name: "HUB-E-12"
-    type: hysteria2
-    server: ru.xiaoliyu.cyou
-    port: 4433
-    password: 19f72087-4591-4d72-930b-2697078ec2be
-    skip-cert-verify: true
-  - name: "HUB-E-13"
-    type: http
-    server: berniesbodybla.fun
-    port: 443
-    username: Ok5vbmU=
-    tls: true
-  - name: "HUB-E-14"
-    type: http
-    server: fan.973511.xyz
-    port: 443
-    username: bnVsbDpudWxs
-    tls: true
-  - name: "HUB-E-16"
-    type: vless
-    server: 207.57.129.114
-    port: 14934
-    uuid: 630b700b-3c91-463a-9ef5-ee01f5848b45
+    server: 45.152.66.168
+    port: 27906
+    uuid: c1cbaa45-23ad-4113-8d9f-c66ec5ec3960
     flow: xtls-rprx-vision
     tls: true
     servername: dash.cloudflare.com
     client-fingerprint: chrome
-    public-key: C9qIqeSCAkCLIqki3n21hyeILLltWcZJ6M0HgRTGmk4
-  - name: "HUB-E-17"
+    public-key: zw-86s4VfPvHEbmPeIA_0U0rFYiNlkmR9ky2y23fvWk
+  - name: "HUB-E-3"
     type: http
-    server: 138.199.35.207
+    server: 138.199.35.205
     port: 9002
-    password: None
     tls: true
-    sni: 138.199.35.207
     skip-cert-verify: true
-  - name: "HUB-E-18"
+  - name: "HUB-E-4"
+    type: hysteria2
+    server: 24.233.8.109
+    port: 443
+    password: 8294f130408299df8cab08c80bf6f819
+    sni: www.bing.com
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: c8827ab99e316c5bd414e21afa915ddf
+  - name: "HUB-E-6"
+    type: http
+    server: fan.571589.xyz
+    port: 443
+    tls: true
+    sni: fan.571589.xyz
+    skip-cert-verify: true
+  - name: "HUB-E-9"
     type: http
     server: fullmanfirm.icu
     port: 443
     tls: true
     skip-cert-verify: true
-  - name: "HUB-E-19"
+  - name: "HUB-E-10"
     type: http
-    server: 138.199.35.208
+    server: carolinafreigh.fun
+    port: 443
+    username: Ok5vbmU=
+    tls: true
+  - name: "HUB-E-11"
+    type: vless
+    server: 207.57.135.42
+    port: 30852
+    uuid: 10fdf9ce-3304-47cf-874b-9a3be30d5030
+    flow: xtls-rprx-vision
+    tls: true
+    servername: www.paypal.com
+    client-fingerprint: chrome
+    public-key: HN9gCD2plpOr5jSNJfv9Xcl2Zjj-AKvfbNmLBNYWcUc
+  - name: "HUB-E-12"
+    type: http
+    server: 138.199.35.207
     port: 9002
     tls: true
     skip-cert-verify: true
-  - name: "HUB-E-20"
-    type: http
-    server: 35.197.129.84
-    port: 443
-    tls: true
-    skip-cert-verify: true
-  - name: "HUB-E-21"
-    type: http
-    server: 159.13.44.228
-    port: 443
-    tls: true
-    skip-cert-verify: true
-  - name: "HUB-E-22"
+  - name: "HUB-E-13"
     type: vless
-    server: 45.144.137.215
-    port: 29827
-    uuid: 2726dd7f-81fe-4b31-9b9b-e691ee730562
+    server: 68.64.183.179
+    port: 53517
+    uuid: 0473ce6d-65e6-4ee2-a030-9e7a006f7921
     flow: xtls-rprx-vision
     tls: true
-    servername: aws.amazon.com
+    servername: www.ebay.com
     client-fingerprint: chrome
-    public-key: aFwfZMfFUyzU8RB_vh3fxtjUxDcQlu4QapSdQH0jG04
+    public-key: rlAsfb-BXMZTnJpvvDrVkP-FO7Ll4-7sWVDPD7GThX4
+  - name: "HUB-E-14"
+    type: socks5
+    server: 161.35.90.93
+    port: 1083
+  - name: "HUB-E-15"
+    type: http
+    server: 138.199.35.199
+    port: 9002
+    tls: true
+    skip-cert-verify: true
+  - name: "HUB-E-16"
+    type: http
+    server: 51.159.225.196
+    port: 23856
+    tls: true
+    skip-cert-verify: true
+  - name: "HUB-E-18"
+    type: vless
+    server: 103.143.81.60
+    port: 54030
+    uuid: 322c0364-b447-45c2-a27c-250376170dc0
+    flow: xtls-rprx-vision
+    tls: true
+    servername: www.ebay.com
+    client-fingerprint: chrome
+    public-key: 1kifGOu6PhqrZmV4gK1XEmnKsq1Gcr9sqJYw4SQxujY
+  - name: "HUB-E-19"
+    type: vless
+    server: 45.145.228.155
+    port: 2574
+    uuid: 032b96c6-752f-4cff-88d1-fad817b0dad3
+    flow: xtls-rprx-vision
+    tls: true
+    servername: dash.cloudflare.com
+    client-fingerprint: chrome
+    public-key: JXdqcykVt3Ue2ToOemH_AHoZUnQKbGIzaUmeZY7o32Y
+  - name: "HUB-E-20"
+    type: http
+    server: jewelscollecti.icu
+    port: 443
+    username: Ok5vbmU=
+    tls: true
+  - name: "HUB-E-21"
+    type: socks5
+    server: 144.24.47.42
+    port: 1080
+    username: T2c9PTo=
   - name: "HUB-E-23"
     type: http
-    server: fan.571589.xyz
-    port: 443
-    username: bnVsbDpudWxs
+    server: 138.199.35.196
+    port: 9002
     tls: true
+    sni: 138.199.35.196
     skip-cert-verify: true
   - name: "HUB-E-24"
     type: socks5
     server: 121.169.46.116
     port: 1090
-    username: T2clM0QlM0Q6
+    username: VDJjbE0wUWxNMFE2Og==
   - name: "HUB-E-26"
-    type: vless
-    server: aws-sg.webprovider.top
+    type: http
+    server: 154.26.139.24
     port: 443
-    uuid: 3180f311-16fb-445c-b129-4d946940c21a
-    flow: xtls-rprx-vision
     tls: true
-    servername: icloud.com
-    client-fingerprint: chrome
-    public-key: xZaUaPEQIRWewPh9LsTehSiqqFL0INeNyp-ERkuy7Qs
-    short-id: 3bb3fff95c
+    skip-cert-verify: true
   - name: "HUB-E-27"
-    type: vless
-    server: 172.104.57.243
+    type: http
+    server: voteshirleysew.club
     port: 443
-    uuid: b847f2ff-091f-4396-a8d0-d2fe3bfaa0bf
     tls: true
-    servername: zoom.us
+    sni: voteshirleysew.club
     skip-cert-verify: true
   - name: "HUB-E-28"
+    type: http
+    server: efr-marktplatz.club
+    port: 443
+    tls: true
+  - name: "HUB-E-29"
     type: vless
     server: de10.delivery-4f1c.com
     port: 443
@@ -3132,7 +3867,7 @@ proxies:
     client-fingerprint: chrome
     public-key: z_Rn0Vvq1GB39RhN6v7DhdtD-kS0XZa_je0h-no_hWs
     short-id: 59eee550a1014198
-  - name: "HUB-E-29"
+  - name: "HUB-E-30"
     type: vless
     server: 31.77.7.122
     port: 2087
@@ -3143,7 +3878,7 @@ proxies:
     client-fingerprint: ios
     public-key: TqsHQWg0oFULyLiaXe9vuwYXmLR6mRLiL376GJbX2Cs
     short-id: 407f4d9be75efc56
-  - name: "HUB-E-30"
+  - name: "HUB-E-31"
     type: vless
     server: 2.26.9.243
     port: 3454
@@ -3155,7 +3890,7 @@ proxies:
     public-key: Bz2EFAfox-uD9nn8qAVKy86A1kDKO2OpYQhMO4fCrCg
     short-id: 159b4efc
     grpc-service-name: google.android.location.SyncService
-  - name: "HUB-E-31"
+  - name: "HUB-E-32"
     type: vless
     server: 34.87.244.111
     port: 443
@@ -3167,7 +3902,7 @@ proxies:
     skip-cert-verify: true
     public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
     short-id: d725f0dd8cce210f
-  - name: "HUB-E-32"
+  - name: "HUB-E-33"
     type: vless
     server: 185.231.103.20
     port: 443
@@ -3830,8 +4565,7 @@ proxy-groups:
       - "HUB-A-SG-18"
       - "HUB-A-SG-19"
       - "HUB-A-SG-20"
-      - "HUB-A-SG-21"
-      - "HUB-A-22"
+      - "HUB-A-21"
       - "HUB-B-1"
       - "HUB-B-2"
       - "HUB-B-3"
@@ -3890,150 +4624,207 @@ proxy-groups:
       - "HUB-B-56"
       - "HUB-B-57"
       - "HUB-B-58"
-      - "HUB-C-1"
-      - "HUB-C-3"
-      - "HUB-C-4"
-      - "HUB-C-KR-5"
-      - "HUB-C-6"
-      - "HUB-C-7"
-      - "HUB-C-8"
-      - "HUB-C-9"
-      - "HUB-C-10"
+      - "HUB-C-HK-1"
+      - "HUB-C-2"
+      - "HUB-C-US-3"
+      - "HUB-C-US-4"
+      - "HUB-C-5"
+      - "HUB-C-HK-6"
+      - "HUB-C-US-7"
+      - "HUB-C-US-8"
+      - "HUB-C-US-9"
+      - "HUB-C-US-10"
       - "HUB-C-11"
       - "HUB-C-US-12"
-      - "HUB-C-13"
-      - "HUB-C-US-14"
-      - "HUB-C-US-15"
-      - "HUB-C-US-16"
-      - "HUB-C-17"
-      - "HUB-C-18"
-      - "HUB-C-19"
-      - "HUB-C-20"
-      - "HUB-C-21"
-      - "HUB-C-22"
-      - "HUB-C-JP-23"
-      - "HUB-C-24"
-      - "HUB-C-25"
+      - "HUB-C-US-13"
+      - "HUB-C-14"
+      - "HUB-C-15"
+      - "HUB-C-HK-16"
+      - "HUB-C-US-17"
+      - "HUB-C-HK-18"
+      - "HUB-C-HK-19"
+      - "HUB-C-HK-20"
+      - "HUB-C-HK-21"
+      - "HUB-C-JP-22"
+      - "HUB-C-US-24"
+      - "HUB-C-US-25"
       - "HUB-C-26"
       - "HUB-C-27"
-      - "HUB-C-28"
       - "HUB-C-29"
-      - "HUB-C-US-30"
-      - "HUB-C-TW-31"
-      - "HUB-C-TW-36"
-      - "HUB-C-37"
-      - "HUB-C-38"
+      - "HUB-C-31"
+      - "HUB-C-33"
+      - "HUB-C-34"
+      - "HUB-C-35"
+      - "HUB-C-36"
       - "HUB-C-39"
-      - "HUB-C-40"
-      - "HUB-C-42"
-      - "HUB-C-US-43"
-      - "HUB-C-US-44"
+      - "HUB-C-US-40"
+      - "HUB-C-43"
+      - "HUB-C-SG-44"
       - "HUB-C-US-45"
-      - "HUB-C-47"
-      - "HUB-C-48"
-      - "HUB-C-50"
-      - "HUB-C-US-55"
+      - "HUB-C-52"
+      - "HUB-C-US-53"
+      - "HUB-C-54"
+      - "HUB-C-55"
       - "HUB-C-56"
       - "HUB-C-57"
       - "HUB-C-58"
+      - "HUB-C-59"
+      - "HUB-C-60"
       - "HUB-C-61"
       - "HUB-C-64"
+      - "HUB-C-66"
       - "HUB-C-67"
       - "HUB-C-68"
       - "HUB-C-69"
       - "HUB-C-71"
+      - "HUB-C-72"
+      - "HUB-C-73"
+      - "HUB-C-76"
       - "HUB-C-78"
-      - "HUB-C-83"
+      - "HUB-C-79"
+      - "HUB-C-80"
+      - "HUB-C-82"
+      - "HUB-C-84"
       - "HUB-C-85"
-      - "HUB-C-87"
-      - "HUB-C-88"
-      - "HUB-C-89"
+      - "HUB-C-86"
       - "HUB-C-90"
       - "HUB-C-91"
+      - "HUB-C-92"
       - "HUB-C-93"
       - "HUB-C-94"
-      - "HUB-C-95"
       - "HUB-C-96"
       - "HUB-C-97"
-      - "HUB-C-98"
-      - "HUB-C-100"
-      - "HUB-C-102"
-      - "HUB-C-103"
+      - "HUB-C-99"
       - "HUB-C-104"
-      - "HUB-C-106"
+      - "HUB-C-US-105"
       - "HUB-C-108"
       - "HUB-C-109"
-      - "HUB-C-110"
-      - "HUB-C-111"
-      - "HUB-C-112"
-      - "HUB-C-113"
       - "HUB-C-114"
       - "HUB-C-115"
-      - "HUB-C-116"
-      - "HUB-C-117"
-      - "HUB-C-118"
-      - "HUB-C-119"
-      - "HUB-C-120"
       - "HUB-C-121"
+      - "HUB-C-122"
       - "HUB-C-125"
       - "HUB-C-127"
-      - "HUB-C-129"
-      - "HUB-C-132"
-      - "HUB-C-133"
-      - "HUB-C-135"
       - "HUB-C-137"
-      - "HUB-C-138"
-      - "HUB-C-142"
-      - "HUB-C-145"
-      - "HUB-C-147"
-      - "HUB-C-148"
-      - "HUB-C-149"
-      - "HUB-C-150"
-      - "HUB-C-152"
+      - "HUB-C-139"
+      - "HUB-C-JP-140"
+      - "HUB-C-141"
+      - "HUB-C-HK-142"
+      - "HUB-C-JP-143"
+      - "HUB-C-JP-144"
+      - "HUB-C-TW-145"
+      - "HUB-C-SG-146"
+      - "HUB-C-HK-147"
+      - "HUB-C-JP-148"
+      - "HUB-C-SG-149"
+      - "HUB-C-KR-150"
+      - "HUB-C-JP-151"
+      - "HUB-C-HK-152"
+      - "HUB-C-TW-154"
+      - "HUB-C-JP-155"
+      - "HUB-C-JP-156"
+      - "HUB-C-HK-157"
+      - "HUB-C-SG-158"
       - "HUB-C-159"
-      - "HUB-C-161"
+      - "HUB-C-160"
+      - "HUB-C-JP-161"
       - "HUB-C-162"
+      - "HUB-C-US-163"
       - "HUB-C-164"
+      - "HUB-C-165"
+      - "HUB-C-US-166"
+      - "HUB-C-167"
+      - "HUB-C-168"
+      - "HUB-C-169"
+      - "HUB-C-170"
+      - "HUB-C-171"
       - "HUB-C-172"
+      - "HUB-C-173"
       - "HUB-C-174"
-      - "HUB-C-175"
-      - "HUB-C-176"
-      - "HUB-C-183"
+      - "HUB-C-US-176"
+      - "HUB-C-US-177"
+      - "HUB-C-US-179"
+      - "HUB-C-181"
+      - "HUB-C-185"
       - "HUB-C-186"
-      - "HUB-C-190"
-      - "HUB-C-197"
-      - "HUB-C-198"
-      - "HUB-C-200"
+      - "HUB-C-US-187"
+      - "HUB-C-189"
+      - "HUB-C-192"
+      - "HUB-C-JP-194"
+      - "HUB-C-195"
+      - "HUB-C-US-205"
+      - "HUB-C-206"
+      - "HUB-C-207"
       - "HUB-C-208"
+      - "HUB-C-209"
       - "HUB-C-210"
+      - "HUB-C-211"
       - "HUB-C-212"
-      - "HUB-C-214"
+      - "HUB-C-213"
+      - "HUB-C-215"
       - "HUB-C-216"
-      - "HUB-C-US-252"
+      - "HUB-C-217"
+      - "HUB-C-218"
+      - "HUB-C-219"
+      - "HUB-C-222"
+      - "HUB-C-225"
+      - "HUB-C-226"
+      - "HUB-C-227"
+      - "HUB-C-228"
+      - "HUB-C-229"
+      - "HUB-C-230"
+      - "HUB-C-231"
+      - "HUB-C-232"
+      - "HUB-C-233"
+      - "HUB-C-234"
+      - "HUB-C-235"
+      - "HUB-C-236"
+      - "HUB-C-US-237"
+      - "HUB-C-239"
+      - "HUB-C-240"
+      - "HUB-C-241"
+      - "HUB-C-242"
+      - "HUB-C-243"
+      - "HUB-C-244"
+      - "HUB-C-245"
+      - "HUB-C-246"
+      - "HUB-C-247"
+      - "HUB-C-248"
+      - "HUB-C-249"
+      - "HUB-C-250"
+      - "HUB-C-251"
+      - "HUB-C-253"
       - "HUB-C-254"
-      - "HUB-C-261"
-      - "HUB-C-265"
-      - "HUB-C-US-278"
-      - "HUB-C-US-279"
-      - "HUB-C-281"
-      - "HUB-C-282"
+      - "HUB-C-257"
+      - "HUB-C-264"
+      - "HUB-C-266"
+      - "HUB-C-267"
+      - "HUB-C-268"
+      - "HUB-C-269"
+      - "HUB-C-271"
+      - "HUB-C-277"
+      - "HUB-C-278"
       - "HUB-C-283"
       - "HUB-C-284"
-      - "HUB-C-US-285"
       - "HUB-C-286"
       - "HUB-C-287"
       - "HUB-C-290"
       - "HUB-C-291"
       - "HUB-C-292"
       - "HUB-C-293"
-      - "HUB-C-296"
-      - "HUB-C-297"
-      - "HUB-C-298"
-      - "HUB-C-306"
-      - "HUB-C-US-334"
-      - "HUB-C-US-335"
-      - "HUB-C-337"
-      - "HUB-C-338"
+      - "HUB-C-294"
+      - "HUB-C-295"
+      - "HUB-C-US-304"
+      - "HUB-C-308"
+      - "HUB-C-310"
+      - "HUB-C-316"
+      - "HUB-C-317"
+      - "HUB-C-321"
+      - "HUB-C-325"
+      - "HUB-C-328"
+      - "HUB-C-333"
+      - "HUB-C-384"
+      - "HUB-C-394"
       - "HUB-D-1"
       - "HUB-D-2"
       - "HUB-D-3"
@@ -4042,6 +4833,7 @@ proxy-groups:
       - "HUB-D-6"
       - "HUB-D-7"
       - "HUB-D-8"
+      - "HUB-D-9"
       - "HUB-D-10"
       - "HUB-D-11"
       - "HUB-D-12"
@@ -4083,7 +4875,6 @@ proxy-groups:
       - "HUB-D-48"
       - "HUB-D-49"
       - "HUB-D-50"
-      - "HUB-D-51"
       - "HUB-D-52"
       - "HUB-D-53"
       - "HUB-D-54"
@@ -4109,7 +4900,6 @@ proxy-groups:
       - "HUB-D-74"
       - "HUB-D-75"
       - "HUB-D-76"
-      - "HUB-D-77"
       - "HUB-D-78"
       - "HUB-D-79"
       - "HUB-D-80"
@@ -4128,33 +4918,27 @@ proxy-groups:
       - "HUB-D-93"
       - "HUB-D-94"
       - "HUB-D-95"
-      - "HUB-D-96"
       - "HUB-D-97"
       - "HUB-D-98"
       - "HUB-D-99"
       - "HUB-D-100"
-      - "HUB-D-101"
       - "HUB-E-1"
       - "HUB-E-2"
       - "HUB-E-3"
       - "HUB-E-4"
-      - "HUB-E-5"
       - "HUB-E-6"
-      - "HUB-E-7"
-      - "HUB-E-8"
       - "HUB-E-9"
       - "HUB-E-10"
       - "HUB-E-11"
       - "HUB-E-12"
       - "HUB-E-13"
       - "HUB-E-14"
+      - "HUB-E-15"
       - "HUB-E-16"
-      - "HUB-E-17"
       - "HUB-E-18"
       - "HUB-E-19"
       - "HUB-E-20"
       - "HUB-E-21"
-      - "HUB-E-22"
       - "HUB-E-23"
       - "HUB-E-24"
       - "HUB-E-26"
@@ -4164,6 +4948,7 @@ proxy-groups:
       - "HUB-E-30"
       - "HUB-E-31"
       - "HUB-E-32"
+      - "HUB-E-33"
       - "HUB-OM-1"
       - "HUB-OM-2"
       - "HUB-OM-3"
@@ -4238,6 +5023,17 @@ proxy-groups:
       - "HUB-B-HK-8"
       - "HUB-B-HK-9"
       - "HUB-B-HK-10"
+      - "HUB-C-HK-1"
+      - "HUB-C-HK-6"
+      - "HUB-C-HK-16"
+      - "HUB-C-HK-18"
+      - "HUB-C-HK-19"
+      - "HUB-C-HK-20"
+      - "HUB-C-HK-21"
+      - "HUB-C-HK-142"
+      - "HUB-C-HK-147"
+      - "HUB-C-HK-152"
+      - "HUB-C-HK-157"
   - name: HUB-JP
     type: select
     proxies:
@@ -4250,7 +5046,16 @@ proxy-groups:
       - "HUB-A-JP-14"
       - "HUB-A-JP-15"
       - "HUB-A-JP-16"
-      - "HUB-C-JP-23"
+      - "HUB-C-JP-22"
+      - "HUB-C-JP-140"
+      - "HUB-C-JP-143"
+      - "HUB-C-JP-144"
+      - "HUB-C-JP-148"
+      - "HUB-C-JP-151"
+      - "HUB-C-JP-155"
+      - "HUB-C-JP-156"
+      - "HUB-C-JP-161"
+      - "HUB-C-JP-194"
   - name: HUB-SG
     type: select
     proxies:
@@ -4261,32 +5066,44 @@ proxy-groups:
       - "HUB-A-SG-18"
       - "HUB-A-SG-19"
       - "HUB-A-SG-20"
-      - "HUB-A-SG-21"
+      - "HUB-C-SG-44"
+      - "HUB-C-SG-146"
+      - "HUB-C-SG-149"
+      - "HUB-C-SG-158"
   - name: HUB-TW
     type: select
     proxies:
       - HUB-AUTO
-      - "HUB-C-TW-31"
-      - "HUB-C-TW-36"
+      - "HUB-C-TW-145"
+      - "HUB-C-TW-154"
   - name: HUB-US
     type: select
     proxies:
       - HUB-AUTO
+      - "HUB-C-US-3"
+      - "HUB-C-US-4"
+      - "HUB-C-US-7"
+      - "HUB-C-US-8"
+      - "HUB-C-US-9"
+      - "HUB-C-US-10"
       - "HUB-C-US-12"
-      - "HUB-C-US-14"
-      - "HUB-C-US-15"
-      - "HUB-C-US-16"
-      - "HUB-C-US-30"
-      - "HUB-C-US-43"
-      - "HUB-C-US-44"
+      - "HUB-C-US-13"
+      - "HUB-C-US-17"
+      - "HUB-C-US-24"
+      - "HUB-C-US-25"
+      - "HUB-C-US-40"
       - "HUB-C-US-45"
-      - "HUB-C-US-55"
-      - "HUB-C-US-252"
-      - "HUB-C-US-278"
-      - "HUB-C-US-279"
-      - "HUB-C-US-285"
-      - "HUB-C-US-334"
-      - "HUB-C-US-335"
+      - "HUB-C-US-53"
+      - "HUB-C-US-105"
+      - "HUB-C-US-163"
+      - "HUB-C-US-166"
+      - "HUB-C-US-176"
+      - "HUB-C-US-177"
+      - "HUB-C-US-179"
+      - "HUB-C-US-187"
+      - "HUB-C-US-205"
+      - "HUB-C-US-237"
+      - "HUB-C-US-304"
 
 rules:
   - DOMAIN-SUFFIX,raw.githubusercontent.com,DIRECT
