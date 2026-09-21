@@ -8,8 +8,7 @@
 name: opera-masque relay
 
 on:
-  schedule:
-    - cron: '0 */6 * * *'  # 每 6 小时（整点，降频以节省 Actions 分钟）
+  # [2026-09-21 暂停五源] 定时触发移除，只留手动 dispatch；恢复时重新加回 schedule
   workflow_dispatch:
 
 permissions:
