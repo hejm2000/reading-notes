@@ -1,68 +1,20 @@
 test-url: http://www.gstatic.com/generate_204
 proxies:
-- name: 🇯🇵 JP HUB-E-28
-  type: http
-  server: fan.571589.xyz
-  port: 443
-  username: '''null'''
-  password: '''null'''
-  tls: true
-  sni: fan.571589.xyz
-- name: HUB-E-11
-  type: http
-  server: 159.69.94.125
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: HUB-D-3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: a8
+- name: HUB-C-20
+  type: vless
   server: api.videolaguna.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
-  xudp: true
-  packet-encoding: xudp
-  servername: api.videolaguna.cc
-- name: HUB-D-35
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: HUB-D-74
-  network: tcp
   port: 443
+  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
+  servername: api.videolaguna.cc
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: ios
   reality-opts:
     public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
     short-id: a8
-  server: api.mediakaskad.cc
-  tls: true
-  type: vless
-  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
-  udp: true
-  servername: api.mediakaskad.cc
-- name: HUB-D-15
-  password: 'null'
-  port: 9002
-  server: 84.17.47.146
   skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
   udp: true
-- name: HUB-C-30
+- name: HUB-C-13
   type: vless
   server: 152.233.71.81
   port: 443
@@ -70,101 +22,73 @@ proxies:
   servername: brointelengence.com
   tls: true
   flow: xtls-rprx-vision
-  client-fingerprint: chrome
+  client-fingerprint: random
   reality-opts:
     public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
     short-id: 1c3e8241a8743df9
   skip-cert-verify: true
   udp: true
-- name: HUB-D-8
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
+- name: HUB-E-19
   type: http
-  udp: true
-- name: HUB-D-12
-  password: 'null'
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
+  server: chalo-ru.nexorcdn.com
+  port: 44008
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
   tls: true
+- name: HUB-E-15
   type: http
-  username: 'null'
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: HUB-D-1
-  network: tcp
+  server: 178.219.43.226
   port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 US HUB-E-20
+  type: http
+  server: 138.199.35.202
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: HUB-E-18
+  type: http
+  server: 185.44.107.166
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: HUB-C-9
+  type: vless
+  server: api.mediakaskad.cc
+  port: 443
+  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
+  servername: api.mediakaskad.cc
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: safari
   reality-opts:
     public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
     short-id: a8
-  server: 189.74.117.22
-  tls: true
-  type: vless
-  udp: true
-  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
-  servername: api.videolaguna.cc
-- name: HUB-E-25
-  type: http
-  server: 193.176.84.35
-  port: 9002
-  username: '''null'''
-  password: '''null'''
-  tls: true
-  sni: 193.176.84.35
-  skip-cert-verify: true
-- name: HUB-C-12
-  type: vless
-  server: 31.76.227.60
-  port: 443
-  uuid: 05c8eabe-96af-4db2-bb2f-a24fa84344ba
-  servername: assets-mi-29.spbstudentlife.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: CcMEJ-JOS4clB3gXbc6wXgzkiJQbyNpKY90I8B6AqyU
-    short-id: 4c188683e2c14a3c
   skip-cert-verify: true
   udp: true
-- name: HUB-E-5
+- name: HUB-E-16
   type: http
-  server: fan.132031.xyz
-  port: 443
-  username: Ok5vbmU=
-  tls: true
-- name: HUB-E-6
-  type: http
-  server: 193.176.84.40
+  server: 138.199.35.206
   port: 9002
   username: '''null'''
   password: '''null'''
   tls: true
   skip-cert-verify: true
-- name: HUB-E-22
-  type: http
-  server: 193.176.84.31
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US HUB-D-85
-  network: raw
+- name: HUB-C-22
+  type: vless
+  server: api.mediapolyana.cc
   port: 443
+  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
+  servername: api.mediapolyana.cc
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: safari
   reality-opts:
     public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
     short-id: a8
-  server: api.videobereg.cc
-  tls: true
-  type: vless
+  skip-cert-verify: true
   udp: true
-  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
-  xudp: true
-  packet-encoding: xudp
-  servername: api.videobereg.cc
 FilterHK: ^(?=.*(?i)(港|🇭🇰|HK|Hong|HKG))(?!.*5x).*$
 FilterSG: ^(?=.*(?i)(坡|🇸🇬|SG|Sing|SIN|XSP))(?!.*5x).*$
 FilterJP: ^(?=.*(?i)(日|🇯🇵|JP|Japan|NRT|HND|KIX|CTS|FUK))(?!.*(尼日利亚|5x)).*$
