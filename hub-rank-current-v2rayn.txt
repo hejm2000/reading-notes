@@ -1,3 +1,5 @@
-vless://b47cc98c-54f4-4ab2-acb9-b493a04ccc6b@141.11.138.132:443?type=tcp&flow=xtls-rprx-vision#8J+Hr/Cfh7UgSlAgSFVCLUMtMjc
+vless://57beeeb0-03fc-4fc9-94da-7604488a7134@funagfrdfs.alixxplay.com:46105?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMTc
+vless://57beeeb0-03fc-4fc9-94da-7604488a7134@funagfrdfs.alixxplay.com:47672?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMjU
+vless://57beeeb0-03fc-4fc9-94da-7604488a7134@funagfrdfs.alixxplay.com:34379?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMjE
+vless://b2332eff-b231-4c10-8552-5dfad84f5521@jklo.personalitytoday.com:55069?type=tcp&flow=xtls-rprx-vision#8J+HuPCfh6wgU0cgSFVCLUMtMjg
 vless://074690f9-cb30-44f5-84e5-f3ce8fc6cf29@app-sh-185.spbstudentlife.com:443?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMjY
-vless://f8d52ece-fad4-478d-875d-df6eed3befa7@nl-s-2.pythonmakemigreat.wiki:61374?type=xhttp#SFVCLUQtMQ

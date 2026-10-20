@@ -1,33 +1,116 @@
 test-url: http://www.gstatic.com/generate_204
 proxies:
-- name: 🇯🇵 JP HUB-C-27
-  type: vless
-  server: 141.11.138.132
+- name: HUB-E-8
+  type: http
+  server: 137.175.22.116
   port: 443
-  uuid: b47cc98c-54f4-4ab2-acb9-b493a04ccc6b
-  servername: www.cloudflare.com
+  tls: true
+  skip-cert-verify: true
+- name: HUB-C-17
+  type: vless
+  server: funagfrdfs.alixxplay.com
+  port: 46105
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  servername: www.lamer.com.sg
   tls: true
   flow: xtls-rprx-vision
-  client-fingerprint: chrome
+  client-fingerprint: safari
   reality-opts:
-    public-key: Kb511WMVMJe1nImN8kCi9PdPQSGu3aZCrffMOvzv43A
-    short-id: f9ca9286d0ff8920
+    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
+    short-id: 28f5c1f8f98a
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸 US HUB-E-24
+- name: HUB-E-22
   type: http
-  server: 147.182.216.4
+  server: 149.36.50.129
   port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
   tls: true
-  sni: 93b6d804.acsnet.co
+  skip-cert-verify: true
+- name: HUB-E-27
+  type: socks5
+  server: 101.36.104.239
+  port: 10808
+- name: HUB-E-1
+  type: http
+  server: 193.176.84.16
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: HUB-E-17
+  type: http
+  server: 193.176.84.19
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: HUB-E-23
+  type: http
+  server: kimberlymilano.icu
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
+- name: HUB-C-25
+  type: vless
+  server: funagfrdfs.alixxplay.com
+  port: 47672
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  servername: us1p1.xn--ghq880n3na965a.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: ios
+  reality-opts:
+    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
+    short-id: 70ab6d813e
+  skip-cert-verify: true
+  udp: true
+- name: HUB-E-2
+  type: http
+  server: 84.17.47.147
+  port: 9002
+  username: '''null'''
+  password: '''null'''
+  tls: true
+  sni: 84.17.47.147
+  skip-cert-verify: true
 - name: HUB-E-34
   type: http
   server: 178.248.73.58
   port: 443
   tls: true
   skip-cert-verify: true
+- name: HUB-C-21
+  type: vless
+  server: funagfrdfs.alixxplay.com
+  port: 34379
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  servername: us1p1.xn--ghq880n3na965a.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: e51285e3
+  skip-cert-verify: true
+  udp: true
+- name: HUB-E-6
+  type: http
+  server: 161.129.60.66
+  port: 9443
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 SG HUB-C-28
+  type: vless
+  server: jklo.personalitytoday.com
+  port: 55069
+  uuid: b2332eff-b231-4c10-8552-5dfad84f5521
+  servername: www.apple.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: YQ3pqAAbm2RcACEkU8K0nol3-B-driJbXISk-rb-A0E
+    short-id: 98a763b0b27e284b
+  skip-cert-verify: true
+  udp: true
 - name: HUB-C-26
   type: vless
   server: app-sh-185.spbstudentlife.com
@@ -42,46 +125,6 @@ proxies:
     short-id: 8d942904d3e87323
   skip-cert-verify: true
   udp: true
-- name: HUB-E-21
-  type: http
-  server: fan.973511.xyz
-  port: 443
-  username: '''null'''
-  password: '''null'''
-  tls: true
-- name: HUB-E-19
-  type: http
-  server: 188.120.225.125
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- client-fingerprint: chrome
-  encryption: none
-  name: HUB-D-1
-  network: xhttp
-  port: 61374
-  reality-opts:
-    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
-  server: nl-s-2.pythonmakemigreat.wiki
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  xhttp-opts:
-    host: nl-s-1.pythonmakemigreat.wiki
-    mode: packet-up
-    path: /
-    x-padding-bytes: 100-500
-    xudp: true
-    packet-encoding: xudp
-  servername: nl-s-2.pythonmakemigreat.wiki
-- name: HUB-E-4
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 36074
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
 FilterHK: ^(?=.*(?i)(港|🇭🇰|HK|Hong|HKG))(?!.*5x).*$
 FilterSG: ^(?=.*(?i)(坡|🇸🇬|SG|Sing|SIN|XSP))(?!.*5x).*$
 FilterJP: ^(?=.*(?i)(日|🇯🇵|JP|Japan|NRT|HND|KIX|CTS|FUK))(?!.*(尼日利亚|5x)).*$
