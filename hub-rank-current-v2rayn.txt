@@ -1,1 +1,1 @@
-vless://b2332eff-b231-4c10-8552-5dfad84f5521@162.128.44.254:36000?type=tcp&flow=xtls-rprx-vision#8J+HuPCfh6wgU0cgSFVCLUMtMzA
+vless://b2332eff-b231-4c10-8552-5dfad84f5521@jklo.personalitytoday.com:55069?type=tcp&flow=xtls-rprx-vision#8J+HuPCfh6wgU0cgSFVCLUMtMjg
