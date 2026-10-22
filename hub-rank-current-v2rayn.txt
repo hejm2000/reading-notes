@@ -1,3 +1,4 @@
-vless://a500be68-4ff6-433b-9968-472be69fab14@77.239.110.89:443?type=tcp&flow=xtls-rprx-vision#SFVCLUQtNDc
 vless://261160d5-0343-4b85-8c28-3d40dd681559@45.128.78.178:443?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMw
-vless://074690f9-cb30-44f5-84e5-f3ce8fc6cf29@app-sh-185.spbstudentlife.com:443?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMg
+vless://a500be68-4ff6-433b-9968-472be69fab14@netherlands02.azotvpn.xyz:443?type=tcp&flow=xtls-rprx-vision#SFVCLUQtNg
+vless://6e05822a-e9da-4135-a9db-71aa07a944af@144.31.34.146:2096?type=ws&path=/mky-ws-4f19c8a7#SFVCLUMtMTAx
+vless://4f34bc04-479c-49ba-91a8-6bb9ed15031c@177.3.208.65:443?type=ws&path=/vless-tr#SFVCLUMtMjg
