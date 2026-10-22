@@ -1,141 +1,132 @@
 test-url: http://www.gstatic.com/generate_204
 proxies:
-- name: HUB-E-21
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸 US HUB-D-89
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: rypH_l5cHWGpNzCNrWWMN7j4-aJyDxsp5-aYquFMZgg
+    short-id: 6092e75dfcb07424
+  server: 172.66.47.18
+  tls: true
+  type: trojan
+  udp: true
+  uuid: a11213e8-a42f-4492-beaa-14084f6ae28a
+  xudp: true
+  packet-encoding: xudp
+  servername: www.levi.com
+  password: e7TTceggMwUMg+aFN:F4
+  skip-cert-verify: false
+  sni: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
+  ws-opts:
+    path: /tr/SIeRkg2QvR2Zcpu0SeEMow
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: '2560'
+- name: HUB-E-22
   type: http
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  port: 1443
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-  password: exaxgqkKkd0TAMrCxeonWg==
+  server: efr-marktplatz.club
+  port: 443
+  username: '''null'''
+  password: None
+  tls: true
+- name: HUB-E-9
+  type: http
+  server: 129.153.93.183
+  port: 443
   tls: true
   skip-cert-verify: true
-- name: HUB-D-26
-  port: 443
-  server: 79.76.126.155
+- name: HUB-D-42
+  port: 9443
+  server: 213.139.9.142
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
+- name: HUB-D-40
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HUB-D-59
+  password: None
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HUB-D-16
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HUB-D-14
+  port: 9002
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HUB-D-71
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
   name: HUB-D-92
   network: tcp
   port: 443
   reality-opts:
-    public-key: ui9MLRYZIz7S6_1E4fZgoamwTypfQAMwJ1olxGcWomE
-    short-id: fc70174007a393b4
-  server: netherlands02.azotvpn.xyz
+    public-key: Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU
+  server: 45.12.114.90
   tls: true
   type: vless
   udp: true
-  uuid: a500be68-4ff6-433b-9968-472be69fab14
+  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
   xudp: true
   packet-encoding: xudp
-  servername: netherlands02.azotvpn.xyz
+  servername: wow.eos-shop.online
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US HUB-D-16
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  server: 156.229.164.4
+  encryption: none
+  grpc-opts:
+    grpc-service-name: lalibobi.orbit.v3.Connect
+  name: HUB-D-90
+  network: grpc
+  port: 443
+  server: lalibobi.online
   tls: true
   type: vless
   udp: true
-  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
-  servername: www.amazon.com
-- name: HUB-E-13
-  type: http
-  server: 84.17.47.148
-  port: 9002
-  username: '''null'''
-  password: '''null'''
-  tls: true
-  skip-cert-verify: true
-- name: HUB-D-7
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: HUB-D-20
-  port: 443
-  server: 18.200.158.139
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: HUB-D-10
-  password: None
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: HUB-D-63
+  uuid: 21ffcccd-8fbe-43fb-9dd1-24452fdfa8ad
+  xudp: true
+  packet-encoding: xudp
+  servername: lalibobi.online
+- name: HUB-D-58
   port: 9443
-  server: 185.221.132.226
+  server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: HUB-D-39
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇭🇰 HK HUB-E-4
-  type: anytls
-  server: svip.skycon808.com
-  port: 24318
-  password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
-  udp: true
-  sni: hk08.jdddyy01.cc
-  skip-cert-verify: true
-- name: HUB-D-33
-  port: 443
-  server: 185.164.35.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: HUB-D-75
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: HUB-D-42
-  port: 443
-  server: 130.195.250.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: HUB-D-55
-  password: ''
-  port: 9002
-  server: 193.176.84.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
 - name: HUB-D-65
+  password: None
   port: 443
-  server: 146.70.242.130
+  server: 31.7.62.50
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: HUB-D-67
+- name: HUB-D-69
   password: None
   port: 443
   server: 37.120.156.18
@@ -143,116 +134,79 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: HUB-D-18
-  port: 52200
-  server: 120.232.204.58
+- name: HUB-D-64
+  port: 9443
+  server: 152.233.16.174
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: HUB-D-83
   port: 9002
-  server: 193.176.84.32
+  server: 193.176.84.19
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
   udp: true
-- name: HUB-D-28
+- name: HUB-D-94
   port: 9002
-  server: 193.176.84.33
+  server: 193.176.84.21
   skip-cert-verify: true
+  sni: www.bing.com
   tls: true
   type: http
   udp: true
-- name: HUB-E-12
-  type: socks5
-  server: 45.61.188.134
-  port: 44499
-- name: HUB-D-72
+- name: HUB-E-2
+  type: http
+  server: 44.217.145.28
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: HUB-D-33
   port: 443
-  server: 149.22.86.1
+  server: 134.65.17.77
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: HUB-D-79
-  port: 9443
-  server: 161.129.60.66
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: GunService
+  name: HUB-D-87
+  network: grpc
+  port: 8444
+  reality-opts:
+    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+    short-id: 457fab2ac885dbe0
+  server: 200.165.231.138
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: HUB-D-15
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: HUB-D-49
-  password: 'null'
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  sni: 138.199.35.202
-  tls: true
-  type: http
-  username: 'null'
-  udp: true
-- name: HUB-D-48
-  port: 443
-  server: 149.22.85.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸 US HUB-E-2
-  type: http
-  server: 138.199.35.198
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 US HUB-D-58
-  password: ''
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-  udp: true
-- name: HUB-D-74
+  uuid: a346c521-7a7f-452b-9356-a4893feb5982
+  xudp: true
+  packet-encoding: xudp
+  servername: github.com
+- name: HUB-D-76
   port: 443
   server: 195.54.178.210
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: HUB-D-50
+- name: HUB-D-62
   port: 443
-  server: 185.219.159.15
+  server: 206.223.183.16
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸 US HUB-E-14
-  type: http
-  server: 184.188.139.2
-  port: 8090
-  tls: true
-  skip-cert-verify: true
-- name: HUB-C-495
-  type: vless
-  server: 144.31.34.146
-  port: 2096
-  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
-  network: ws
-  servername: fi1.merky.one
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /mky-ws-4f19c8a7
+- name: 🇯🇵 JP HUB-C-8
+  type: trojan
+  server: 45.32.52.173
+  port: 8886
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  sni: 45.32.52.173
   skip-cert-verify: true
   udp: true
 FilterHK: ^(?=.*(?i)(港|🇭🇰|HK|Hong|HKG))(?!.*5x).*$
