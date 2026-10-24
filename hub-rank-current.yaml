@@ -1,42 +1,73 @@
 test-url: http://www.gstatic.com/generate_204
 proxies:
-- name: HUB-D-6
-  port: 52200
-  server: 120.232.204.58
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: HUB-D-13
+  name: HUB-D-17
   network: tcp
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 147.45.47.96
+  server: 45.9.118.207
   tls: true
   type: vless
   udp: true
-  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
   xudp: true
   packet-encoding: xudp
   servername: ozon.ru
-- name: HUB-C-16
+- cipher: chacha20-ietf
+  name: 🇺🇸 US HUB-D-7
+  obfs: tls1.2_ticket_auth
+  obfs-param: f7d23929.douyin.com
+  password: di15PV
+  port: 29790
+  protocol: auth_aes128_md5
+  protocol-param: 23929:563537032
+  server: api.meituan88.com
+  type: ssr
+  udp: true
+- name: 🇺🇸 US HUB-D-8
+  port: 8443
+  server: 154.81.36.92
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HUB-C-5
   type: vless
-  server: wifi12.jzxc.digital
+  server: budulai.himoy.space
   port: 443
-  uuid: 3d87029f-b55b-487d-aea6-6049c8668ff1
-  servername: wifi12.jzxc.digital
+  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+  servername: budulai.himoy.space
   tls: true
   flow: xtls-rprx-vision
   client-fingerprint: firefox
   reality-opts:
-    public-key: 90gg8QRDqwmrelQBiQ159MlmdUreo4h1-yBgRmp7U2c
-    short-id: 082e4d45beed1487
+    public-key: mk-wqC8YgfjMc89oFsT2HSpBMYB23kMURVBiXkeFHzg
+    short-id: 98c76776ef3d1f71
   skip-cert-verify: true
   udp: true
+- name: HUB-C-24
+  type: vless
+  server: 67.159.49.29
+  port: 2091
+  uuid: 76b6a658-ce80-4500-b24d-404c94639ac6
+  servername: www.apple.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  skip-cert-verify: true
+  udp: true
+- name: HUB-E-8
+  type: http
+  server: 158.173.154.2
+  port: 9002
+  tls: true
+  skip-cert-verify: true
 - name: HUB-C-6
   type: vless
   server: nl2.himoy.space
@@ -51,32 +82,53 @@ proxies:
     short-id: 3bf45f37318782a0
   skip-cert-verify: true
   udp: true
-- name: HUB-C-3
+- name: HUB-C-30
   type: vless
-  server: wifi6.jzxc.digital
-  port: 443
-  uuid: 3d87029f-b55b-487d-aea6-6049c8668ff1
-  servername: wifi6.jzxc.digital
+  server: 213.152.165.203
+  port: 2093
+  uuid: 0b418782-e023-447e-ba99-e66b84ff118d
+  servername: www.apple.com
   tls: true
   flow: xtls-rprx-vision
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   reality-opts:
-    public-key: _hvd47UytqRrbVTiFFe2vwvWgeg4visStJQpj9xcGjM
-    short-id: 681c5f389bb35191
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
   skip-cert-verify: true
   udp: true
-- name: HUB-C-1
+- name: HUB-C-34
   type: vless
-  server: l415ng0o.himoy.space
+  server: ee1.mycloud1.org
   port: 443
-  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
-  servername: l415ng0o.himoy.space
+  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
+  servername: ee1.mycloud1.org
   tls: true
   flow: xtls-rprx-vision
   client-fingerprint: firefox
   reality-opts:
-    public-key: JOoD5ze_pwrMnQoAIRVieQM8SPJjiLJEw1fwx57iYgk
-    short-id: bbd20b213341644c
+    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
+    short-id: afee962d
+  skip-cert-verify: true
+  udp: true
+- name: HUB-E-18
+  type: http
+  server: efr-marktplatz.club
+  port: 443
+  tls: true
+  sni: efr-marktplatz.club
+  skip-cert-verify: true
+- name: HUB-C-17
+  type: vless
+  server: 213.152.165.203
+  port: 2091
+  uuid: 76b6a658-ce80-4500-b24d-404c94639ac6
+  servername: www.apple.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
   skip-cert-verify: true
   udp: true
 - name: HUB-C-9
@@ -92,46 +144,24 @@ proxies:
     public-key: 6lZ5dkQN2sH9tYca374W4N1n9eCanD_F2FfghcksKSo
   skip-cert-verify: true
   udp: true
-- name: HUB-C-12
-  type: vless
-  server: lv2.himoy.space
-  port: 443
-  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
-  servername: lv2.himoy.space
+- name: HUB-E-11
+  type: http
+  server: 138.199.35.214
+  port: 9002
   tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: AoPku9i0xSD2cCzJdPcUSSft8c_RkIZbsbP888VO938
-    short-id: 287b3d62899669d7
   skip-cert-verify: true
-  udp: true
-- name: HUB-C-18
+- name: HUB-C-35
   type: vless
-  server: 31.77.161.183
+  server: wifi13.jzxc.digital
   port: 443
-  uuid: 5a96c1fc-f167-44b9-9020-8f6867537d14
-  servername: germany01.azotvpn.xyz
+  uuid: 3d87029f-b55b-487d-aea6-6049c8668ff1
+  servername: wifi13.jzxc.digital
   tls: true
   flow: xtls-rprx-vision
-  client-fingerprint: random
+  client-fingerprint: firefox
   reality-opts:
-    public-key: 4goy1hsfLyeu1POy0fjyH7qIrc1CK4p3nAZQVMTdPFY
-    short-id: af3292b33826ae94
-  skip-cert-verify: true
-  udp: true
-- name: HUB-C-13
-  type: vless
-  server: germany01.azotvpn.xyz
-  port: 443
-  uuid: 5a96c1fc-f167-44b9-9020-8f6867537d14
-  servername: germany01.azotvpn.xyz
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: random
-  reality-opts:
-    public-key: 4goy1hsfLyeu1POy0fjyH7qIrc1CK4p3nAZQVMTdPFY
-    short-id: af3292b33826ae94
+    public-key: UdBGJ1I5lzeteEjn5sLZfVTUcUidtjTx3cF92rPzgGk
+    short-id: 3eed9b237e5e5baf
   skip-cert-verify: true
   udp: true
 FilterHK: ^(?=.*(?i)(港|🇭🇰|HK|Hong|HKG))(?!.*5x).*$
