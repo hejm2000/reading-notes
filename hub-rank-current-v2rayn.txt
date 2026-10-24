@@ -1,8 +1,6 @@
-vless://57beeeb0-03fc-4fc9-94da-7604488a7134@funagfrdfs.alixxplay.com:46105?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMzI
-vless://82eb8419-59f4-4d3e-9106-d05d22af615c@141.11.149.174:9443?type=tcp&flow=xtls-rprx-vision#8J+HrfCfh7AgSEsgSFVCLUMtMjQ
-vless://57beeeb0-03fc-4fc9-94da-7604488a7134@funagfrdfs.alixxplay.com:55688?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMzE
-vless://57beeeb0-03fc-4fc9-94da-7604488a7134@funagfrdfs.alixxplay.com:35544?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMzA
+trojan://6ab93ec68bd94b76@ui108.pacemakere.com:20008?sni=ui108.pacemakere.com&fp=android#8J+HuvCfh7ggVVMgSFVCLUQtODM
+vless://5131b5e9-2c3c-44a0-8f18-0641f3f21cac@nl2.himoy.space:443?type=tcp&flow=xtls-rprx-vision#SFVCLUQtNA
+trojan://4fd2b10b6a754019@su106.izzzzzi.com:20008?sni=su106.izzzzzi.com&fp=android#8J+HuvCfh7ggVVMgSFVCLUQtODQ
+vless://f8d52ece-fad4-478d-875d-df6eed3befa7@se-2.pythonsetupbib.online:61374?type=xhttp#SFVCLUQtODc
+vless://5131b5e9-2c3c-44a0-8f18-0641f3f21cac@i3m2o0cf.himoy.space:443?type=tcp&flow=xtls-rprx-vision#SFVCLUQtMw
 vless://0b418782-e023-447e-ba99-e66b84ff118d@213.152.165.203:2093?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMjI
-vless://57beeeb0-03fc-4fc9-94da-7604488a7134@funagfrdfs.alixxplay.com:54528?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMzM
-vless://9ab3a362-1518-496d-b08d-eced45cec936@es.srv.dvzh.net:443?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMTg
-vless://82eb8419-59f4-4d3e-9106-d05d22af615c@154.83.86.85:9443?type=tcp&flow=xtls-rprx-vision#8J+HrfCfh7AgSEsgSFVCLUMtMjM

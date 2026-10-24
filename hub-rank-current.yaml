@@ -1,61 +1,93 @@
 test-url: http://www.gstatic.com/generate_204
 proxies:
-- name: HUB-C-32
-  type: vless
-  server: funagfrdfs.alixxplay.com
-  port: 46105
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  servername: www.lamer.com.sg
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: safari
-  reality-opts:
-    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: 28f5c1f8f98a
+- name: HUB-D-15
+  port: 52200
+  server: 120.232.204.58
   skip-cert-verify: true
-  udp: true
-- name: 🇭🇰 HK HUB-C-24
-  type: vless
-  server: 141.11.149.174
-  port: 9443
-  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
-  servername: www.amazon.com
   tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  skip-cert-verify: true
+  type: http
   udp: true
-- name: HUB-C-31
-  type: vless
-  server: funagfrdfs.alixxplay.com
-  port: 55688
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  servername: bilibili-vn.biliimg.com
+- client-fingerprint: android
+  name: 🇺🇸 US HUB-D-83
+  network: tcp
+  password: 6ab93ec68bd94b76
+  port: 20008
+  server: ui108.pacemakere.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  sni: ui108.pacemakere.com
+- name: HUB-D-21
+  port: 8443
+  server: 44.248.167.117
+  skip-cert-verify: true
   tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: KeV1nArisy7FO5DjqTSmn0hBnlNd38rzhbIMMpe-MBw
-    short-id: a46bb5972cf50671
-  skip-cert-verify: true
+  type: http
   udp: true
-- name: HUB-C-30
-  type: vless
-  server: funagfrdfs.alixxplay.com
-  port: 35544
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  servername: iosapps.itunes.apple.com
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: HUB-D-4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: vWFi5WROH6RUA3U7MiULYSOBc9h1ZbXyYVUjwvvJn0E
+    short-id: 3bf45f37318782a0
+  server: nl2.himoy.space
   tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: HrcXRHtsitc_AVlN-_8fZuRgaP-Mqa_9JJotI9OnkVc
-    short-id: 25c79e5856c7
-  skip-cert-verify: true
+  type: vless
   udp: true
+  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+  xudp: true
+  packet-encoding: xudp
+  servername: nl2.himoy.space
+- client-fingerprint: android
+  name: 🇺🇸 US HUB-D-84
+  network: tcp
+  password: 4fd2b10b6a754019
+  port: 20008
+  server: su106.izzzzzi.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  sni: su106.izzzzzi.com
+- client-fingerprint: chrome
+  encryption: none
+  name: HUB-D-87
+  network: xhttp
+  port: 61374
+  reality-opts:
+    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
+  server: se-2.pythonsetupbib.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  xhttp-opts:
+    host: se-2.pythonsetupbib.online
+    mode: packet-up
+    path: /
+    x-padding-bytes: 100-500
+    xudp: true
+    packet-encoding: xudp
+  servername: se-2.pythonsetupbib.online
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: HUB-D-3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: A9rT--Kugc8WElZSjNmq6K3oOD9BC7vTrIKK7E3scj4
+    short-id: a40f97141bda09f0
+  server: i3m2o0cf.himoy.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+  xudp: true
+  packet-encoding: xudp
+  servername: i3m2o0cf.himoy.space
 - name: HUB-C-22
   type: vless
   server: 213.152.165.203
@@ -70,47 +102,42 @@ proxies:
     short-id: 8a9725533854a7e8
   skip-cert-verify: true
   udp: true
-- name: HUB-C-33
-  type: vless
-  server: funagfrdfs.alixxplay.com
-  port: 54528
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  servername: www.apple.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
-    short-id: 54cca3c1c1c7
+- name: HUB-D-74
+  port: 9002
+  server: 193.176.84.24
   skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-- name: HUB-C-18
-  type: vless
-  server: es.srv.dvzh.net
+- name: 🇺🇸 US HUB-D-53
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HUB-D-34
+  password: 'null'
   port: 443
-  uuid: 9ab3a362-1518-496d-b08d-eced45cec936
-  servername: es.srv.dvzh.net
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 9GEc6lOjnGQyyE1951OZSBMWt4uCXsOjKyj9fysxHH0
-    short-id: e0ccc8c2f487d913
+  server: 151.115.54.133
   skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-- name: 🇭🇰 HK HUB-C-23
-  type: vless
-  server: 154.83.86.85
-  port: 9443
-  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
-  servername: www.amazon.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
+  username: 'null'
+- name: HUB-D-22
+  port: 9002
+  server: 193.176.84.19
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HUB-D-82
+  port: 9002
+  server: 193.176.84.40
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
 FilterHK: ^(?=.*(?i)(港|🇭🇰|HK|Hong|HKG))(?!.*5x).*$
 FilterSG: ^(?=.*(?i)(坡|🇸🇬|SG|Sing|SIN|XSP))(?!.*5x).*$
