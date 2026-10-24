@@ -1,6 +1,4 @@
-trojan://6ab93ec68bd94b76@ui108.pacemakere.com:20008?sni=ui108.pacemakere.com&fp=android#8J+HuvCfh7ggVVMgSFVCLUQtODM
-vless://5131b5e9-2c3c-44a0-8f18-0641f3f21cac@nl2.himoy.space:443?type=tcp&flow=xtls-rprx-vision#SFVCLUQtNA
-trojan://4fd2b10b6a754019@su106.izzzzzi.com:20008?sni=su106.izzzzzi.com&fp=android#8J+HuvCfh7ggVVMgSFVCLUQtODQ
-vless://f8d52ece-fad4-478d-875d-df6eed3befa7@se-2.pythonsetupbib.online:61374?type=xhttp#SFVCLUQtODc
-vless://5131b5e9-2c3c-44a0-8f18-0641f3f21cac@i3m2o0cf.himoy.space:443?type=tcp&flow=xtls-rprx-vision#SFVCLUQtMw
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.63:19999#SFVCLUUtMTY
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.45:19999#SFVCLUUtMw
+vless://583cc910-b57c-4dd0-a4a7-cea51a30b032@158.247.241.102:443?type=tcp&flow=xtls-rprx-vision#8J+HsPCfh7cgS1IgSFVCLUQtMQ
 vless://0b418782-e023-447e-ba99-e66b84ff118d@213.152.165.203:2093?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMjI
