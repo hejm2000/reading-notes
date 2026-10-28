@@ -1,0 +1,1495 @@
+test-url: http://www.gstatic.com/generate_204
+proxies:
+- name: HUB-E-25
+  type: http
+  server: 119.28.24.235
+  port: 3128
+  tls: true
+  skip-cert-verify: true
+- name: 🇯🇵 JP HUB-D-2
+  port: 40583
+  server: 120.232.204.58
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- type: vless
+  name: HUB-C-128
+  server: 213.152.180.55
+  port: 2095
+  uuid: 16107a06-1b5e-4060-8b48-e13a04b15e56
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: www.apple.com
+  sni: www.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI
+    short-id: 3869d49a9a79e06a
+- name: 🇨🇳 CN HUB-OM-57
+  type: masque
+  server: 162.159.198.1
+  port: 443
+  sni: zt-masque.cloudflareclient.com
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇹🇼 TW HUB-E-10
+  type: anytls
+  server: er8u54dh.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  udp: true
+  skip-cert-verify: true
+- type: vless
+  name: HUB-C-133
+  server: 213.152.180.55
+  port: 2088
+  uuid: 0ac16dd6-2f00-4e35-9a4d-479fd2755475
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: www.apple.com
+  sni: www.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+- type: vless
+  name: HUB-C-105
+  server: 213.152.165.198
+  port: 2091
+  uuid: 6a26029d-5639-473a-9234-3e80d0633d7d
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: www.apple.com
+  sni: www.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+- name: HUB-E-4
+  type: http
+  server: 178.248.73.58
+  port: 443
+  username: '''null'''
+  password: '''null'''
+  tls: true
+  skip-cert-verify: true
+- type: vless
+  name: HUB-C-125
+  server: 213.152.180.104
+  port: 2091
+  uuid: ce17d29c-3587-4d8c-b09d-e03437df8bbd
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: www.apple.com
+  sni: www.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+- type: vless
+  name: HUB-C-122
+  server: 213.152.180.104
+  port: 2094
+  uuid: 372af4ce-2153-4061-822c-b657172308f6
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: www.apple.com
+  sni: www.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: 55986a94e2228791
+- type: vless
+  name: HUB-C-175
+  server: 46.8.43.125
+  port: 443
+  uuid: 846cedee-2a52-4a62-a0b9-11850ead6a8b
+  udp: true
+  tls: true
+  servername: kz-central.v8x2b.lol
+  sni: kz-central.v8x2b.lol
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: ER-T5En54-sn6IXy7jU8vQVcBbOiWvznnezf3qZ273w
+- type: vless
+  name: HUB-C-131
+  server: 213.152.180.55
+  port: 2090
+  uuid: 9a92729a-7b89-475b-a651-cfd246524403
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: www.apple.com
+  sni: www.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
+    short-id: bb472a184677af64
+- name: HUB-E-17
+  type: http
+  server: 84.17.47.148
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- type: vless
+  name: HUB-C-182
+  server: 5.253.28.240
+  port: 40443
+  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: deepl.com
+  sni: deepl.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
+    short-id: 88b6
+- type: vless
+  name: HUB-C-331
+  server: sw.golangwikito.cfd
+  port: 443
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: sw.golangwikito.cfd
+  sni: sw.golangwikito.cfd
+  skip-cert-verify: false
+  client-fingerprint: qq
+  reality-opts:
+    public-key: Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg
+    short-id: a1037b25dcef6aa7
+- type: vless
+  name: 🇺🇸 US HUB-C-237
+  server: 79.182.39.57
+  port: 443
+  uuid: 5a519754-a673-4462-83f6-5eb25d2af141
+  udp: true
+  tls: true
+  servername: f36f5ft.us4.h1clayd.click
+  sni: f36f5ft.us4.h1clayd.click
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 5KZVzOFqMgdL47--JzLlg5HmPlAYp-cmQsXxkTXngS0
+    short-id: 8d50d3a4df71468c
+- type: vless
+  name: HUB-C-286
+  server: cz-prg.dontblockmepls.com
+  port: 2063
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: rusbid.de
+  sni: rusbid.de
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+- name: 🇨🇳 CN HUB-OM-22
+  type: masque
+  server: 162.159.199.2
+  port: 443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-11
+  type: masque
+  server: 162.159.198.2
+  port: 4500
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-27
+  type: masque
+  server: 162.159.199.2
+  port: 8443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- type: vless
+  name: HUB-C-150
+  server: 263651t.fi3.h1clayd.click
+  port: 443
+  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+  udp: true
+  tls: true
+  servername: 263651t.fi3.h1clayd.click
+  sni: 263651t.fi3.h1clayd.click
+  skip-cert-verify: false
+  client-fingerprint: edge
+  reality-opts:
+    public-key: nNe5Y8_G7L0_VO5lqlee3h5UmRH4RXjaRYGCDUkbQz4
+    short-id: 2892e611785bafd1
+- type: vless
+  name: HUB-C-129
+  server: 213.152.180.55
+  port: 2092
+  uuid: 4d8cc1c2-2605-43c4-8e17-dcafa86d9757
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: www.apple.com
+  sni: www.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
+    short-id: 716b7eba38125f3a
+- type: vless
+  name: HUB-C-127
+  server: 213.152.180.55
+  port: 2093
+  uuid: 7e5c47fb-69a5-4d9e-af57-1d80db594e88
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: www.apple.com
+  sni: www.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+- name: HUB-E-11
+  type: http
+  server: 137.175.22.29
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 US HUB-OM-130
+  type: http
+  server: 77.111.246.58
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: as1.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-16
+- name: 🇨🇳 CN HUB-OM-7
+  type: masque
+  server: 162.159.198.1
+  port: 8095
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇺🇸 US HUB-OM-244
+  type: http
+  server: 77.111.246.60
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: as3.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-16
+- type: vless
+  name: HUB-C-306
+  server: hydra.yokkastars.com
+  port: 40443
+  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: deepl.com
+  sni: deepl.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
+    short-id: 88b6
+- name: 🇺🇸 US HUB-OM-421
+  type: http
+  server: 77.111.246.60
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: eu2.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-22
+- type: vless
+  name: HUB-C-123
+  server: 213.152.180.104
+  port: 2095
+  uuid: 16107a06-1b5e-4060-8b48-e13a04b15e56
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: www.apple.com
+  sni: www.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI
+    short-id: 3869d49a9a79e06a
+- name: 🇺🇸 US HUB-OM-695
+  type: http
+  server: 77.111.246.60
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: am3.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-11
+- name: 🇨🇳 CN HUB-OM-24
+  type: masque
+  server: 162.159.199.2
+  port: 1701
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇺🇸 US HUB-OM-183
+  type: http
+  server: 77.111.246.126
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: as2.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-12
+- name: 🇺🇸 US HUB-OM-365
+  type: http
+  server: 77.111.246.46
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: eu1.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-23
+- name: 🇨🇳 CN HUB-OM-15
+  type: masque
+  server: 162.159.199.1
+  port: 443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇺🇸 US HUB-OM-61
+  type: http
+  server: 77.111.246.27
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: as0.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-4
+- type: vless
+  name: HUB-C-130
+  server: 213.152.180.55
+  port: 2091
+  uuid: ce17d29c-3587-4d8c-b09d-e03437df8bbd
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: www.apple.com
+  sni: www.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+- name: 🇺🇸 US HUB-OM-119
+  type: http
+  server: 77.111.246.58
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: as1.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-5
+- name: 🇺🇸 US HUB-OM-73
+  type: http
+  server: 77.111.246.27
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: as0.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-16
+- name: 🇺🇸 US HUB-OM-353
+  type: http
+  server: 77.111.246.46
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: eu1.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-11
+- name: 🌎AM HUB-OM-587
+  type: http
+  server: 77.111.246.28
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: am1.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-17
+- name: 🇺🇸 US HUB-OM-475
+  type: http
+  server: 77.111.246.26
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: eu3.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-19
+- name: 🇺🇸 US HUB-OM-693
+  type: http
+  server: 77.111.246.60
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: am3.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-9
+- name: 🇺🇸 US HUB-OM-248
+  type: http
+  server: 77.111.246.60
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: as3.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-20
+- type: vless
+  name: HUB-C-132
+  server: 213.152.180.55
+  port: 2089
+  uuid: 38d3d211-cc9f-491a-a8ab-9a5be57bb712
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: www.apple.com
+  sni: www.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
+    short-id: deccc6fac1ddb0ff
+- type: vless
+  name: HUB-C-336
+  server: tau1.freerunet.online
+  port: 443
+  uuid: ca14493b-b984-4ffb-bc0e-9cb5da969e15
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: tau1.freerunet.online
+  sni: tau1.freerunet.online
+  skip-cert-verify: false
+  client-fingerprint: safari
+  reality-opts:
+    public-key: l1mx_plNc2oiWxJCcZLh3SGfFU-5QxYpgQ__Ea59WEg
+    short-id: 4a7b1c8d
+- name: 🇨🇳 CN HUB-OM-25
+  type: masque
+  server: 162.159.199.2
+  port: 4500
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-14
+  type: masque
+  server: 162.159.198.2
+  port: 8095
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇺🇸 US HUB-OM-635
+  type: http
+  server: 77.111.246.26
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: am2.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-8
+- name: 🇨🇳 CN HUB-OM-17
+  type: masque
+  server: 162.159.199.1
+  port: 1701
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🌎AM HUB-OM-572
+  type: http
+  server: 77.111.246.28
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: am1.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-2
+- name: 🇺🇸 US HUB-OM-479
+  type: http
+  server: 77.111.246.26
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: eu3.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-23
+- name: 🌏AS HUB-OM-191
+  type: http
+  server: 77.111.246.126
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: as2.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-20
+- name: 🇨🇳 CN HUB-OM-1
+  type: masque
+  server: 162.159.198.1
+  port: 443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇺🇸 US HUB-OM-420
+  type: http
+  server: 77.111.246.60
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: eu2.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-21
+- name: 🇨🇳 CN HUB-OM-21
+  type: masque
+  server: 162.159.199.1
+  port: 8095
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-12
+  type: masque
+  server: 162.159.198.2
+  port: 4443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🌍EU HUB-OM-301
+  type: http
+  server: 77.111.246.40
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: eu0.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-16
+- name: 🌍EU HUB-OM-299
+  type: http
+  server: 77.111.246.40
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: eu0.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-14
+- name: 🇺🇸 US HUB-OM-532
+  type: http
+  server: 77.111.246.27
+  port: 443
+  username: 76D223D897E5B92786A9303CE24508A053E6FF77
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJjREl3MlBUaU5QUjNTRkxEbE1QUkVrbXUwQXBJbGhxdVhRald5SVlGVnNnIiwieSI6ImdIQzZjUENobnZOV0RYOVJJZ3BIMU1JdUw3YzNVYmJaU0tLOHJJaC1hT1EifX0.mOxIxq4Sr1F3-9pPUh3ArNGW2AXNGVUoecAbkRN3PDxCVrNT6Im0Pw.ngN3WyjrBD4zVvk1.6wrFyiOTTmg_gKzdph-_MK-mRvUDGdWZ-sY5VTJKk8mZNb747YWC5l1hkPfRMk72iScaw18GcuLXDCQ_27o9pu44fFp-sAsM5LAzS82oC4Vymq0tlGbM8NGATLpP1xGGwLlrgF9VROfEjxkBKp9AyFzzeeVMl_CnbN2sbzbvTvYOOQsOHoL1bcOh89yp-9vtdqLOfqF_x0fTnZaDpYEQ9mjVG4oGhnhlaw6PZJOrRDVLK4Kn2p2tzxtunXSxaEtg0_Rqb6-5USWKxENroArLvQyKx4PmX5OvJowODylgr8gqSadFLWZY9ojCv1agZFfpDH-wWJOnR_xY3Uw2wMFAyY_yTUVsxDUsZi1_AcLGzlbng5NLmTObdzfpFhnecxteKw.FFxJpl-rV3-3sW5ZM44LAQ
+  tls: true
+  sni: am0.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-19
+- type: vless
+  name: HUB-C-121
+  server: 213.152.180.104
+  port: 2093
+  uuid: 19456d94-8f54-4f82-ae9c-0e19afb5c29c
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: www.apple.com
+  sni: www.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+- name: HUB-OM-3
+  type: masque
+  server: 162.159.198.1
+  port: 1701
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-20
+  type: masque
+  server: 162.159.199.1
+  port: 8443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-2
+  type: masque
+  server: 162.159.198.1
+  port: 500
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-10
+  type: masque
+  server: 162.159.198.2
+  port: 1701
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- type: vless
+  name: HUB-C-124
+  server: 213.152.180.104
+  port: 2092
+  uuid: 4d8cc1c2-2605-43c4-8e17-dcafa86d9757
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: www.apple.com
+  sni: www.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
+    short-id: 716b7eba38125f3a
+- name: 🇨🇳 CN HUB-OM-9
+  type: masque
+  server: 162.159.198.2
+  port: 500
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-5
+  type: masque
+  server: 162.159.198.1
+  port: 4443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-16
+  type: masque
+  server: 162.159.199.1
+  port: 500
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-26
+  type: masque
+  server: 162.159.199.2
+  port: 4443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- type: vless
+  name: HUB-C-236
+  server: 79.182.39.35
+  port: 25548
+  uuid: 5a519754-a673-4462-83f6-5eb25d2af141
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  sni: www.cloudflare.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: lceynvFy326oU4ew9OPR7079m-L5ZcFELgCl0sqxU2M
+    short-id: bceb5b2197b76818
+- name: 🇨🇳 CN HUB-OM-13
+  type: masque
+  server: 162.159.198.2
+  port: 8443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-19
+  type: masque
+  server: 162.159.199.1
+  port: 4443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- type: vless
+  name: HUB-C-126
+  server: 213.152.180.104
+  port: 2088
+  uuid: 0ac16dd6-2f00-4e35-9a4d-479fd2755475
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: www.apple.com
+  sni: www.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+- name: 🇨🇳 CN HUB-OM-23
+  type: masque
+  server: 162.159.199.2
+  port: 500
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- type: vless
+  name: 🇺🇸 US HUB-C-295
+  server: f36f5ft.us4.h1clayd.click
+  port: 443
+  uuid: 5a519754-a673-4462-83f6-5eb25d2af141
+  udp: true
+  tls: true
+  servername: f36f5ft.us4.h1clayd.click
+  sni: f36f5ft.us4.h1clayd.click
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 5KZVzOFqMgdL47--JzLlg5HmPlAYp-cmQsXxkTXngS0
+    short-id: 8d50d3a4df71468c
+- name: 🇨🇳 CN HUB-OM-4
+  type: masque
+  server: 162.159.198.1
+  port: 4500
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-8
+  type: masque
+  server: 162.159.198.2
+  port: 443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+FilterHK: ^(?=.*(?i)(港|🇭🇰|HK|Hong|HKG))(?!.*5x).*$
+FilterSG: ^(?=.*(?i)(坡|🇸🇬|SG|Sing|SIN|XSP))(?!.*5x).*$
+FilterJP: ^(?=.*(?i)(日|🇯🇵|JP|Japan|NRT|HND|KIX|CTS|FUK))(?!.*(尼日利亚|5x)).*$
+FilterUS: ^(?=.*(?i)(美|🇺🇸|US|USA|JFK|SJC|LAX|ORD|ATL|DFW|SFO|MIA|SEA|IAD))(?!.*(Plus|Australia|5x)).*$
+FilterTW: ^(?=.*(?i)(台|🇹🇼|TW|tai|TPE|TSA|KHH))(?!.*5x).*$
+listeners:
+- name: SS-IN
+  type: shadowsocks
+  listen: '::'
+  port: 10000
+  udp: true
+  password: Xf3#Lp9WqZ
+  cipher: aes-256-gcm
+- name: MIXED-SG
+  type: mixed
+  port: 50000
+  proxy: 新加坡节点
+- name: MIXED-US
+  type: mixed
+  port: 50001
+  proxy: 美国节点
+- name: MIXED-TW
+  type: mixed
+  port: 50002
+  proxy: 台湾节点
+- name: MIXED-HK
+  type: mixed
+  port: 50003
+  proxy: 香港节点
+- name: MIXED-JP
+  type: mixed
+  port: 50004
+  proxy: 日本节点
+- name: MIXED-AL
+  type: mixed
+  port: 50007
+  proxy: 一键连接
+mode: rule
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7895
+ipv6: true
+allow-lan: true
+unified-delay: true
+tcp-concurrent: true
+log-level: warning
+bind-address: '*'
+find-process-mode: always
+keep-alive-interval: 15
+keep-alive-idle: 600
+authentication:
+- mihomo:yyds666
+skip-auth-prefixes:
+- 192.168.1.0/24
+- 192.168.31.0/24
+- 192.168.100.0/24
+- 127.0.0.1/8
+experimental:
+  quic-go-disable-gso: true
+external-ui-url: https://github.com/Zephyruso/zashboard/releases/latest/download/dist.zip
+external-ui-name: zashboard
+external-ui: ui
+external-controller: 127.0.0.1:9090
+secret: yyds666
+external-controller-cors:
+  allow-origins:
+  - '*'
+  allow-private-network: true
+profile:
+  store-selected: true
+  store-fake-ip: true
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: true
+  sniff:
+    HTTP:
+      ports:
+      - 80
+      - 8080-8880
+    TLS:
+      ports:
+      - 443
+      - 8443
+    QUIC:
+      ports:
+      - 443
+      - 8443
+  skip-domain:
+  - +.push.apple.com
+tun:
+  enable: false
+  stack: mixed
+  mtu: 1480
+  dns-hijack:
+  - any:53
+  - tcp://any:53
+  udp-timeout: 300
+  auto-route: true
+  strict-route: true
+  auto-redirect: true
+  auto-detect-interface: true
+hosts:
+  miwifi.com: 192.168.31.2
+  epdg.epc.mnc010.mcc234.pub.3gppnetwork.org:
+  - 87.194.8.8
+  - 87.194.88.8
+  - 87.194.89.8
+  - 87.194.9.8
+  services.googleapis.cn: services.googleapis.com
+  cn.bing.com: www4.bing.com
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  ipv6: true
+  prefer-h3: false
+  cache-algorithm: arc
+  cache-size: 4096
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - +.lan
+  - +.local
+  - +.localhost
+  - +.home.arpa
+  - +.internal
+  - +.msftconnecttest.com
+  - +.msftncsi.com
+  - captive.apple.com
+  - connectivitycheck.gstatic.com
+  - detectportal.firefox.com
+  - time.nist.gov
+  - +.pool.ntp.org
+  - time.*.com
+  - ntp.*.com
+  - +.cmpassport.com
+  - id6.me
+  - open.e.189.cn
+  - mdn.open.wo.cn
+  - opencloud.wostore.cn
+  - auth.wosms.cn
+  - +.10099.com.cn
+  - +.market.xiaomi.com
+  - +.pub.3gppnetwork.org
+  - +.push.apple.com
+  - +.bing.com
+  - +.miwifi.com
+  - +.docker.io
+  - +.qq.com
+  - rule-set:Direct
+  - rule-set:Private
+  - rule-set:China
+  use-hosts: true
+  respect-rules: true
+  default-nameserver:
+  - 223.5.5.5
+  - 119.29.29.29
+  nameserver:
+  - https://dns.alidns.com/dns-query
+  - https://doh.pub/dns-query
+  direct-nameserver:
+  - https://dns.alidns.com/dns-query
+  - https://doh.pub/dns-query
+  proxy-server-nameserver:
+  - https://dns.alidns.com/dns-query
+  - https://doh.pub/dns-query
+  nameserver-policy:
+    rule-set:Advertising,AWAvenueAds: rcode://success
+    rule-set:Direct,Private,China:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    rule-set:AI,Telegram,Twitter,SocialMedia,Netflix,YouTube,Spotify,TikTok,disney,Google,Microsoft,Proxy:
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+proxy-groups:
+- name: 一键连接
+  type: select
+  proxies:
+  - 自动选择
+  - 故障转移
+  - 香港节点
+  - 台湾节点
+  - 日本节点
+  - 美国节点
+  - 新加坡节点
+  - 全部节点
+  - 直接连接
+  icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Static.png
+- name: 自动选择
+  type: url-test
+  include-all: true
+  url: https://www.google.com/generate_204
+  interval: 200
+  lazy: true
+  hidden: true
+  empty-fallback: REJECT
+  icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Auto.png
+- name: 故障转移
+  type: fallback
+  proxies:
+  - 香港节点
+  - 台湾节点
+  - 日本节点
+  - 美国节点
+  - 新加坡节点
+  - 全部节点
+  url: https://www.google.com/generate_204
+  interval: 200
+  lazy: true
+  empty-fallback: REJECT
+  icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/ULB.png
+- name: 香港节点
+  type: select
+  include-all: true
+  filter: ^(?=.*(?i)(港|🇭🇰|HK|Hong|HKG))(?!.*5x).*$
+  proxies:
+  - 香港自动
+  icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Hong_Kong.png
+- name: 台湾节点
+  type: select
+  include-all: true
+  filter: ^(?=.*(?i)(台|🇹🇼|TW|tai|TPE|TSA|KHH))(?!.*5x).*$
+  proxies:
+  - 台湾自动
+  icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Taiwan.png
+- name: 日本节点
+  type: select
+  include-all: true
+  filter: ^(?=.*(?i)(日|🇯🇵|JP|Japan|NRT|HND|KIX|CTS|FUK))(?!.*(尼日利亚|5x)).*$
+  proxies:
+  - 日本自动
+  icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Japan.png
+- name: 美国节点
+  type: select
+  include-all: true
+  filter: ^(?=.*(?i)(美|🇺🇸|US|USA|JFK|SJC|LAX|ORD|ATL|DFW|SFO|MIA|SEA|IAD))(?!.*(Plus|Australia|5x)).*$
+  proxies:
+  - 美国自动
+  icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/United_States.png
+- name: 新加坡节点
+  type: select
+  include-all: true
+  filter: ^(?=.*(?i)(坡|🇸🇬|SG|Sing|SIN|XSP))(?!.*5x).*$
+  proxies:
+  - 新加坡自动
+  icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Singapore.png
+- name: 全部节点
+  type: select
+  include-all: true
+  proxies:
+  - 自动选择
+  icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Global.png
+- name: 香港自动
+  type: url-test
+  include-all: true
+  filter: ^(?=.*(?i)(港|🇭🇰|HK|Hong|HKG))(?!.*5x).*$
+  url: https://www.google.com/generate_204
+  interval: 200
+  lazy: true
+  empty-fallback: REJECT
+  hidden: true
+  icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Auto.png
+- name: 台湾自动
+  type: url-test
+  include-all: true
+  filter: ^(?=.*(?i)(台|🇹🇼|TW|tai|TPE|TSA|KHH))(?!.*5x).*$
+  url: https://www.google.com/generate_204
+  interval: 200
+  lazy: true
+  empty-fallback: REJECT
+  hidden: true
+  icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Auto.png
+- name: 日本自动
+  type: url-test
+  include-all: true
+  filter: ^(?=.*(?i)(日|🇯🇵|JP|Japan|NRT|HND|KIX|CTS|FUK))(?!.*(尼日利亚|5x)).*$
+  url: https://www.google.com/generate_204
+  interval: 200
+  lazy: true
+  empty-fallback: REJECT
+  hidden: true
+  icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Auto.png
+- name: 美国自动
+  type: url-test
+  include-all: true
+  filter: ^(?=.*(?i)(美|🇺🇸|US|USA|JFK|SJC|LAX|ORD|ATL|DFW|SFO|MIA|SEA|IAD))(?!.*(Plus|Australia|5x)).*$
+  url: https://www.google.com/generate_204
+  interval: 200
+  lazy: true
+  empty-fallback: REJECT
+  hidden: true
+  icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Auto.png
+- name: 新加坡自动
+  type: url-test
+  include-all: true
+  filter: ^(?=.*(?i)(坡|🇸🇬|SG|Sing|SIN|XSP))(?!.*5x).*$
+  url: https://www.google.com/generate_204
+  interval: 200
+  lazy: true
+  empty-fallback: REJECT
+  hidden: true
+  icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Auto.png
+- name: 直接连接
+  type: select
+  proxies:
+  - DIRECT
+  icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Direct.png
+rules:
+- RULE-SET,Tracking,REJECT
+- RULE-SET,AWAvenueAds,REJECT
+- RULE-SET,Advertising,REJECT
+- DOMAIN-SUFFIX,alidns.com,直接连接
+- DOMAIN-SUFFIX,doh.pub,直接连接
+- DOMAIN,dns.google,一键连接
+- DOMAIN,cloudflare-dns.com,一键连接
+- RULE-SET,Private,直接连接
+- RULE-SET,Direct,直接连接
+- RULE-SET,Download,直接连接
+- RULE-SET,AppleCN,直接连接
+- AND,((DST-PORT,443),(NETWORK,UDP)),REJECT
+- RULE-SET,AI,一键连接
+- RULE-SET,Telegram,一键连接
+- RULE-SET,Twitter,一键连接
+- RULE-SET,SocialMedia,一键连接
+- RULE-SET,Netflix,一键连接
+- RULE-SET,YouTube,一键连接
+- RULE-SET,Spotify,一键连接
+- RULE-SET,TikTok,一键连接
+- RULE-SET,disney,一键连接
+- RULE-SET,Google,一键连接
+- RULE-SET,Microsoft,一键连接
+- RULE-SET,github,一键连接
+- RULE-SET,Proxy,一键连接
+- RULE-SET,China,直接连接
+- RULE-SET,PrivateIP,直接连接,no-resolve
+- RULE-SET,TelegramIP,一键连接,no-resolve
+- RULE-SET,ProxyIP,一键连接,no-resolve
+- RULE-SET,ChinaIP,直接连接,no-resolve
+- MATCH,一键连接
+BehaviorDN:
+  type: http
+  behavior: domain
+  format: mrs
+  interval: 86400
+BehaviorDY:
+  type: http
+  behavior: domain
+  format: yaml
+  interval: 86400
+BehaviorIP:
+  type: http
+  behavior: ipcidr
+  format: mrs
+  interval: 86400
+ClassicalYaml:
+  type: http
+  behavior: classical
+  interval: 3600
+  format: yaml
+  proxy: DIRECT
+rule-providers:
+  Tracking:
+    type: http
+    behavior: domain
+    format: mrs
+    interval: 86400
+    url: https://github.com/666OS/rules/raw/release/mihomo/domain/Tracking.mrs
+  Advertising:
+    type: http
+    behavior: domain
+    format: mrs
+    interval: 86400
+    url: https://github.com/666OS/rules/raw/release/mihomo/domain/Advertising.mrs
+  AWAvenueAds:
+    type: http
+    behavior: domain
+    format: yaml
+    interval: 86400
+    url: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.yaml
+  Direct:
+    type: http
+    behavior: domain
+    format: mrs
+    interval: 86400
+    url: https://github.com/666OS/rules/raw/release/mihomo/domain/Direct.mrs
+  Private:
+    type: http
+    behavior: domain
+    format: mrs
+    interval: 86400
+    url: https://github.com/666OS/rules/raw/release/mihomo/domain/Private.mrs
+  Download:
+    type: http
+    behavior: domain
+    format: mrs
+    interval: 86400
+    url: https://github.com/666OS/rules/raw/release/mihomo/domain/Download.mrs
+  AppleCN:
+    type: http
+    behavior: domain
+    format: mrs
+    interval: 86400
+    url: https://github.com/666OS/rules/raw/release/mihomo/domain/AppleCN.mrs
+  China:
+    type: http
+    behavior: domain
+    format: mrs
+    interval: 86400
+    url: https://github.com/666OS/rules/raw/release/mihomo/domain/China.mrs
+  AI:
+    type: http
+    behavior: domain
+    format: mrs
+    interval: 86400
+    url: https://github.com/666OS/rules/raw/release/mihomo/domain/AI.mrs
+  Telegram:
+    type: http
+    behavior: domain
+    format: mrs
+    interval: 86400
+    url: https://github.com/666OS/rules/raw/release/mihomo/domain/Telegram.mrs
+  Twitter:
+    type: http
+    behavior: domain
+    format: mrs
+    interval: 86400
+    url: https://github.com/666OS/rules/raw/release/mihomo/domain/Twitter.mrs
+  SocialMedia:
+    type: http
+    behavior: domain
+    format: mrs
+    interval: 86400
+    url: https://github.com/666OS/rules/raw/release/mihomo/domain/SocialMedia.mrs
+  Netflix:
+    type: http
+    behavior: domain
+    format: mrs
+    interval: 86400
+    url: https://github.com/666OS/rules/raw/release/mihomo/domain/Netflix.mrs
+  YouTube:
+    type: http
+    behavior: domain
+    format: mrs
+    interval: 86400
+    url: https://github.com/666OS/rules/raw/release/mihomo/domain/YouTube.mrs
+  Google:
+    type: http
+    behavior: domain
+    format: mrs
+    interval: 86400
+    url: https://github.com/666OS/rules/raw/release/mihomo/domain/Google.mrs
+  Microsoft:
+    type: http
+    behavior: domain
+    format: mrs
+    interval: 86400
+    url: https://github.com/666OS/rules/raw/release/mihomo/domain/Microsoft.mrs
+  Proxy:
+    type: http
+    behavior: domain
+    format: mrs
+    interval: 86400
+    url: https://github.com/666OS/rules/raw/release/mihomo/domain/Proxy.mrs
+  Spotify:
+    type: http
+    behavior: domain
+    format: mrs
+    interval: 86400
+    url: https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/spotify.mrs
+  TikTok:
+    type: http
+    behavior: domain
+    format: mrs
+    interval: 86400
+    url: https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/tiktok.mrs
+  disney:
+    type: http
+    behavior: domain
+    format: mrs
+    interval: 86400
+    url: https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/disney.mrs
+  github:
+    type: http
+    behavior: classical
+    interval: 3600
+    format: yaml
+    proxy: DIRECT
+    url: https://rule.kelee.one/Clash/GitHub.yaml
+  PrivateIP:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    interval: 86400
+    url: https://github.com/666OS/rules/raw/release/mihomo/ip/Private.mrs
+  TelegramIP:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    interval: 86400
+    url: https://github.com/666OS/rules/raw/release/mihomo/ip/Telegram.mrs
+  ProxyIP:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    interval: 86400
+    url: https://github.com/666OS/rules/raw/release/mihomo/ip/Proxy.mrs
+  ChinaIP:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    interval: 86400
+    url: https://github.com/666OS/rules/raw/release/mihomo/ip/China.mrs
