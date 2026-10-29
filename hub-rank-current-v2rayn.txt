@@ -1,11 +1,5 @@
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.81:19999#SFVCLUUtMjA
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.45:19999#SFVCLUUtMjM
-trojan://humanity@172.67.203.46:443?sni=www.cordweave.com&fp=chrome&type=ws&path=/assignment#SFVCLUQtMQ
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@fr001.zestapp778.com:28484?type=tcp#SFVCLUQtOTE
+trojan://humanity@172.67.203.46:443?sni=www.cordweave.com&fp=chrome&type=ws&path=/assignment#SFVCLUQtNg
+vless://abca037b-bee5-41cc-a888-0668e4c66176@144.31.213.229:443?type=xhttp#SFVCLUQtMg
 vless://b18d5990-96eb-4587-a386-7f8ef7591e6a@cz-prg.dontblockmepls.com:2063?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMjg2
-vless://405b964e-a2d2-454f-aaaa-711cc218897c@hydra.yokkastars.com:40443?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMzA2
-vless://f90b7d43-69e2-4b46-a672-8029bc6796a2@79.182.39.232:25895?type=tcp#SFVCLUMtMjM1
-vless://5a519754-a673-4462-83f6-5eb25d2af141@79.182.39.35:25548?type=tcp#SFVCLUMtMjM2
-vless://846cedee-2a52-4a62-a0b9-11850ead6a8b@46.8.43.125:443?type=tcp#SFVCLUMtMTc1
-vless://405b964e-a2d2-454f-aaaa-711cc218897c@5.253.28.240:40443?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMTgy
 vless://af5eac96-e478-488a-bc8c-45269d7e8847@dorado.yokkastars.com:40443?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMjky
+vless://5a519754-a673-4462-83f6-5eb25d2af141@79.182.39.35:25548?type=tcp#SFVCLUMtMjM2
