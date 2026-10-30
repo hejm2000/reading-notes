@@ -1,11 +1,13 @@
 test-url: http://www.gstatic.com/generate_204
 proxies:
-- name: HUB-E-13
-  type: anytls
-  server: 684616s4.df6h451rh.xin
+- name: HUB-E-24
+  type: http
+  server: fan.571589.xyz
   port: 443
-  password: 0324fbc29561
-  udp: true
+  username: '''null'''
+  password: '''null'''
+  tls: true
+  sni: fan.571589.xyz
   skip-cert-verify: true
 - name: HUB-E-23
   type: http
@@ -14,26 +16,280 @@ proxies:
   tls: true
   sni: fan.571589.xyz
   skip-cert-verify: true
-- name: HUB-E-11
+- name: HUB-D-40
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
   type: http
-  server: 178.219.43.226
+  udp: true
+- name: HUB-E-10
+  type: http
+  server: efr-marktplatz.club
+  port: 443
+  username: '''null'''
+  password: None
+  tls: true
+- name: HUB-D-43
+  password: None
+  port: 443
+  server: 185.164.138.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸 US HUB-E-5
+  type: http
+  server: 44.248.167.117
+  port: 8443
+  username: '''null'''
+  password: '''null'''
+  tls: true
+  skip-cert-verify: true
+- name: HUB-D-38
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸 US HUB-E-8
+  type: http
+  server: 45.145.72.122
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: HUB-D-70
+  password: ''
+  port: 443
+  server: 51.158.243.91
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: HUB-D-34
+  port: 443
+  server: 185.238.170.10
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: HUB-D-6
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.89
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  xudp: true
+  packet-encoding: xudp
+  servername: yahoo.com
+- name: HUB-D-90
+  port: 8090
+  server: 80.124.109.22
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇺🇸 US HUB-D-93
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  server: 156.229.166.66
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8945d73-e450-47ea-90cb-10062c8632b7
+  xudp: true
+  packet-encoding: xudp
+  servername: www.amazon.com
+- name: HUB-D-97
+  password: 'null'
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+  udp: true
+- name: HUB-D-27
+  password: ''
+  port: 9443
+  server: 149.88.27.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: HUB-D-35
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HUB-D-18
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HUB-D-44
+  password: ''
+  port: 443
+  server: 12.202.180.10
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: HUB-D-33
+  port: 9443
+  server: 149.88.96.12
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HUB-D-58
+  port: 443
+  server: 5.255.118.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HUB-D-72
+  port: 9443
+  server: 31.171.154.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HUB-D-92
+  password: None
+  port: 9443
+  server: 95.153.31.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: HUB-D-3
+  network: xhttp
+  port: 61374
+  reality-opts:
+    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
+  server: se-2.pythonsetupbib.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  xhttp-opts:
+    host: se-2.pythonsetupbib.online
+    mode: packet-up
+    path: /
+    x-padding-bytes: 100-500
+  servername: se-2.pythonsetupbib.online
+- name: HUB-D-48
+  port: 9443
+  server: 192.159.101.174
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HUB-D-46
+  port: 443
+  server: 130.195.250.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HUB-D-56
+  password: None
+  port: 443
+  server: 146.70.203.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HUB-D-91
+  password: None
+  port: 443
+  server: 206.223.161.47
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HUB-D-64
+  password: None
+  port: 443
+  server: 206.223.183.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HUB-D-82
+  port: 9443
+  server: 169.150.199.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HUB-E-16
+  type: http
+  server: 193.35.104.196
   port: 443
   tls: true
   skip-cert-verify: true
+- name: HUB-D-17
+  password: None
+  port: 443
+  server: 185.219.159.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HUB-D-15
+  port: 8090
+  server: 83.206.1.225
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: HUB-E-18
   type: http
   server: 173.42.49.102
   port: 8090
   tls: true
   skip-cert-verify: true
-- name: HUB-E-6
-  type: anytls
-  server: er8u54dh.df6h451rh.xin
+- name: HUB-D-77
   port: 443
-  password: 0324fbc29561
-  udp: true
+  server: 162.244.227.36
   skip-cert-verify: true
-  client-fingerprint: chrome
+  tls: true
+  type: http
+  udp: true
+- name: HUB-D-86
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 82.196.9.7
+  sni: 52c40907.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+  udp: true
 - type: trojan
   name: HUB-C-111
   server: 172.66.0.172
@@ -48,25 +304,19 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-- name: HUB-E-24
-  type: http
-  server: fan.571589.xyz
+- name: HUB-D-78
   port: 443
-  username: '''null'''
-  password: '''null'''
-  tls: true
-  sni: fan.571589.xyz
+  server: 84.235.228.156
   skip-cert-verify: true
-- cipher: rc4-md5
-  name: HUB-D-5
-  obfs: tls1.2_ticket_auth
-  obfs-param: 6f5218522.douyin.com
-  password: di15PV
-  port: 43694
-  protocol: auth_aes128_md5
-  protocol-param: 218522:0hfCJk
-  server: api.meituan88.com
-  type: ssr
+  tls: true
+  type: http
+  udp: true
+- name: HUB-D-75
+  port: 443
+  server: 156.146.56.97
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
 - type: vless
   name: HUB-C-15
@@ -83,17 +333,20 @@ proxies:
   reality-opts:
     public-key: QvT-t_h_AF2EAT4Ggh_a6pcCK3StY8G9WCXn6-dJbxk
     short-id: 51079f144d661484
-- name: HUB-E-15
-  type: vless
-  server: de15.h1cloud.net
-  port: 25362
-  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
+- type: vless
+  name: HUB-C-134
+  server: 186.246.9.29
+  port: 443
+  uuid: b2847c3b-5278-4b06-9c66-bc919d2dfec7
+  udp: true
   tls: true
-  servername: www.chip.de
-  client-fingerprint: chrome
+  servername: wordpress.com
+  sni: wordpress.com
+  skip-cert-verify: true
+  client-fingerprint: firefox
   reality-opts:
-    public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
-    short-id: 23732d14a527990d
+    public-key: MPNMomAMn_lu9YMYjD2jAQWrI-rTM4hj9Jgg9d6qzTA
+    short-id: 50ad5564
 FilterHK: ^(?=.*(?i)(港|🇭🇰|HK|Hong|HKG))(?!.*5x).*$
 FilterSG: ^(?=.*(?i)(坡|🇸🇬|SG|Sing|SIN|XSP))(?!.*5x).*$
 FilterJP: ^(?=.*(?i)(日|🇯🇵|JP|Japan|NRT|HND|KIX|CTS|FUK))(?!.*(尼日利亚|5x)).*$
