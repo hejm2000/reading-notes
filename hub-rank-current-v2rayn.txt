@@ -1,8 +1,8 @@
-vless://cec0cf85-cf9f-44ce-9eb0-cb1f9b8d7ba1@94.249.189.41:43000?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMzE4
-trojan://humanity@138.124.228.122:443?sni=www.cordweave.com&fp=chrome&type=ws&path=/assignment#SFVCLUMtMjI
+vless://f8d52ece-fad4-478d-875d-df6eed3befa7@se-2.pythonsetupbib.online:61374?type=xhttp#SFVCLUQtNDE
+vless://c05ec3c7-2784-da2b-aa98-a3c132860fcb@178.236.242.254:8443?type=tcp&flow=xtls-rprx-vision#SFVCLUQtNDM
 trojan://humanity@172.66.0.172:443?sni=www.cordweave.com&fp=chrome&type=ws&path=/assignment#SFVCLUMtMTEx
-vless://f8d52ece-fad4-478d-875d-df6eed3befa7@cz.pythonmakemigreat.wiki:61374?type=xhttp#SFVCLUQtMTI
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@152.175.6.229:31884?type=tcp#SFVCLUMtNDg
-vless://a0fa7e19-70ec-41e0-b0cc-bcc984d4201a@s12.bsh-net.ru:443?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMzYz
 vless://b2847c3b-5278-4b06-9c66-bc919d2dfec7@186.246.9.29:443?type=tcp#SFVCLUMtMTM0
+trojan://humanity@79.124.7.237:443?sni=www.cordweave.com&fp=chrome&type=ws&path=/assignment#SFVCLUMtMjkz
+trojan://humanity@141.193.213.172:443?sni=www.calmlunch.com&fp=chrome&type=ws&path=/assignment#SFVCLUMtMjg
 trojan://humanity@194.55.164.118:443?sni=www.cordweave.com&fp=chrome&type=ws&path=/assignment#SFVCLUMtMTQ1
+vless://abd5755a-8b77-4ed4-afbd-f2ccbc08e6f5@189.74.114.119:443?type=grpc&serviceName=3e99d50d5740985d#SFVCLUQtNDI
