@@ -1,76 +1,32 @@
 test-url: http://www.gstatic.com/generate_204
 proxies:
-- name: HUB-E-27
+- name: HUB-E-6
   type: http
   server: fan.587475.xyz
   port: 443
   tls: true
   sni: fan.587475.xyz
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US HUB-D-35
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: OQu-e59wDwOSwiBBawquNAPhg8Li1hmioWU2Up1TGDw
-    short-id: c33807f76b689c9a
-  server: 179.254.92.134
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-  xudp: true
-  packet-encoding: xudp
-  servername: assets-70.topp-con.xyz
 - type: vless
-  name: HUB-C-59
-  server: 79.182.39.236
-  port: 25362
-  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
+  name: HUB-C-46
+  server: 152.175.6.229
+  port: 31884
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
   tls: true
-  servername: www.chip.de
-  sni: www.chip.de
+  servername: hk010.zestapp778.com
+  sni: hk010.zestapp778.com
   skip-cert-verify: true
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
-    short-id: 23732d14a527990d
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: HUB-D-34
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA
-    short-id: e6d589857d1cec5e
-  server: 154.86.119.158
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  xudp: true
-  packet-encoding: xudp
-  servername: fr.golangwikito.cfd
-- type: vless
-  name: HUB-C-140
-  server: 13.143.180.141
-  port: 443
-  uuid: 2614a96d-e39f-02f0-a9c7-467a178c2c0a
-  flow: xtls-rprx-vision
-  udp: true
-  tls: true
-  servername: sw.lenvex.cc
-  sni: sw.lenvex.cc
-  skip-cert-verify: true
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-- name: HUB-E-19
+  client-fingerprint: chrome
+- name: HUB-E-24
   type: http
-  server: purecambogiasl.live
+  server: 5.255.118.82
   port: 443
+  tls: true
+  skip-cert-verify: true
+- name: HUB-E-4
+  type: http
+  server: 138.199.35.211
+  port: 9002
   username: '''null'''
   password: None
   tls: true
@@ -89,34 +45,14 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-- type: vless
-  name: HUB-C-60
-  server: 31.77.13.22
-  port: 2063
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
-  flow: xtls-rprx-vision
-  udp: true
+- name: HUB-E-17
+  type: http
+  server: 34.249.214.108
+  port: 443
+  username: '''null'''
+  password: '''null'''
   tls: true
-  servername: rusbid.de
-  sni: rusbid.de
   skip-cert-verify: true
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-- type: vless
-  name: HUB-C-61
-  server: cz-prg.dontblockmepls.com
-  port: 2063
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
-  flow: xtls-rprx-vision
-  udp: true
-  tls: true
-  servername: rusbid.de
-  sni: rusbid.de
-  skip-cert-verify: true
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
 - type: vless
   name: HUB-C-71
   server: de15.h1cloud.net
@@ -131,20 +67,48 @@ proxies:
   reality-opts:
     public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
     short-id: 23732d14a527990d
-- name: 🇯🇵 JP HUB-E-26
-  type: http
-  server: 120.232.204.58
-  port: 40583
+- type: vless
+  name: HUB-C-140
+  server: 13.143.180.141
+  port: 443
+  uuid: 2614a96d-e39f-02f0-a9c7-467a178c2c0a
+  flow: xtls-rprx-vision
+  udp: true
   tls: true
+  servername: sw.lenvex.cc
+  sni: sw.lenvex.cc
   skip-cert-verify: true
-- name: HUB-E-6
-  type: http
-  server: 24.142.229.178
-  port: 8090
-  username: '''null'''
-  password: '''null'''
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+- type: vless
+  name: HUB-C-111
+  server: 186.246.9.29
+  port: 443
+  uuid: b2847c3b-5278-4b06-9c66-bc919d2dfec7
+  udp: true
   tls: true
+  servername: wordpress.com
+  sni: wordpress.com
   skip-cert-verify: true
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: MPNMomAMn_lu9YMYjD2jAQWrI-rTM4hj9Jgg9d6qzTA
+    short-id: 50ad5564
+- type: vless
+  name: HUB-C-59
+  server: 79.182.39.236
+  port: 25362
+  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
+  udp: true
+  tls: true
+  servername: www.chip.de
+  sni: www.chip.de
+  skip-cert-verify: true
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
+    short-id: 23732d14a527990d
 - type: vless
   name: HUB-C-128
   server: 13.143.180.142
@@ -159,6 +123,23 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+- name: HUB-E-14
+  type: http
+  server: 129.153.93.183
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇭🇰 HK HUB-E-23
+  type: vless
+  server: 154.83.87.6
+  port: 8443
+  uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
+  tls: true
+  servername: github.githubassets.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
+    short-id: 4ad2e4e660550e43
 FilterHK: ^(?=.*(?i)(港|🇭🇰|HK|Hong|HKG))(?!.*5x).*$
 FilterSG: ^(?=.*(?i)(坡|🇸🇬|SG|Sing|SIN|XSP))(?!.*5x).*$
 FilterJP: ^(?=.*(?i)(日|🇯🇵|JP|Japan|NRT|HND|KIX|CTS|FUK))(?!.*(尼日利亚|5x)).*$
