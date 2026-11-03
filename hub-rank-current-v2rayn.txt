@@ -1,5 +1,3 @@
-vless://254f28cb-d0c1-41e9-a06b-f2155213ff04@177.177.215.45:444?type=tcp&flow=xtls-rprx-vision#SFVCLUMtNjY
-vless://36fb6650-8a50-42b5-9f66-06538806f32c@79.182.39.236:25362?type=tcp#SFVCLUMtNTk
-vless://056405e8-de9f-4d0d-8145-956f13cc34da@79.182.39.37:27591?type=tcp#SFVCLUMtNjI
+vless://056405e8-de9f-4d0d-8145-956f13cc34da@79.182.39.57:443?type=tcp#8J+HuvCfh7ggVVMgSFVCLUMtNzM
 vless://36fb6650-8a50-42b5-9f66-06538806f32c@de15.h1cloud.net:25362?type=tcp#SFVCLUMtNzE
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@152.175.6.229:31884?type=tcp#SFVCLUMtNDY
+vless://36fb6650-8a50-42b5-9f66-06538806f32c@79.182.39.236:25362?type=tcp#SFVCLUMtNTk
