@@ -1,52 +1,54 @@
 test-url: http://www.gstatic.com/generate_204
 proxies:
-- name: HUB-E-22
-  type: socks5
-  server: 123.58.219.171
-  port: 10808
-- name: HUB-E-12
+- name: 🇯🇵 JP HUB-E-28
   type: http
-  server: 193.35.104.196
+  server: 120.232.204.58
+  port: 40583
+  tls: true
+  skip-cert-verify: true
+- name: HUB-E-21
+  type: http
+  server: fan.596189.xyz
+  port: 443
+  tls: true
+  sni: fan.596189.xyz
+  skip-cert-verify: true
+- name: HUB-E-7
+  type: http
+  server: 193.176.84.22
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: HUB-E-9
+  type: http
+  server: 66.153.187.90
+  port: 8090
+  tls: true
+  skip-cert-verify: true
+- name: HUB-E-14
+  type: http
+  server: 87.242.85.187
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: HUB-E-8
+  type: http
+  server: 62.90.77.30
   port: 443
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸 US HUB-E-10
+- name: HUB-E-34
   type: http
-  server: 138.199.35.206
-  port: 9002
-  username: '''null'''
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: HUB-E-1
-  type: http
-  server: 5.2.73.112
+  server: 178.248.73.58
   port: 443
   username: '''null'''
   password: '''null'''
   tls: true
   skip-cert-verify: true
-- name: HUB-E-18
+- name: HUB-E-5
   type: http
-  server: 185.245.84.50
+  server: 194.186.179.62
   port: 443
-  tls: true
-  skip-cert-verify: true
-- type: trojan
-  name: HUB-C-91
-  server: 216.152.147.74
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  tls: true
-  servername: api.connectingpeoplewithgreatjobs.com
-  sni: api.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: true
-  client-fingerprint: chrome
-- name: HUB-E-3
-  type: http
-  server: 77.221.136.60
-  port: 8443
   tls: true
   skip-cert-verify: true
 - type: vless
@@ -63,20 +65,32 @@ proxies:
   reality-opts:
     public-key: 5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E
     short-id: 257420d9d430152a
-- name: HUB-E-26
-  type: http
-  server: 152.233.3.14
-  port: 9443
+- type: vless
+  name: HUB-C-29
+  server: 59.125.69.23
+  port: 443
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  udp: true
   tls: true
+  servername: ty986gfazs.cainiaohub.xyz
+  sni: ty986gfazs.cainiaohub.xyz
   skip-cert-verify: true
-- name: 🇺🇸 US HUB-E-8
-  type: http
-  server: 138.199.35.211
-  port: 9002
-  username: '''null'''
-  password: '''null'''
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+- name: HUB-E-18
+  type: vless
+  server: 198.16.113.219
+  port: 8443
+  uuid: e3e0e1c3-599e-4ae1-8ad4-d9e90effacc4
+  flow: xtls-rprx-vision
   tls: true
-  skip-cert-verify: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE
+    short-id: 69984b9e02545831
 FilterHK: ^(?=.*(?i)(港|🇭🇰|HK|Hong|HKG))(?!.*5x).*$
 FilterSG: ^(?=.*(?i)(坡|🇸🇬|SG|Sing|SIN|XSP))(?!.*5x).*$
 FilterJP: ^(?=.*(?i)(日|🇯🇵|JP|Japan|NRT|HND|KIX|CTS|FUK))(?!.*(尼日利亚|5x)).*$
