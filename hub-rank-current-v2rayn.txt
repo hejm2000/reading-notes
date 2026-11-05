@@ -1,1 +1,2 @@
-
+vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@152.175.6.229:31884?type=tcp#SFVCLUMtMzU
+vless://399b6b23-cc40-4831-a494-61948e2df133@jp.sofast.live:52683?type=tcp#8J+HuvCfh7ggVVMgSFVCLUUtMTk
