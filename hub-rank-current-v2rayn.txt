@@ -1,9 +1,1 @@
-vless://65ec84f5-0dd4-4582-8b4f-592e50b22116@dddz-1-x.473221.xyz:13239?type=tcp&flow=xtls-rprx-vision#8J+HufCfh7wgVFcgSFVCLUQtOTE
-vmess://eyJ2IjoiMiIsInBzIjoiSFVCLUQtMSIsImFkZCI6IjM4LjYwLjIyNC4xNzMiLCJwb3J0IjoiMzIxNTMiLCJpZCI6IjVjZjFmNDcwLTNmNzAtNDU4OS1hMmE0LTQ2NTdlYTNhMWVkZiIsImFpZCI6MCwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiIsInNuaSI6IiIsImZwIjoiIiwic3AiOiIiLCJ3cy1vcHRzIjoiIiwiZ3JwYy1vcHRzIjoiIiwic2VjdXJpdHkiOiJub25lIn0=#SFVCLUQtMQ
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.36:19999#SFVCLUQtMw
-vless://90157e25-cee1-4217-921e-91f300bc1a24@prvtch.titun.su:443?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMTM1
-vless://c5f59ef3-9540-49fa-bd1e-c6c2f79df49a@92.243.66.79:443?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMTQ1
-vless://dbf3f074-3b18-43f3-b82a-debd8c879c69@185.246.155.91:10103?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMTQz
-vless://65ec84f5-0dd4-4582-8b4f-592e50b22116@dddz-1-x.473221.xyz:34759?type=tcp&flow=xtls-rprx-vision#8J+HuvCfh7ggVVMgSFVCLUMtMTYx
-vless://90157e25-cee1-4217-921e-91f300bc1a24@46.19.138.214:443?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMTQ0
-vless://90157e25-cee1-4217-921e-91f300bc1a24@179.43.166.190:443?type=tcp&flow=xtls-rprx-vision#SFVCLUMtMTM4
+trojan://f426d3c9-fb43-43c0-868b-898dfa451a74@121.127.33.130:443?sni=likejennie.pages.dev&fp=chrome&type=ws&path=/#SFVCLUMtMjk
