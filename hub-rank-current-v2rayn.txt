@@ -1,1 +1,2 @@
-hysteria2://8VPFWgN7mbwHWxTC@singapore.062888.xyz:443?sni=www.microsoft.com#8J+HuPCfh6wgU0cgSFVCLUUtMjg
+vless://30e52776-55ac-3cb4-8d36-e2910f07e2c3@www.codex2api.com:443?type=xhttp#SFVCLUQtNg
+hysteria2://64c05afc-ce81-4ba0-b697-afa04da1427e@104.168.6.236:44443?sni=bing.com#8J+HuvCfh7ggVVMgSFVCLUQtMQ
