@@ -1,4 +1,5 @@
-hysteria2://30f5e94a-3e13-4270-9f90-60827bef6671@141.147.160.26:443?sni=bing.com#8J+Hr/Cfh7UgSlAgSFVCLUQtNg
-hysteria2://30f5e94a-3e13-4270-9f90-60827bef6671@161.33.152.237:443?sni=bing.com#8J+Hr/Cfh7UgSlAgSFVCLUQtNw
-vless://399b6b23-cc40-4831-a494-61948e2df133@jp.sofast.live:52683?type=tcp#8J+HuvCfh7ggVVMgSFVCLUMtMzgz
-trojan://d7563108-615c-4338-a7bd-77f359869a4a@sclass-b1.catcat321.com:20028?sni=hk.catxstar.com&fp=chrome#SFVCLUQtNQ
+vless://7060231d-b9ba-495f-a218-bf427940cf3e@184.195.175.29:443?type=http#8J+HuvCfh7ggVVMgSFVCLUQtNg
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.90:19999#SFVCLUQtMw
+vless://3f5e89d5-591f-4ac9-b071-b05680b573c3@138.124.242.46:8443?type=grpc&serviceName=connect-pl#SFVCLUQtNA
+vless://cda0862a-0f87-4be9-8ed8-1d0c9e382839@196.196.148.63:443?type=grpc&serviceName=204adda7e3da#SFVCLUQtMQ
+vless://7592ca5c-b352-4562-8856-a9c936a3331b@200.102.179.69:443?type=xhttp#8J+HuvCfh7ggVVMgSFVCLUQtNQ
