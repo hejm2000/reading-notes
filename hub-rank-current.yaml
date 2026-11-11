@@ -1,140 +1,38 @@
 test-url: http://www.gstatic.com/generate_204
 proxies:
-- name: 🇯🇵 JP HUB-D-15
-  password: 'null'
-  port: 40583
-  server: 120.232.204.58
-  skip-cert-verify: true
-  tls: true
+- name: 🇰🇷 KR HUB-E-24
   type: http
-  username: 'null'
+  server: 43.166.4.171
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: HUB-E-1
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
+  skip-cert-verify: true
+- name: HUB-E-18
+  type: http
+  server: 185.140.209.235
+  port: 443
+  username: '''null'''
+  password: '''null'''
+  tls: true
+  sni: 185.140.209.235
+  skip-cert-verify: true
+- cipher: aes-256-gcm
+  name: HUB-D-1
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss
   udp: true
-- name: 🇺🇸 US HUB-D-6
+- name: 🇺🇸 US HUB-D-5
   password: None
   port: 443
   server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: HUB-D-7
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: HUB-D-8
-  port: 9443
-  server: 84.17.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: HUB-D-32
-  password: 'null'
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-  udp: true
-- name: HUB-D-22
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: HUB-E-23
-  type: http
-  server: 87.106.223.158
-  port: 443
-  username: '''null'''
-  password: '''null'''
-  tls: true
-  sni: 87.106.223.158
-  skip-cert-verify: true
-- name: HUB-E-11
-  type: http
-  server: 18.200.158.139
-  port: 443
-  tls: true
-  sni: 18.200.158.139
-  skip-cert-verify: true
-- name: HUB-D-4
-  password: None
-  port: 9443
-  server: 84.17.50.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇭🇰 HK HUB-D-12
-  password: None
-  port: 31343
-  server: 120.232.204.58
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: HUB-E-6
-  type: http
-  server: 34.249.214.108
-  port: 443
-  username: '''null'''
-  password: '''null'''
-  tls: true
-  sni: 34.249.214.108
-  skip-cert-verify: true
-- name: HUB-D-25
-  port: 443
-  server: 206.223.183.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: HUB-E-29
-  type: http
-  server: 103.153.135.118
-  port: 443
-  tls: true
-  sni: 103.153.135.118
-  skip-cert-verify: true
-- name: HUB-D-28
-  password: None
-  port: 9443
-  server: 149.88.98.81
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: HUB-D-21
-  port: 9443
-  server: 149.36.51.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: HUB-D-17
-  port: 443
-  server: 31.171.154.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸 US HUB-E-8
-  type: http
-  server: 138.199.35.201
-  port: 9002
-  username: '''null'''
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: HUB-D-5
-  port: 9443
-  server: 95.153.31.66
   skip-cert-verify: true
   tls: true
   type: http
@@ -146,18 +44,53 @@ proxies:
   tls: true
   sni: 5.2.73.112
   skip-cert-verify: true
-- name: 🇭🇰 HK HUB-E-15
+- name: 🇺🇸 US HUB-E-3
   type: http
-  server: fan.240104.xyz
-  port: 443
-  tls: true
-- name: 🇺🇸 US HUB-E-12
-  type: http
-  server: 138.199.35.213
+  server: 138.199.35.195
   port: 9002
   username: '''null'''
   password: '''null'''
   tls: true
+  sni: 138.199.35.195
+  skip-cert-verify: true
+- name: HUB-E-20
+  type: http
+  server: 84.17.47.124
+  port: 9002
+  username: '''null'''
+  password: '''null'''
+  tls: true
+  skip-cert-verify: true
+- name: HUB-D-9
+  password: None
+  port: 443
+  server: www.codex2api.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  client-fingerprint: chrome
+  encryption: none
+  network: xhttp
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  xhttp-opts:
+    host: b5cb4fa7s274.kuback.top
+    path: /596e6bac208562ef1c25e117655ef1a6
+    x-padding-bytes: 100-1000
+    x-padding-header: X-Forwarded-Uri
+    x-padding-key: _
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
+    xudp: true
+    packet-encoding: xudp
+  servername: b5cb4fa7s274.kuback.top
+- name: 🇺🇸 US HUB-E-22
+  type: http
+  server: 138.199.35.208
+  port: 9002
+  tls: true
+  sni: 138.199.35.208
   skip-cert-verify: true
 - name: 🇭🇰 HK HUB-E-9
   type: http
@@ -165,6 +98,91 @@ proxies:
   port: 8443
   tls: true
   sni: 38.76.140.254
+  skip-cert-verify: true
+- client-fingerprint: firefox
+  encryption: none
+  name: HUB-D-17
+  network: xhttp
+  port: 443
+  server: saltmint.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab044ce9-1eef-47fd-8cbd-32310f96f66b
+  xhttp-opts:
+    host: saltmint.space
+    mode: packet-up
+    path: /Sm4Wk8Xt2Rr6Nw9Zj7Hc1Ys5D/
+    xudp: true
+    packet-encoding: xudp
+  servername: saltmint.space
+- name: 🇺🇸 US HUB-E-4
+  type: http
+  server: 138.199.35.206
+  port: 9002
+  username: '''null'''
+  password: '''null'''
+  tls: true
+  skip-cert-verify: true
+- name: 🇭🇰 HK HUB-D-22
+  password: None
+  port: 31343
+  server: 120.232.204.58
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HUB-D-24
+  password: 'null'
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+  udp: true
+- name: HUB-E-29
+  type: http
+  server: 103.153.135.118
+  port: 443
+  tls: true
+  sni: 103.153.135.118
+  skip-cert-verify: true
+- name: 🇺🇸 US HUB-E-14
+  type: http
+  server: 138.199.35.216
+  port: 9002
+  username: '''null'''
+  password: '''null'''
+  tls: true
+  skip-cert-verify: true
+- name: HUB-D-8
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HUB-OM-5
+  type: masque
+  server: 162.159.198.1
+  port: 4443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇺🇸 US HUB-E-17
+  type: http
+  server: 107.91.88.70
+  port: 8443
+  tls: true
+  sni: 107.91.88.70
   skip-cert-verify: true
 - name: 🇺🇸 US HUB-E-16
   type: http
@@ -175,211 +193,62 @@ proxies:
   tls: true
   sni: 138.199.35.214
   skip-cert-verify: true
-- name: 🇺🇸 US HUB-E-14
+- name: 🇺🇸 US HUB-E-12
   type: http
-  server: 138.199.35.216
+  server: 138.199.35.213
   port: 9002
   username: '''null'''
   password: '''null'''
   tls: true
   skip-cert-verify: true
-- name: HUB-D-24
-  password: ''
+- name: HUB-E-23
+  type: http
+  server: 87.106.223.158
   port: 443
-  server: 185.216.35.66
-  skip-cert-verify: true
+  username: '''null'''
+  password: '''null'''
   tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇺🇸 US HUB-E-17
-  type: http
-  server: 107.91.88.70
-  port: 8443
-  tls: true
-  sni: 107.91.88.70
+  sni: 87.106.223.158
   skip-cert-verify: true
-- name: 🇨🇳 CN HUB-OM-57
-  type: masque
-  server: 162.159.198.1
-  port: 443
-  sni: zt-masque.cloudflareclient.com
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: HUB-D-18
+  network: raw
+  port: 54528
+  reality-opts:
+    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
+    short-id: 54cca3c1c1c7
+  server: zfapi.zalolink.com
+  tls: true
+  type: vless
   udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- name: 🇺🇸 US HUB-E-10
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  xudp: true
+  packet-encoding: xudp
+  servername: www.apple.com
+- name: 🇺🇸 US HUB-E-8
   type: http
-  server: 138.199.35.206
+  server: 138.199.35.201
   port: 9002
+  username: '''null'''
+  password: None
   tls: true
-  sni: 138.199.35.206
   skip-cert-verify: true
-- fingerprint: ''
-  name: 🇭🇰 HK HUB-D-33
-  password: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
-  port: 36031
-  server: site.ddddd.site
-  skip-cert-verify: true
-  sni: virtual.ubuntu24.com
-  type: anytls
-  udp: true
-  username: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
-- name: HUB-E-21
+- name: HUB-E-11
   type: http
   server: 18.200.158.139
   port: 443
-  username: '''null'''
-  password: '''null'''
   tls: true
   sni: 18.200.158.139
   skip-cert-verify: true
-- name: HUB-D-26
-  port: 9443
-  server: 135.136.1.2
-  skip-cert-verify: true
-  tls: true
+- name: 🇭🇰 HK HUB-E-15
   type: http
-  udp: true
-- name: HUB-D-27
-  password: ''
-  port: 443
-  server: 149.22.86.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-  udp: true
-- name: HUB-D-16
-  port: 9443
-  server: 149.88.27.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- cipher: aes-256-gcm
-  name: HUB-D-1
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-  udp: true
-- name: HUB-D-13
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸 US HUB-E-22
-  type: http
-  server: 138.199.35.208
-  port: 9002
-  tls: true
-  sni: 138.199.35.208
-  skip-cert-verify: true
-- name: HUB-E-5
-  type: http
-  server: 38.28.185.205
+  server: fan.240104.xyz
   port: 443
   tls: true
-  skip-cert-verify: true
-- cipher: aes-256-gcm
-  name: HUB-D-3
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  type: ss
-  udp: true
-- name: HUB-D-34
-  password: ''
-  port: 9443
-  server: 104.244.210.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-  udp: true
-- name: HUB-D-19
-  password: None
-  port: 443
-  server: 146.70.203.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: HUB-D-20
-  port: 443
-  server: 31.7.62.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸 US HUB-E-2
-  type: http
-  server: 162.191.87.112
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 US HUB-E-3
-  type: http
-  server: 138.199.35.195
-  port: 9002
-  username: '''null'''
-  password: '''null'''
-  tls: true
-  sni: 138.199.35.195
-  skip-cert-verify: true
-- name: 🇯🇵 JP HUB-E-19
-  type: http
-  server: 8.216.57.38
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: HUB-D-9
-  port: 443
-  server: 193.239.236.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇨🇳 CN HUB-OM-21
+- name: 🇨🇳 CN HUB-OM-4
   type: masque
-  server: 162.159.199.1
-  port: 8095
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- name: 🇨🇳 CN HUB-OM-28
-  type: masque
-  server: 162.159.199.2
-  port: 8095
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- name: 🇨🇳 CN HUB-OM-18
-  type: masque
-  server: 162.159.199.1
+  server: 162.159.198.1
   port: 4500
   private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
   public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
@@ -419,6 +288,120 @@ proxies:
   dns:
   - 1.1.1.1
   - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-2
+  type: masque
+  server: 162.159.198.1
+  port: 500
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-27
+  type: masque
+  server: 162.159.199.2
+  port: 8443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-1
+  type: masque
+  server: 162.159.198.1
+  port: 443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-25
+  type: masque
+  server: 162.159.199.2
+  port: 4500
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-21
+  type: masque
+  server: 162.159.199.1
+  port: 8095
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: HUB-D-21
+  network: tcp
+  port: 35460
+  reality-opts:
+    public-key: mkVsbEvwaiSo9QwnrVN65YZ92QntQQyYs2iDxN6yTlw
+    short-id: 30d976db3eab32
+  server: zfapi.zalolink.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  xudp: true
+  packet-encoding: xudp
+  servername: psstatic.cdn.bcebos.com
+- name: 🇨🇳 CN HUB-OM-17
+  type: masque
+  server: 162.159.199.1
+  port: 1701
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-28
+  type: masque
+  server: 162.159.199.2
+  port: 8095
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
 - name: 🇨🇳 CN HUB-OM-3
   type: masque
   server: 162.159.198.1
@@ -433,32 +416,71 @@ proxies:
   dns:
   - 1.1.1.1
   - 2606:4700:4700::1111
-- name: HUB-E-1
-  type: http
-  server: fan.571589.xyz
-  port: 443
-  username: bnVsbDpudWxs
-  tls: true
-  skip-cert-verify: true
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: HUB-D-30
-  network: tcp
-  port: 11802
-  reality-opts:
-    public-key: FUBjYwXlKIVwF7IuJf5dt_HU2sUnrEt10s4TIlTe8Q4
-    short-id: 6c84fbac2d
-  server: zfapi.zalolink.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  xudp: true
-  packet-encoding: xudp
-  servername: psstatic.cdn.bcebos.com
-- name: 🇨🇳 CN HUB-OM-15
+- name: 🇨🇳 CN HUB-OM-19
   type: masque
   server: 162.159.199.1
+  port: 4443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-18
+  type: masque
+  server: 162.159.199.1
+  port: 4500
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: HUB-E-5
+  type: http
+  server: 38.28.185.205
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇨🇳 CN HUB-OM-23
+  type: masque
+  server: 162.159.199.2
+  port: 500
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇺🇸 US HUB-E-2
+  type: http
+  server: 162.191.87.112
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- type: vless
+  name: 🇺🇸 US HUB-C-383
+  server: jp.sofast.live
+  port: 52683
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇳 CN HUB-OM-22
+  type: masque
+  server: 162.159.199.2
   port: 443
   private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
   public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
@@ -470,33 +492,44 @@ proxies:
   dns:
   - 1.1.1.1
   - 2606:4700:4700::1111
-- cipher: aes-256-gcm
-  name: HUB-D-2
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 2087
-  server: www.hyby.ir
-  type: vless
-  udp: true
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.Fy1WuRvH1VNIEda4AC61jAhcBFLzuYHcwbUO7mNjxwY
-  network: xhttp
-  tls: true
-  uuid: 423796d4-3a76-4fd9-8bda-6f4e3747e1d4
-  xhttp-opts:
-    host: www.hyby.ir
-    mode: auto
-    path: /
-    xudp: true
-    packet-encoding: xudp
-  servername: www.hyby.ir
-- name: HUB-E-18
+- name: HUB-E-21
   type: http
-  server: 185.140.209.235
+  server: 18.200.158.139
   port: 443
   username: '''null'''
   password: '''null'''
   tls: true
-  sni: 185.140.209.235
+  sni: 18.200.158.139
+  skip-cert-verify: true
+- name: 🇨🇳 CN HUB-OM-26
+  type: masque
+  server: 162.159.199.2
+  port: 4443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇺🇸 US HUB-E-10
+  type: http
+  server: 138.199.35.206
+  port: 9002
+  tls: true
+  sni: 138.199.35.206
+  skip-cert-verify: true
+- name: HUB-E-6
+  type: http
+  server: 34.249.214.108
+  port: 443
+  username: '''null'''
+  password: '''null'''
+  tls: true
+  sni: 34.249.214.108
   skip-cert-verify: true
 - name: 🇨🇳 CN HUB-OM-7
   type: masque
@@ -512,111 +545,9 @@ proxies:
   dns:
   - 1.1.1.1
   - 2606:4700:4700::1111
-- name: 🇨🇳 CN HUB-OM-2
-  type: masque
-  server: 162.159.198.1
-  port: 500
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- name: 🇨🇳 CN HUB-OM-17
+- name: 🇨🇳 CN HUB-OM-16
   type: masque
   server: 162.159.199.1
-  port: 1701
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- name: HUB-D-18
-  password: None
-  port: 9443
-  server: 198.44.157.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: HUB-D-23
-  password: None
-  port: 443
-  server: 85.203.39.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇨🇳 CN HUB-OM-22
-  type: masque
-  server: 162.159.199.2
-  port: 443
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- name: 🇺🇸 US HUB-E-4
-  type: http
-  server: 138.199.35.206
-  port: 9002
-  username: '''null'''
-  password: '''null'''
-  tls: true
-  skip-cert-verify: true
-- name: 🇨🇳 CN HUB-OM-25
-  type: masque
-  server: 162.159.199.2
-  port: 4500
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- name: HUB-E-20
-  type: http
-  server: 84.17.47.124
-  port: 9002
-  username: '''null'''
-  password: '''null'''
-  tls: true
-  skip-cert-verify: true
-- name: 🇨🇳 CN HUB-OM-27
-  type: masque
-  server: 162.159.199.2
-  port: 8443
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- name: 🇨🇳 CN HUB-OM-23
-  type: masque
-  server: 162.159.199.2
   port: 500
   private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
   public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
@@ -628,24 +559,26 @@ proxies:
   dns:
   - 1.1.1.1
   - 2606:4700:4700::1111
-- name: 🇨🇳 CN HUB-OM-26
-  type: masque
-  server: 162.159.199.2
-  port: 4443
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
+- name: 🇯🇵 JP HUB-E-19
+  type: http
+  server: 8.216.57.38
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: HUB-D-14
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20027
+  server: sclass-b1.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
   udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- name: 🇨🇳 CN HUB-OM-4
+  x-toolall-mihomo: true
+  network: tcp
+- name: 🇨🇳 CN HUB-OM-6
   type: masque
   server: 162.159.198.1
-  port: 4500
+  port: 8443
   private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
   public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
   ip: 172.16.0.2

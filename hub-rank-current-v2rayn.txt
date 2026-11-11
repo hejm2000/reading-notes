@@ -1,4 +1,7 @@
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.36:19999#SFVCLUQtMQ
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.45:19999#SFVCLUQtMw
-vless://57beeeb0-03fc-4fc9-94da-7604488a7134@zfapi.zalolink.com:11802?type=tcp&flow=xtls-rprx-vision#SFVCLUQtMzA
-vless://423796d4-3a76-4fd9-8bda-6f4e3747e1d4@www.hyby.ir:2087?type=xhttp#SFVCLUQtMg
+vless://30e52776-55ac-3cb4-8d36-e2910f07e2c3@www.codex2api.com:443?type=xhttp#SFVCLUQtOQ
+vless://ab044ce9-1eef-47fd-8cbd-32310f96f66b@saltmint.space:443?type=xhttp#SFVCLUQtMTc
+vless://57beeeb0-03fc-4fc9-94da-7604488a7134@zfapi.zalolink.com:54528?type=raw&flow=xtls-rprx-vision#SFVCLUQtMTg
+vless://57beeeb0-03fc-4fc9-94da-7604488a7134@zfapi.zalolink.com:35460?type=tcp&flow=xtls-rprx-vision#SFVCLUQtMjE
+vless://399b6b23-cc40-4831-a494-61948e2df133@jp.sofast.live:52683?type=tcp#8J+HuvCfh7ggVVMgSFVCLUMtMzgz
+trojan://d7563108-615c-4338-a7bd-77f359869a4a@sclass-b1.catcat321.com:20027?sni=hk.catxstar.com&fp=chrome#SFVCLUQtMTQ
