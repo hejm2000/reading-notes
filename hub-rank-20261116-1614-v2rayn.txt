@@ -1,0 +1,2 @@
+vless://57beeeb0-03fc-4fc9-94da-7604488a7134@zfapi.zalolink.com:43149?type=tcp&flow=xtls-rprx-vision#SFVCLUUtMzQ
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.99:19999#SFVCLUUtMzA
