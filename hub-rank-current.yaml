@@ -6,80 +6,69 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
-- type: ss
-  name: HUB-C-57
-  server: 202.50.253.63
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: 🇺🇸 US HUB-C-30
-  server: 48.103.218.77
-  port: 18443
-  password: 5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: HUB-C-71
-  server: 202.50.253.81
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: HUB-C-54
-  server: 202.50.253.27
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- name: HUB-E-1
+- name: HUB-E-6
   type: http
-  server: 212.102.63.31
+  server: 202.85.53.25
+  port: 443
+  tls: true
+  sni: 202.85.53.25
+  skip-cert-verify: true
+- name: HUB-E-17
+  type: http
+  server: 87.98.174.157
+  port: 6103
+  username: '''null'''
+  password: '''null'''
+  tls: true
+  skip-cert-verify: true
+- name: HUB-E-16
+  type: http
+  server: 87.98.174.157
+  port: 6103
+  username: '''null'''
+  password: '''null'''
+  tls: true
+  sni: 87.98.174.157
+  skip-cert-verify: true
+- name: 🇺🇸 US HUB-E-23
+  type: http
+  server: 45.150.164.18
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: HUB-E-14
+  type: http
+  server: 137.175.22.52
+  port: 443
+  tls: true
+  sni: 137.175.22.52
+  skip-cert-verify: true
+- name: HUB-E-4
+  type: http
+  server: 149.88.96.12
+  port: 443
+  tls: true
+  sni: 149.88.96.12
+  skip-cert-verify: true
+- name: HUB-E-25
+  type: http
+  server: 71.43.26.234
+  port: 443
+  tls: true
+  sni: 71.43.26.234
+  skip-cert-verify: true
+- name: HUB-E-9
+  type: http
+  server: 149.22.85.65
   port: 443
   tls: true
   skip-cert-verify: true
-- type: vless
-  name: HUB-C-25
-  server: 136.148.83.69
-  port: 443
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
-  udp: true
-  tls: true
-  servername: szqbx-ru-77dc.my-fade.cloud
-  sni: szqbx-ru-77dc.my-fade.cloud
-  skip-cert-verify: false
-  client-fingerprint: qq
-- type: vless
-  name: 🇭🇰 HK HUB-C-106
-  server: 116.213.43.43
-  port: 11107
-  uuid: 08a37d1f-7bf1-4b5d-a2ec-5ced6a633d7f
-  flow: xtls-rprx-vision
-  udp: true
-  tls: true
-  servername: www.apple.com
-  sni: www.apple.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 6GRzkPbs12fKBdBBFzs5dmtmbSHCXMngUCBKLrXYm3U
-    short-id: e2ccd8eedcbee2ce
-- name: HUB-E-12
+- name: HUB-E-3
   type: http
-  server: 82.66.235.221
+  server: 84.235.228.156
   port: 443
   tls: true
-  sni: 82.66.235.221
+  sni: 84.235.228.156
   skip-cert-verify: true
 - name: 🇨🇳 CN HUB-OM-57
   type: masque
@@ -96,36 +85,13 @@ proxies:
   dns:
   - 1.1.1.1
   - 2606:4700:4700::1111
-- name: HUB-D-7
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
+- name: HUB-E-18
   type: http
-  udp: true
-- type: ss
-  name: HUB-C-49
-  server: 202.50.253.54
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- name: 🇯🇵 JP HUB-D-1
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  server: 38.28.193.39
   port: 443
-  server: dg3rb.ianai.it.com
+  tls: true
+  sni: 38.28.193.39
   skip-cert-verify: true
-  sni: dg3rb.ianai.it.com
-  type: hysteria2
-  udp: true
-  network: tcp
-  auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  down: '200'
-  obfs: salamander
-  obfs-password: e3ymhs6gbzptjysj
-  up: '100'
 - name: 🇺🇸 US HUB-E-15
   type: http
   server: 138.199.35.216
@@ -133,97 +99,21 @@ proxies:
   tls: true
   sni: 138.199.35.216
   skip-cert-verify: true
-- type: ss
-  name: HUB-C-50
-  server: 202.50.253.45
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: HUB-C-58
-  server: 202.50.253.90
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸 US HUB-E-23
+- name: HUB-E-21
   type: http
-  server: 45.150.164.18
+  server: 137.175.22.29
+  port: 443
+  tls: true
+  sni: 137.175.22.29
+  skip-cert-verify: true
+- name: 🇭🇰 HK HUB-D-2
   port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: HUB-D-4
-  password: None
-  port: 443
-  server: 149.36.50.1
+  server: 38.76.140.254
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: HUB-D-3
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  sni: 172.64.68.89
-  tls: true
-  type: http
-  udp: true
-- name: HUB-E-16
-  type: http
-  server: 87.98.174.157
-  port: 6103
-  username: '''null'''
-  password: '''null'''
-  tls: true
-  sni: 87.98.174.157
-  skip-cert-verify: true
-- name: HUB-D-6
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: HUB-E-17
-  type: http
-  server: 87.98.174.157
-  port: 6103
-  username: '''null'''
-  password: '''null'''
-  tls: true
-  skip-cert-verify: true
-- name: HUB-E-22
-  type: http
-  server: 18.200.158.139
-  port: 443
-  tls: true
-  sni: 18.200.158.139
-  skip-cert-verify: true
-- name: HUB-E-4
-  type: http
-  server: 149.88.96.12
-  port: 443
-  tls: true
-  sni: 149.88.96.12
-  skip-cert-verify: true
-- name: HUB-E-3
-  type: http
-  server: 84.235.228.156
-  port: 443
-  tls: true
-  sni: 84.235.228.156
-  skip-cert-verify: true
-- name: HUB-E-30
-  type: socks5
-  server: 221.133.22.195
-  port: 62000
-  username: KUs4xRXd
-  password: 480w0Yy4
+  x-toolall-mihomo: true
 - name: HUB-E-11
   type: http
   server: 172.64.69.89
@@ -233,38 +123,14 @@ proxies:
   tls: true
   sni: 172.64.69.89
   skip-cert-verify: true
-- name: HUB-D-8
+- name: 🇺🇸 US HUB-E-5
+  type: http
+  server: 138.199.35.216
+  port: 9002
+  username: '''null'''
   password: None
-  port: 443
-  server: 31.7.62.50
+  tls: true
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: HUB-OM-25
-  type: masque
-  server: 162.159.199.2
-  port: 4500
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- name: 🇺🇸 US HUB-D-5
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: usgp1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-  sni: usgp1-cdn-route.couldflare-cdn.com
 - name: HUB-E-20
   type: http
   server: 18.200.158.139
@@ -273,74 +139,63 @@ proxies:
   password: '''null'''
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸 US HUB-OM-575
-  type: http
-  server: 77.111.246.50
-  port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
-  tls: true
-  sni: am1.sec-tunnel.com
-  skip-cert-verify: false
-  dialer-proxy: 🇨🇳 CN HUB-OM-5
-- name: 🇺🇸 US HUB-OM-580
-  type: http
-  server: 77.111.246.50
-  port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
-  tls: true
-  sni: am1.sec-tunnel.com
-  skip-cert-verify: false
-  dialer-proxy: 🇨🇳 CN HUB-OM-10
 - type: vless
-  name: HUB-C-16
-  server: 48.102.205.89
-  port: 22444
-  uuid: a9ff24d3-f308-4e72-acb9-a76062583837
-  flow: xtls-rprx-vision
+  name: HUB-C-25
+  server: 136.148.83.69
+  port: 443
+  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
   udp: true
   tls: true
-  servername: fontanka.ru
-  sni: fontanka.ru
+  servername: szqbx-ru-77dc.my-fade.cloud
+  sni: szqbx-ru-77dc.my-fade.cloud
   skip-cert-verify: false
-  client-fingerprint: ios
-  reality-opts:
-    public-key: T1BWBw3lq9G1LiQ7eQSPfdNQic7bUMEbdFNJBewAwB8
-    short-id: 6ad3c0f1e9b2478a
-- name: 🇨🇳 CN HUB-OM-15
-  type: masque
-  server: 162.159.199.1
+  client-fingerprint: qq
+- name: HUB-E-12
+  type: http
+  server: 82.66.235.221
   port: 443
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- type: ss
-  name: HUB-C-55
+  tls: true
+  sni: 82.66.235.221
+  skip-cert-verify: true
+- name: HUB-E-32
+  type: ss
   server: 202.50.253.72
   port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
-  udp: true
-  tls: false
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: HUB-E-22
+  type: http
+  server: 18.200.158.139
+  port: 443
+  tls: true
+  sni: 18.200.158.139
+  skip-cert-verify: true
+- name: HUB-E-1
+  type: http
+  server: 212.102.63.31
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 US HUB-OM-416
+  type: http
+  server: 77.111.246.63
+  port: 443
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
+  tls: true
+  sni: eu2.sec-tunnel.com
   skip-cert-verify: false
-- name: 🇺🇸 US HUB-OM-250
+  dialer-proxy: 🇨🇳 CN HUB-OM-17
+- name: 🇺🇸 US HUB-OM-701
   type: http
   server: 77.111.246.14
   port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
   tls: true
-  sni: as3.sec-tunnel.com
+  sni: am3.sec-tunnel.com
   skip-cert-verify: false
-  dialer-proxy: 🇨🇳 CN HUB-OM-22
+  dialer-proxy: 🇨🇳 CN HUB-OM-17
 - name: 🇨🇳 CN HUB-OM-9
   type: masque
   server: 162.159.198.2
@@ -355,493 +210,42 @@ proxies:
   dns:
   - 1.1.1.1
   - 2606:4700:4700::1111
-- name: 🇺🇸 US HUB-OM-421
+- name: 🇺🇸 US HUB-OM-131
   type: http
-  server: 77.111.246.26
+  server: 77.111.246.35
   port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
-  tls: true
-  sni: eu2.sec-tunnel.com
-  skip-cert-verify: false
-  dialer-proxy: 🇨🇳 CN HUB-OM-22
-- name: 🇺🇸 US HUB-E-8
-  type: http
-  server: 24.142.229.178
-  port: 8090
-  username: '''null'''
-  password: '''null'''
-  tls: true
-  sni: 24.142.229.178
-  skip-cert-verify: true
-- name: 🇺🇸 US HUB-OM-62
-  type: http
-  server: 77.111.246.50
-  port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
-  tls: true
-  sni: as0.sec-tunnel.com
-  skip-cert-verify: false
-  dialer-proxy: 🇨🇳 CN HUB-OM-5
-- name: 🇺🇸 US HUB-E-10
-  type: http
-  server: 24.142.229.178
-  port: 8090
-  tls: true
-  sni: 24.142.229.178
-  skip-cert-verify: true
-- name: 🇨🇳 CN HUB-OM-17
-  type: masque
-  server: 162.159.199.1
-  port: 1701
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- name: 🇺🇸 US HUB-OM-116
-  type: http
-  server: 77.111.246.22
-  port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
   tls: true
   sni: as1.sec-tunnel.com
   skip-cert-verify: false
-  dialer-proxy: 🇨🇳 CN HUB-OM-2
-- name: 🇺🇸 US HUB-OM-295
-  type: http
-  server: 77.111.246.27
-  port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
-  tls: true
-  sni: eu0.sec-tunnel.com
-  skip-cert-verify: false
-  dialer-proxy: 🇨🇳 CN HUB-OM-10
-- name: 🇨🇳 CN HUB-OM-21
-  type: masque
-  server: 162.159.199.1
-  port: 8095
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- name: 🇺🇸 US HUB-OM-67
-  type: http
-  server: 77.111.246.50
-  port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
-  tls: true
-  sni: as0.sec-tunnel.com
-  skip-cert-verify: false
-  dialer-proxy: 🇨🇳 CN HUB-OM-10
-- name: 🇺🇸 US HUB-OM-253
-  type: http
-  server: 77.111.246.14
-  port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
-  tls: true
-  sni: as3.sec-tunnel.com
-  skip-cert-verify: false
-  dialer-proxy: HUB-OM-25
-- name: 🌎AM HUB-OM-535
-  type: http
-  server: 77.111.246.40
-  port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
-  tls: true
-  sni: am0.sec-tunnel.com
-  skip-cert-verify: false
-  dialer-proxy: 🇨🇳 CN HUB-OM-22
-- type: vless
-  name: HUB-C-43
-  server: 48.102.173.125
-  port: 444
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  udp: true
-  tls: true
-  servername: neplay603.gangtype.com
-  sni: neplay603.gangtype.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /stream/updates/a66d7902
-- name: 🇺🇸 US HUB-OM-481
-  type: http
-  server: 77.111.246.60
-  port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
-  tls: true
-  sni: eu3.sec-tunnel.com
-  skip-cert-verify: false
-  dialer-proxy: HUB-OM-25
-- name: 🇨🇳 CN HUB-OM-5
-  type: masque
-  server: 162.159.198.1
-  port: 4443
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- name: 🇺🇸 US HUB-OM-404
-  type: http
-  server: 77.111.246.26
-  port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
-  tls: true
-  sni: eu2.sec-tunnel.com
-  skip-cert-verify: false
-  dialer-proxy: 🇨🇳 CN HUB-OM-5
-- name: 🇺🇸 US HUB-OM-637
-  type: http
-  server: 77.111.246.62
-  port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
-  tls: true
-  sni: am2.sec-tunnel.com
-  skip-cert-verify: false
-  dialer-proxy: 🇨🇳 CN HUB-OM-10
+  dialer-proxy: 🇨🇳 CN HUB-OM-17
+- name: HUB-E-33
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇺🇸 US HUB-OM-180
   type: http
-  server: 77.111.246.62
+  server: 77.111.246.26
   port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
   tls: true
   sni: as2.sec-tunnel.com
   skip-cert-verify: false
   dialer-proxy: 🇨🇳 CN HUB-OM-9
-- name: 🇺🇸 US HUB-OM-693
+- name: 🇺🇸 US HUB-OM-199
   type: http
   server: 77.111.246.26
   port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
-  tls: true
-  sni: am3.sec-tunnel.com
-  skip-cert-verify: false
-  dialer-proxy: 🇨🇳 CN HUB-OM-9
-- name: 🇺🇸 US HUB-OM-196
-  type: http
-  server: 77.111.246.62
-  port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
   tls: true
   sni: as2.sec-tunnel.com
   skip-cert-verify: false
-  dialer-proxy: HUB-OM-25
-- name: HUB-E-9
-  type: http
-  server: 149.22.85.65
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🌍EU HUB-OM-364
-  type: http
-  server: 77.111.246.40
-  port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
-  tls: true
-  sni: eu1.sec-tunnel.com
-  skip-cert-verify: false
-  dialer-proxy: 🇨🇳 CN HUB-OM-22
-- name: 🇺🇸 US HUB-OM-704
-  type: http
-  server: 77.111.246.26
-  port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
-  tls: true
-  sni: am3.sec-tunnel.com
-  skip-cert-verify: false
-  dialer-proxy: 🇨🇳 CN HUB-OM-20
-- name: 🇺🇸 US HUB-OM-684
-  type: http
-  server: 77.111.246.62
-  port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
-  tls: true
-  sni: am2.sec-tunnel.com
-  skip-cert-verify: false
-  dialer-proxy: 🇨🇳 CN HUB-OM-57
-- name: 🇺🇸 US HUB-OM-121
-  type: http
-  server: 77.111.246.22
-  port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
-  tls: true
-  sni: as1.sec-tunnel.com
-  skip-cert-verify: false
-  dialer-proxy: 🇨🇳 CN HUB-OM-7
-- name: HUB-E-13
-  type: http
-  server: 80.24.34.107
-  port: 8090
-  tls: true
-  sni: 80.24.34.107
-  skip-cert-verify: true
-- name: 🌎AM HUB-OM-538
-  type: http
-  server: 77.111.246.40
-  port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
-  tls: true
-  sni: am0.sec-tunnel.com
-  skip-cert-verify: false
-  dialer-proxy: HUB-OM-25
-- name: 🇺🇸 US HUB-OM-310
-  type: http
-  server: 77.111.246.27
-  port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
-  tls: true
-  sni: eu0.sec-tunnel.com
-  skip-cert-verify: false
-  dialer-proxy: HUB-OM-25
-- name: 🇨🇳 CN HUB-OM-6
-  type: masque
-  server: 162.159.198.1
-  port: 8443
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- name: 🇺🇸 US HUB-OM-461
-  type: http
-  server: 77.111.246.60
-  port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
-  tls: true
-  sni: eu3.sec-tunnel.com
-  skip-cert-verify: false
-  dialer-proxy: 🇨🇳 CN HUB-OM-5
-- type: ss
-  name: HUB-C-56
-  server: 202.50.253.36
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳 CN HUB-OM-18
-  type: masque
-  server: 162.159.199.1
-  port: 4500
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- name: 🇨🇳 CN HUB-OM-11
-  type: masque
-  server: 162.159.198.2
-  port: 4500
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- name: 🇨🇳 CN HUB-OM-27
-  type: masque
-  server: 162.159.199.2
-  port: 8443
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- name: 🇨🇳 CN HUB-OM-3
-  type: masque
-  server: 162.159.198.1
-  port: 1701
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- name: 🇨🇳 CN HUB-OM-8
-  type: masque
-  server: 162.159.198.2
-  port: 443
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- name: 🇭🇰 HK HUB-E-6
-  type: http
-  server: 202.85.53.25
-  port: 443
-  tls: true
-  sni: 202.85.53.25
-  skip-cert-verify: true
-- name: 🌍EU HUB-OM-360
-  type: http
-  server: 77.111.246.40
-  port: 443
-  username: 9F8448D1B36F3104DB40709582B41E49D7E6012A
-  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiItNFVvLXlsMXNVaHplcGhiUVdoNWVSWXc0UTZJMi15ZzBYaVBjdm1mY01JIiwieSI6Ilg3R0F1dnNmUXF2MEl3ZU9jU2xwWXFpTlhZdUJFX01Fb3VfRGE4U0g4MjgifX0.ZmS_nliWwB2V2FcF4_a6GP3dwNLWgPyIDDHmBn4s1TcVssiZ30SZ0w.RtBBFCggD9dPfeNb.Ooi2AJteVK3m6Xxj0Erqr-oBBFUS3AjzXtgxQfelCRJ4iVILmEzq304APUc-ojYVK8FuO5Tf-n9m-ZLAtNLahthCQPEay6Z0qx7GBGJas1hyCUV80CDtFYF5ngvmdb9Ihxik03xheknfcCItykOCMPMRus3FGfd0BgvPtmJcgBJzFi8cZG7V3OJZ407cAj0uWgd8XqPY31ejw0IPgk4mc-i-r9QDjjnUmX5A8g3GtZs-1w8zmwuSUJ4ORUXz7seSYz_CWLaG2hFUZy3P5bdl1SuHKfvIJace--OvgatOcwzlTswtoyZ0xoV7CFPXnTsKtgso3KayRinncO-tw3MtlRYlg0iTGvP5QaFyC5ZD4A8j0QUtlkIEDN18k2R7IPoSvbXO.HTCRNVfY8wMLmsD7Onqsrw
-  tls: true
-  sni: eu1.sec-tunnel.com
-  skip-cert-verify: false
-  dialer-proxy: 🇨🇳 CN HUB-OM-18
-- type: vless
-  name: HUB-C-26
-  server: 168.113.253.178
-  port: 443
-  uuid: d6d40100-9442-0001-b5b9-6d259318c421
-  udp: true
-  tls: true
-  servername: uzndiuvzvqqljdyhzs.fcloudservices.site
-  sni: uzndiuvzvqqljdyhzs.fcloudservices.site
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- name: 🇺🇸 US HUB-E-25
-  type: http
-  server: 71.43.26.234
-  port: 443
-  tls: true
-  sni: 71.43.26.234
-  skip-cert-verify: true
-- name: 🇺🇸 US HUB-E-18
-  type: http
-  server: 38.28.193.39
-  port: 443
-  tls: true
-  sni: 38.28.193.39
-  skip-cert-verify: true
-- name: 🇨🇳 CN HUB-OM-13
-  type: masque
-  server: 162.159.198.2
-  port: 8443
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- type: trojan
-  name: HUB-C-10
-  server: sclass-01.catcat321.com
-  port: 20103
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  udp: true
-  tls: true
-  servername: hk.catxstar.com
-  sni: hk.catxstar.com
-  skip-cert-verify: false
-- name: HUB-E-14
-  type: http
-  server: 137.175.22.52
-  port: 443
-  tls: true
-  sni: 137.175.22.52
-  skip-cert-verify: true
-- name: 🇨🇳 CN HUB-OM-26
-  type: masque
-  server: 162.159.199.2
-  port: 4443
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- name: 🇨🇳 CN HUB-OM-24
-  type: masque
-  server: 162.159.199.2
-  port: 1701
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- name: HUB-E-5
-  type: http
-  server: 138.199.35.216
-  port: 9002
-  username: '''null'''
-  password: None
-  tls: true
-  skip-cert-verify: true
+  dialer-proxy: 🇨🇳 CN HUB-OM-28
 - name: 🇨🇳 CN HUB-OM-28
   type: masque
   server: 162.159.199.2
@@ -856,9 +260,209 @@ proxies:
   dns:
   - 1.1.1.1
   - 2606:4700:4700::1111
-- name: 🇨🇳 CN HUB-OM-23
+- name: 🇺🇸 US HUB-OM-514
+  type: http
+  server: 77.111.246.36
+  port: 443
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
+  tls: true
+  sni: am0.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-1
+- name: 🇺🇸 US HUB-OM-642
+  type: http
+  server: 77.111.246.26
+  port: 443
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
+  tls: true
+  sni: am2.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-15
+- name: 🇺🇸 US HUB-OM-470
+  type: http
+  server: 77.111.246.26
+  port: 443
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
+  tls: true
+  sni: eu3.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-14
+- name: 🇨🇳 CN HUB-OM-18
   type: masque
-  server: 162.159.199.2
+  server: 162.159.199.1
+  port: 4500
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇺🇸 US HUB-OM-256
+  type: http
+  server: 77.111.246.14
+  port: 443
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
+  tls: true
+  sni: as3.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-28
+- name: 🇺🇸 US HUB-OM-134
+  type: http
+  server: 77.111.246.35
+  port: 443
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
+  tls: true
+  sni: as1.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-20
+- name: 🇺🇸 US HUB-OM-520
+  type: http
+  server: 77.111.246.36
+  port: 443
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
+  tls: true
+  sni: am0.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-7
+- name: 🇺🇸 US HUB-OM-476
+  type: http
+  server: 77.111.246.26
+  port: 443
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
+  tls: true
+  sni: eu3.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-20
+- name: 🇨🇳 CN HUB-OM-10
+  type: masque
+  server: 162.159.198.2
+  port: 1701
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇺🇸 US HUB-OM-237
+  type: http
+  server: 77.111.246.14
+  port: 443
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
+  tls: true
+  sni: as3.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-9
+- name: 🇨🇳 CN HUB-OM-20
+  type: masque
+  server: 162.159.199.1
+  port: 8443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-19
+  type: masque
+  server: 162.159.199.1
+  port: 4443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇺🇸 US HUB-OM-636
+  type: http
+  server: 77.111.246.26
+  port: 443
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
+  tls: true
+  sni: am2.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-9
+- name: 🌏AS HUB-OM-67
+  type: http
+  server: 77.111.246.32
+  port: 443
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
+  tls: true
+  sni: as0.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-10
+- type: vless
+  name: HUB-C-40
+  server: 48.102.173.24
+  port: 444
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  udp: true
+  tls: true
+  servername: neplay603.gangtype.com
+  sni: neplay603.gangtype.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /stream/updates/a66d7902
+- name: 🌍EU HUB-OM-301
+  type: http
+  server: 77.111.246.32
+  port: 443
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
+  tls: true
+  sni: eu0.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-16
+- name: 🇺🇸 US HUB-OM-367
+  type: http
+  server: 77.111.246.42
+  port: 443
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
+  tls: true
+  sni: eu1.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-25
+- name: 🇺🇸 US HUB-OM-419
+  type: http
+  server: 77.111.246.63
+  port: 443
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
+  tls: true
+  sni: eu2.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-20
+- name: 🇨🇳 CN HUB-OM-16
+  type: masque
+  server: 162.159.199.1
   port: 500
   private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
   public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
@@ -870,10 +474,119 @@ proxies:
   dns:
   - 1.1.1.1
   - 2606:4700:4700::1111
-- name: 🇨🇳 CN HUB-OM-10
+- name: 🌏AS HUB-OM-66
+  type: http
+  server: 77.111.246.32
+  port: 443
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
+  tls: true
+  sni: as0.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-9
+- name: 🇨🇳 CN HUB-OM-13
   type: masque
   server: 162.159.198.2
-  port: 1701
+  port: 8443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇺🇸 US HUB-OM-349
+  type: http
+  server: 77.111.246.42
+  port: 443
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
+  tls: true
+  sni: eu1.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-7
+- name: 🌍EU HUB-OM-292
+  type: http
+  server: 77.111.246.32
+  port: 443
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
+  tls: true
+  sni: eu0.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-7
+- name: 🇺🇸 US HUB-OM-588
+  type: http
+  server: 77.111.246.43
+  port: 443
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
+  tls: true
+  sni: am1.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-18
+- name: HUB-E-13
+  type: http
+  server: 80.24.34.107
+  port: 8090
+  tls: true
+  sni: 80.24.34.107
+  skip-cert-verify: true
+- name: 🇺🇸 US HUB-OM-580
+  type: http
+  server: 77.111.246.43
+  port: 443
+  username: 6BD180F931B5F1EBE10C722DD2B3E958559BF70D
+  password: eyJhbGciOiJFQ0RILUVTK0EyNTZLVyIsImN0eSI6IkpXVCIsImVuYyI6IkEyNTZHQ00iLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJCR0pHdkhVQmxEVTdEVUE3MnBJM2pqVkxNanBSWUNqQmhyYTd6Sk44LXFrIiwieSI6IklKTnhpRGd0ODJuUTBySDJrUldHd0JFb2FzYVFGOXVrVTJPcm5LdlVmWXcifX0.lHsEonpmmj4yoP63XGjNaVxzNHWeVWmYJsrVaTfkbqzs3cfZpPiAsQ.yUKQHZV2hVELT_Qu.7xBmd7baUEqzuhmC2cylPNmQTsyKiVxxuReusGEa-cE9zVQZg7w8PVAc1Y4xSdcghi4ulOuyu1rz0fztDrHwk3NhlJS0_Emk7L1oCdzBJXV6UWF3z2ITCqyvESwcQRBNU87uWyVWRhwYhrnAngEBTYG7XLrILXJ6Lrmk-nKGiGm4lvW2hwzvvH-LP9d8S50VBvRyS8NCKHtF1qWmaZwyOlihH7jUgviKND8zy62FMACj8n5QSSCw_VASaHMcvQMluMyF5PIE4hKX0WrGz1mCtSKH4M8AO_iI6sJag7Cgp47xV3wAqlDIgpYEgfc_WiUeH6PTwKruA4iN-wfMp8TvxpbEX5jKN-j5x8Qaf6heQ4VD1uDQZ5-Ya48H2s1Ra8JvEA.eOBSXJ7YQR9hkk6lBgxwmA
+  tls: true
+  sni: am1.sec-tunnel.com
+  skip-cert-verify: false
+  dialer-proxy: 🇨🇳 CN HUB-OM-10
+- name: 🇨🇳 CN HUB-OM-6
+  type: masque
+  server: 162.159.198.1
+  port: 8443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-5
+  type: masque
+  server: 162.159.198.1
+  port: 4443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- type: trojan
+  name: HUB-C-11
+  server: sclass-c2.catcat321.com
+  port: 20051
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  udp: true
+  tls: true
+  servername: hk.catxstar.com
+  sni: hk.catxstar.com
+  skip-cert-verify: false
+- name: 🇨🇳 CN HUB-OM-26
+  type: masque
+  server: 162.159.199.2
+  port: 4443
   private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
   public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
   ip: 172.16.0.2
@@ -898,10 +611,16 @@ proxies:
   dns:
   - 1.1.1.1
   - 2606:4700:4700::1111
-- name: 🇨🇳 CN HUB-OM-4
+- name: HUB-E-19
+  type: http
+  server: 137.175.77.35
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇨🇳 CN HUB-OM-14
   type: masque
-  server: 162.159.198.1
-  port: 4500
+  server: 162.159.198.2
+  port: 8095
   private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
   public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
   ip: 172.16.0.2
@@ -912,10 +631,63 @@ proxies:
   dns:
   - 1.1.1.1
   - 2606:4700:4700::1111
-- name: 🇨🇳 CN HUB-OM-22
+- type: vless
+  name: HUB-C-43
+  server: 48.102.173.125
+  port: 444
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  udp: true
+  tls: true
+  servername: neplay603.gangtype.com
+  sni: neplay603.gangtype.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /stream/updates/a66d7902
+- type: vless
+  name: HUB-C-26
+  server: 168.113.253.178
+  port: 443
+  uuid: d6d40100-9442-0001-b5b9-6d259318c421
+  udp: true
+  tls: true
+  servername: uzndiuvzvqqljdyhzs.fcloudservices.site
+  sni: uzndiuvzvqqljdyhzs.fcloudservices.site
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🇨🇳 CN HUB-OM-3
+  type: masque
+  server: 162.159.198.1
+  port: 1701
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-23
   type: masque
   server: 162.159.199.2
-  port: 443
+  port: 500
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-21
+  type: masque
+  server: 162.159.199.1
+  port: 8095
   private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
   public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
   ip: 172.16.0.2
@@ -940,6 +712,79 @@ proxies:
   dns:
   - 1.1.1.1
   - 2606:4700:4700::1111
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸 US HUB-D-3
+  obfs: ''
+  obfs-password: ''
+  password: 713142c9-ad09-4894-b35c-645423f3f6c9
+  port: 443
+  server: 152.234.245.52
+  skip-cert-verify: false
+  sni: media.embrofree.org
+  type: hysteria2
+  up: ''
+  udp: true
+- type: trojan
+  name: HUB-C-9
+  server: sclass-b1.catcat321.com
+  port: 20051
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  udp: true
+  tls: true
+  servername: hk.catxstar.com
+  sni: hk.catxstar.com
+  skip-cert-verify: false
+- name: 🇨🇳 CN HUB-OM-25
+  type: masque
+  server: 162.159.199.2
+  port: 4500
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: 🇨🇳 CN HUB-OM-15
+  type: masque
+  server: 162.159.199.1
+  port: 443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
+- name: HUB-E-2
+  type: http
+  server: fan.596189.xyz
+  port: 443
+  username: '''null'''
+  password: '''null'''
+  tls: true
+  sni: fan.596189.xyz
+- name: 🇨🇳 CN HUB-OM-22
+  type: masque
+  server: 162.159.199.2
+  port: 443
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
+  udp: true
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
 - name: 🇨🇳 CN HUB-OM-7
   type: masque
   server: 162.159.198.1
@@ -954,84 +799,24 @@ proxies:
   dns:
   - 1.1.1.1
   - 2606:4700:4700::1111
-- type: ss
-  name: HUB-C-65
-  server: 202.50.253.99
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
+- name: 🇨🇳 CN HUB-OM-17
+  type: masque
+  server: 162.159.199.1
+  port: 1701
+  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
+  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
+  mtu: 1280
   udp: true
-  tls: false
-  skip-cert-verify: false
-- type: vless
-  name: HUB-C-40
-  server: 48.102.173.24
-  port: 444
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  udp: true
-  tls: true
-  servername: neplay603.gangtype.com
-  sni: neplay603.gangtype.com
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /stream/updates/a66d7902
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 2606:4700:4700::1111
 - name: 🇨🇳 CN HUB-OM-1
   type: masque
   server: 162.159.198.1
   port: 443
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- type: vless
-  name: HUB-C-42
-  server: 13.141.51.2
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  udp: true
-  tls: true
-  servername: 04535dt.us8.h1clayd.click
-  sni: 04535dt.us8.h1clayd.click
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: ba2a3dce62b99092
-- name: 🇨🇳 CN HUB-OM-20
-  type: masque
-  server: 162.159.199.1
-  port: 8443
-  private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
-  public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:86b5:b044:3ad1:c8a:1083
-  mtu: 1280
-  udp: true
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 2606:4700:4700::1111
-- type: ss
-  name: HUB-C-51
-  server: 202.50.253.18
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳 CN HUB-OM-19
-  type: masque
-  server: 162.159.199.1
-  port: 4443
   private-key: MHcCAQEEIA3jKig/w8/Hp18d6f2Cr2DUhL78Fp3iGUqFrD9P6iTeoAoGCCqGSM49AwEHoUQDQgAELQrEmnNqBl20IEAMMIdafPKj65ngHZYWc91m2zj2NHwdAbq0avxEkXyNqS8BSiNWakmwK8GoTEJ+RQgaqryyMQ==
   public-key: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==
   ip: 172.16.0.2
